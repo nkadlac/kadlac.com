@@ -2,6 +2,9 @@
 title: Nate Kadlac
 timezone: America/Los_Angeles
 collections:
+  photography:
+    title: Photography
+    output: true
   posts:
     title: Posts
     output: true
