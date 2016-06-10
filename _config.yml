@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    is featured: true
   uploads:
     title: Uploads
     output: true
