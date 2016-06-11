@@ -9,11 +9,11 @@ collections:
     title: Posts
     output: true
     is featured: true
+  work:
+    title: Projects
+    output: true
   uploads:
     title: Uploads
-    output: true
-  work:
-    title: Work
     output: true
 defaults:
 - scope:
