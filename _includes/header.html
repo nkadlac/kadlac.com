@@ -1,11 +1,19 @@
 <header class="global">
+	
+	<div class="contain">
 
-  <h1 class="logo">
-    <a href="{{site.url}}"><span>{{site.name}}</span></a>
-  </h1>
+		<a href="{{site.url}}">
+			<img src="" alt="Kadlac, LLC">
+		</a>
+			
+		<nav class="full_nav">
+		  <ul>
+		    <li><a href="{{site.url}}/">Home</a></li>
+		    <li><a href="{{site.url}}/about">About</a></li>
+		    <li><a href="http://twitter.com/{{site.twitter}}">Follow me on Twitter</a></li>
+		  </ul>
+		</nav> 
 
-  <div class="description">{{site.description}}</div>
-
-  {% include navigation.html %}
+	</div>
 
 </header>

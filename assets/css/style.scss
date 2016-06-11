@@ -13,6 +13,10 @@ html {
   // background: red;
 }
 
+ul {
+	list-style-type: none;
+}
+
 h1 {
 	font-size: 6.25em;
 	margin-bottom: 1.5rem;
@@ -24,6 +28,54 @@ p {
 	max-width: 62.5rem;
 	margin-bottom: 2.5em;
 }
+
+header.global nav.full_nav ul {
+	float: right;
+
+}
+
+header.global nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+
+header.global nav.full_nav ul li:first {
+	margin-left: 0;
+}
+
+header.global nav.full_nav ul li {
+	float: left;
+	line-height: 3.75rem;
+	margin-left: 3.125em;
+}
+
+header.global nav.full_nav ul li a {
+	padding: 0;
+	font-size: .75em;
+	display: block;
+	color: #333333;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	transition: color .3s ease;
+	position: relative;
+
+}
+
+header.global nav.full_nav ul li a::after {
+	border-bottom: 1px solid #2e3c40;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	content: "";
+	position: absolute;
+	opacity: 0;
+}
+
+header.global nav.full_nav ul li a:hover::after {
+	opacity: 1;
+}
+
 
 // drop cap styling
 .article_body p:first-child:first-letter { 
@@ -61,7 +113,7 @@ p {
 	max-width: 100%;
 
 	@include media($desktop) {
-		max-width: 51.125em;
+		max-width: 50em;
 	}
 }
 
