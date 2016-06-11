@@ -9,7 +9,7 @@ collections:
     title: Posts
     output: true
     is featured: true
-  work:
+  projects:
     title: Projects
     output: true
   uploads:
