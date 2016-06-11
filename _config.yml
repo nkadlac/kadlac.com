@@ -22,11 +22,17 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    author: "Nate"
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+- scope:
+    path: "projects"
+    type: "projects"
+  values:
+    layout: project
 permalink: pretty
 twitter:
   twitter: kadlac
