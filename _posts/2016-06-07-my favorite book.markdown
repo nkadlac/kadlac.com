@@ -8,6 +8,8 @@ I didn’t start reading until a little later in life. That’s not to say that 
 
 I remember reading as a kid, but only for a few years. School had us read a few books—like the Grapes of Wrath—but I felt that I was able to skip a lot of those somehow. It’s funny that I don’t quite remember.
 
+
+
 Reading took second seat to art and sports. I also thought highly of that combination, and continued telling people that later in life. 
 
 “Yeah, crazy that a guy likes sports and art, huh?” Wow, was that lame. 
