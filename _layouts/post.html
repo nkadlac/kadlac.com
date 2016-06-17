@@ -14,18 +14,15 @@ layout: default
       {% endif %}
 
       <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div>
-
-
-    
   </div>
 </header>
 
 <section class="article_body">
 
-  {% if {{ page.topimage }} %}
+  {% if page.topimage %}
   <div class="contain large">
-      <div class="image">
-        <img src="{{site.url}}/uploads/{{ page.topimage }}" alt="{{ page.topimage }}" />
+      <div class="topimage">
+        <img src="{{ page.topimage }}" alt="{{ page.topimage }}" />
       </div>
   </div>
   {% endif %}

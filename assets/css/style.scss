@@ -29,6 +29,13 @@ p {
 	margin-bottom: 2.5em;
 }
 
+.article_body img {
+	width: 100%;
+}
+header.global nav.full_nav ul li a.active {
+	color: #00FF11;
+}
+
 header.global nav.full_nav ul {
 	float: right;
 
@@ -48,6 +55,8 @@ header.global nav.full_nav ul li {
 	line-height: 3.75rem;
 	margin-left: 3.125em;
 }
+
+
 
 header.global nav.full_nav ul li a {
 	padding: 0;

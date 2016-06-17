@@ -1,0 +1,11 @@
+---
+layout: default
+title: projects
+navigation_weight: 3
+---
+{% for post in site.posts %}
+ <li>
+   <a href="{{ post.url }}">{{ post.title }}</a>
+   - {{ post.date | date: "%d %B %Y" }}
+ </li>
+{% endfor %}

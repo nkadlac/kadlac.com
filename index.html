@@ -1,32 +1,43 @@
 ---
 layout: default
 home: true
+title: Home
+navigation_weight: 1
 ---
 
-<section class="posts">
+<section class="journal">
 
-{% for post in site.posts %}
-<article>
-    
-    {% if post.image %}
+{% if page.title == 'posts' %}
 
-    <div class="image">
+	<p>Test Post</p>
 
-      <a href="{{site.url}}{{post.url}}"><img src="{{site.url}}/assets/img/{{post.image}}" alt="{{post.title}}" /></a>
-      
-    </div>
 
-    {% endif %}
+{% else %}
 
-    <h2><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h2>
+	{% for post in site.posts %}
+	<article>
 
-    <div class="excerpt">
+	    {% if post.image %}
 
-      {{post.excerpt | strip_html | strip_newlines}}
+	    <div class="image">
 
-    </div>
+	      <a href="{{site.url}}{{post.url}}"><img src="{{site.url}}/assets/img/{{post.image}}" alt="{{post.title}}" /></a>
 
-</article>
-{% endfor %}
+	    </div>
+
+	    {% endif %}
+
+	    <h2><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h2>
+
+	    <div class="excerpt">
+
+	      {{post.excerpt | strip_html | strip_newlines}}
+
+	    </div>
+
+	</article>
+	{% endfor %}
+
+{% endif %}
 
 </section>
