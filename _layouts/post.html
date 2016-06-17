@@ -15,21 +15,17 @@ layout: default
 
       <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div>
 
-      {% if page.image %}
-      <div class="image">
-        <img src="{{site.url}}/assets/img/{{page.image}}" alt="{{page.title}}" />
-      </div>
-      {% endif %}
+
     
   </div>
 </header>
 
 <section class="article_body">
 
-  {% if page.image %}
+  {% if page.topimage %}
   <div class="contain large">
       <div class="image">
-        <img src="{{site.url}}/assets/img/{{page.topimage}}" alt="{{page.title}}" />
+        <img src="{{site.url}}/uploads/{{page.['top image']}}" alt="{{page[top image']}}" />
       </div>
   </div>
   {% endif %}
