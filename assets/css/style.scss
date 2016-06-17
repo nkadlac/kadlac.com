@@ -10,7 +10,7 @@ $desktop: new-breakpoint(min-width 768px);
 body,
 html {
   color: #333;
-  // background: red;
+  background: #f0f4fa;
 }
 
 ul {
@@ -96,6 +96,14 @@ header.global nav.full_nav ul li a:hover::after {
 	@include outer-container(100%);
 }
 
+header.article_head {
+	padding: 7.125em 0 3.375em 0;
+}
+
+header.article_head h1 {
+	max-width: 43.75rem;
+}
+
 
 // all container cells to add padding to
 .contain {
@@ -106,23 +114,32 @@ header.global nav.full_nav ul li a:hover::after {
 
 .article_body .contain {
 	margin-bottom: 6.5em;
+}
 
+.portfolio_body {
+	max-width: 96.25em;
+	@include media($desktop) {
+		@include outer-container(100%);
+	}
 }
 
 .contain.small {
 	max-width: 100%;
-
 	@include media($desktop) {
 		max-width: 50em;
 	}
 }
 
-header.article_head {
-	padding: 7.125em 0 3.375em 0;
+.contain.large {
+	max-width: 100%;
+	@include media($desktop) {
+		max-width: 82.25em;
+	}
 }
 
-header.article_head h1 {
-	max-width: 43.75rem;
+.contain.large {
+	padding:0;
+	max-width: 82.25em;
 }
 
 

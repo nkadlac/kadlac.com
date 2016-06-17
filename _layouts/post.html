@@ -22,10 +22,17 @@ layout: default
       {% endif %}
     
   </div>
-
 </header>
 
 <section class="article_body">
+
+  {% if page.image %}
+  <div class="contain large">
+      <div class="image">
+        <img src="{{site.url}}/assets/img/{{page.image}}" alt="{{page.title}}" />
+      </div>
+  </div>
+  {% endif %}
 
   <div class="contain small">
 
@@ -37,8 +44,6 @@ layout: default
 
     {% include share-buttons.html %}
   </div>
-  
-
 </section>
 
 
