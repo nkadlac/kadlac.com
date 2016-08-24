@@ -3,19 +3,15 @@
 	<div class="contain">
 
 		<a href="{{site.url}}/">
-			<img src="" alt="Kadlac, LLC">
+			<!-- <img src="" alt="Kadlac, LLC"> -->
 		</a>
 
 		<nav class="full_nav">
 		  <ul>
-					{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-					{% for p in navigation_pages %}
-						{% if p.navigation_weight %}
-							<li>
-								<a href="{{ page.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
-							</li>
-						{% endif %}
-					{% endfor %}
+		    <li><a href="/projects/"{% if page.url contains "/projects/" %} class="active" {% endif %} >Projects</a></li>
+		    <li><a href="/posts/"{% if page.url contains "/posts/" %} class="active" {% endif %} >Journal</a></li>
+		    <li><a href="{{site.url}}/about"{% if page.url contains "/about/" %} class="active" {% endif %} >About</a></li>
+		    <li><a href="http://twitter.com/{{ twitter['username'] }}">Follow me on Twitter</a></li>
 		  </ul>
 		</nav>
 

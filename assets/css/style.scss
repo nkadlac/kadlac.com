@@ -2,7 +2,7 @@
 ---
 
 @import "bourbon/bourbon",
-		"neat/neat";
+				"neat/neat";
 
 $desktop: new-breakpoint(min-width 768px);
 
@@ -32,6 +32,11 @@ p {
 .article_body img {
 	width: 100%;
 }
+
+header.global {
+	@include row;
+}
+
 header.global nav.full_nav ul li a.active {
 	color: #00FF11;
 }
@@ -87,15 +92,15 @@ header.global nav.full_nav ul li a:hover::after {
 
 
 // drop cap styling
-.article_body p:first-child:first-letter { 
-	float: left; 
-	// color: #903; 
-	font-size: 75px; 
-	line-height: 60px; 
-	padding-top: 4px; 
-	padding-right: 8px; 
-	padding-left: 3px; 
-	font-family: Georgia; 
+.article_body p:first-child:first-letter {
+	float: left;
+	// color: #903;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+	font-family: Georgia;
 }
 
 .wrap {
@@ -117,8 +122,15 @@ header.article_head h1 {
 // all container cells to add padding to
 .contain {
 	padding: 0 1.5em;
-	max-width: 76em;
+	// max-width: 76em;
 	margin: 0 auto;
+	// @include span-columns(4);
+	// @include shift (0);
+	@include media($desktop) {
+			max-width: 76em;
+		// @include span-columns(8);
+		// @include shift (2);
+	}
 }
 
 .article_body .contain {
@@ -127,22 +139,12 @@ header.article_head h1 {
 
 .portfolio_body {
 	max-width: 96.25em;
-	@include media($desktop) {
-		@include outer-container(100%);
-	}
 }
 
 .contain.small {
 	max-width: 100%;
 	@include media($desktop) {
-		max-width: 50em;
-	}
-}
-
-.contain.large {
-	max-width: 100%;
-	@include media($desktop) {
-		max-width: 82.25em;
+		// max-width: 50em;
 	}
 }
 
@@ -151,5 +153,41 @@ header.article_head h1 {
 	max-width: 82.25em;
 }
 
+.contain.large {
+	max-width: 100%;
+	@include media($desktop) {
+		max-width: 82.25em;
+		@include span-columns(12);
+	}
+}
 
+footer {
+		max-width: 76em;
+		margin: 0 auto;
+		@include row;
+}
 
+footer div.col {
+	@include span-columns(3);
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: .875em;
+	color: #666666;
+}
+
+footer a {
+	text-decoration: none;
+	color: #666666;
+}
+
+footer ul li {
+
+}
+
+footer div:nth-child(1) {
+	@include omega();
+}

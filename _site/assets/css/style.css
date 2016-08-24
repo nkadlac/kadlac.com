@@ -12,6 +12,9 @@ p { font-size: 1.125em; line-height: 2.375rem; max-width: 62.5rem; margin-bottom
 
 .article_body img { width: 100%; }
 
+header.global { display: block; }
+header.global::after { clear: both; content: ""; display: block; }
+
 header.global nav.full_nav ul li a.active { color: #00FF11; }
 
 header.global nav.full_nav ul { float: right; }
@@ -39,18 +42,29 @@ header.article_head { padding: 7.125em 0 3.375em 0; }
 
 header.article_head h1 { max-width: 43.75rem; }
 
-.contain { padding: 0 1.5em; max-width: 76em; margin: 0 auto; }
+.contain { padding: 0 1.5em; margin: 0 auto; }
+@media screen and (min-width: 768px) { .contain { max-width: 76em; } }
 
 .article_body .contain { margin-bottom: 6.5em; }
 
 .portfolio_body { max-width: 96.25em; }
-@media screen and (min-width: 768px) { .portfolio_body { max-width: 100%; margin-left: auto; margin-right: auto; }
-  .portfolio_body::after { clear: both; content: ""; display: block; } }
 
 .contain.small { max-width: 100%; }
-@media screen and (min-width: 768px) { .contain.small { max-width: 50em; } }
-
-.contain.large { max-width: 100%; }
-@media screen and (min-width: 768px) { .contain.large { max-width: 82.25em; } }
 
 .contain.large { padding: 0; max-width: 82.25em; }
+
+.contain.large { max-width: 100%; }
+@media screen and (min-width: 768px) { .contain.large { max-width: 82.25em; float: left; display: block; margin-right: 2.35765%; width: 100%; }
+  .contain.large:last-child { margin-right: 0; } }
+
+footer { max-width: 76em; margin: 0 auto; display: block; }
+footer::after { clear: both; content: ""; display: block; }
+
+footer div.col { float: left; display: block; margin-right: 2.35765%; width: 23.23176%; }
+footer div.col:last-child { margin-right: 0; }
+
+footer ul { list-style-type: none; margin: 0; padding: 0; font-size: .875em; color: #666666; }
+
+footer a { text-decoration: none; color: #666666; }
+
+footer div:nth-child(1) { margin-right: 0; }

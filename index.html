@@ -5,39 +5,24 @@ title: Home
 navigation_weight: 1
 ---
 
-<section class="journal">
 
-{% if page.title == 'posts' %}
+<div class="contain">
 
-	<p>Test Post</p>
+  <header class="home_head">
+
+    <div class="contain">
+
+      a test
+
+    </div>
+
+  </header>
+
+  <div class="portfolio_body">
+
+    <div class="contain">
 
 
-{% else %}
+    </div>
 
-	{% for post in site.posts %}
-	<article>
-
-	    {% if post.image %}
-
-	    <div class="image">
-
-	      <a href="{{site.url}}{{post.url}}"><img src="{{site.url}}/assets/img/{{post.image}}" alt="{{post.title}}" /></a>
-
-	    </div>
-
-	    {% endif %}
-
-	    <h2><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h2>
-
-	    <div class="excerpt">
-
-	      {{post.excerpt | strip_html | strip_newlines}}
-
-	    </div>
-
-	</article>
-	{% endfor %}
-
-{% endif %}
-
-</section>
+</div>
