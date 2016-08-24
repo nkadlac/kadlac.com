@@ -1,9 +1,10 @@
 ---
-layout: default
 title: projects
+layout: default
 navigation_weight: 3
 ---
 
+<<<<<<< HEAD
 <header class="article_head">
   <div class="contain">
 
@@ -32,3 +33,11 @@ navigation_weight: 3
 
   </div>
 </section>
+=======
+{% for post in site.posts %}
+ <li>
+   <a href="{{ post.url }}">{{ post.title }}</a>
+   - {{ post.date | date: "%d %B %Y" }}
+ </li>
+{% endfor %}
+>>>>>>> 39c2c3a23d06145fbf894fe2de5625fd28dc5726
