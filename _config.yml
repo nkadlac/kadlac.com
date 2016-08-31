@@ -2,8 +2,15 @@
 title: Nate Kadlac
 timezone: America/Los_Angeles
 collections:
+  photography:
+    title: Photography
+    output: true
   posts:
     title: Posts
+    output: true
+    is featured: true
+  projects:
+    title: Projects
     output: true
   uploads:
     title: Uploads
@@ -15,9 +22,17 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    author: Nate
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+- scope:
+    path: projects
+    type: projects
+  values:
+    layout: project
 permalink: pretty
+twitter:
+  username: kadlac
