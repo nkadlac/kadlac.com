@@ -5,6 +5,6 @@ layout: default
 ---
 
 NATE KADLAC
-Helping real estate agents make that money by designing products at HomeSpotter.
+Helping real estate agents keep their clients happy by designing products at HomeSpotter.
 
-In Currently designing real estate products for HomeSpotter by day and building a YouTube channel by night. 
+I am also making vids over at the YouTube's about getting by from living small in San Francisco.
