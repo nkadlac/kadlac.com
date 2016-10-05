@@ -8,7 +8,7 @@ ul { list-style-type: none; }
 
 h1 { font-size: 6.25em; margin-bottom: 1.5rem; }
 
-p { font-size: 1.125em; line-height: 2.375rem; max-width: 62.5rem; margin-bottom: 2.5em; }
+p { font-size: 1.125em; line-height: 2.375rem; margin-bottom: 2.5em; }
 
 .article_body img { width: 100%; }
 
@@ -57,7 +57,7 @@ header.article_head h1 { max-width: 43.75rem; }
 @media screen and (min-width: 768px) { .contain.large { max-width: 82.25em; float: left; display: block; margin-right: 2.35765%; width: 100%; }
   .contain.large:last-child { margin-right: 0; } }
 
-footer { max-width: 76em; margin: 0 auto; text-align: center; background-color: #283e4c; }
+footer { margin: 0 auto; text-align: center; background-color: #283e4c; padding: 50px 0; }
 
 footer p { text-align: center; color: #999; font-size: .8em; }
 
