@@ -18,9 +18,9 @@
     <title>{% if page.title %}{{ page.title }} | {{site.name}}{% else %}{{ site.name }}{% endif %}</title>
   </head>
 
-<body {% if %page.home %}class="home"{% endif %}>
+<body {% if page.home %}class="home"{% endif %}>
 
-	<div class="wrap">
+	<div class="wrap" {% if page.title == 'Home' %} style="background-image: url({{page[background_image]}});" {% endif %}>
 
 		{% include header.html %}
 
@@ -32,7 +32,7 @@
 
 		{% include footer.html %}
 
-	</div>
+	</div><!-- end wrap -->
 
 </body>
 
