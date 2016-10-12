@@ -4,6 +4,8 @@ date: 2016-06-07 05:54:00 -07:00
 is featured: true
 ---
 
+![IMG_0575.jpg](/uploads/IMG_0575.jpg)
+
 The first day into my 600 mile bike trip, I looked down and realized my pedal had just fallen off. 
 
 “Fuck!” 
