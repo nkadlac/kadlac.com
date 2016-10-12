@@ -4,7 +4,7 @@ layout: default
 
 <!-- <article class="single"> -->
 
-<header {% for asset in assets %}{% if asset.type == "stretched" %} class="header_img_stretched article_head" style="background-image: url("{{asset.url}}")" {% endif %}{% endfor %}>
+<header {% for image in page.image %}{% if page.image.type == "stretched" %} class="header_img_stretched article_head" style="background-image: url("{{page.image}}")" {% endif %}{% endfor %}>
   <div class="contain small">
 
     <h1>{{page.title}}</h1>
