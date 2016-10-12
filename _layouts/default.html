@@ -15,24 +15,26 @@
     <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
     <script src="{{site.url}}/assets/js/scripts.js"></script>
 
-    <title>{% if page.title %}{{ page.title }} | {{site.name}}{% else %}{{ site.name }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
   </head>
 
-<body {% if %page.home %}class="home"{% endif %}>
+<body {% if page.home %}class="home"{% endif %}>
 
-	<div class="wrap">
+	<div class="wrap" {% if page.title == 'Home' %}style="background-image: url({{page.bg_image}});"{% endif %}>
 
 		{% include header.html %}
 
 		<section class="main_content">
 
+
+
 			{{content}}
 
-		</section>
+		</section><!-- main_content -->
 
 		{% include footer.html %}
 
-	</div>
+	</div><!-- end wrap -->
 
 </body>
 
