@@ -16,6 +16,8 @@ I slammed on the brakes as my loose foot hit the pavement.
 
 Just moments earlier, I thought to myself, “What’s the worst that could happen, a flat tire?”
 
+![IMG_0575.jpg](/uploads/IMG_0575.jpg)
+
 We were stuck outside Montreal, where nothing was open at 6 AM. This was a lifeless suburbia, where every home looks identical. It was too early to walk around knocking on stranger’s doors, knowing the chance of someone speaking English was slim to none.
 
 I immediately tried to retrace the steps from the night before, to when I was putting the pieces of my bike together. Where did I go wrong?
