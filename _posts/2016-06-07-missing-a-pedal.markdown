@@ -2,7 +2,7 @@
 title: Missing a Pedal
 date: 2016-06-07 05:54:00 -07:00
 is featured: true
-image:
+images:
   name: header
   path: "/uploads/IMG_0575.jpg"
   type: stretched
