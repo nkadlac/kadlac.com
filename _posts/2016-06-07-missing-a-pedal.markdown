@@ -3,7 +3,9 @@ title: Missing a Pedal
 date: 2016-06-07 05:54:00 -07:00
 is featured: true
 image:
-  fullsize: "/Users/nate/Desktop/IMG_0575.jpg"
+  name: header
+  path: "/uploads/IMG_0575.jpg"
+  type: stretched
 ---
 
 ![IMG_0575.jpg](/uploads/IMG_0575.jpg)
@@ -15,6 +17,8 @@ The first day into my 600 mile bike trip, I looked down and realized my pedal ha
 I slammed on the brakes as my loose foot hit the pavement.
 
 Just moments earlier, I thought to myself, “What’s the worst that could happen, a flat tire?”
+
+![IMG_0575.jpg](/uploads/IMG_0575.jpg)
 
 We were stuck outside Montreal, where nothing was open at 6 AM. This was a lifeless suburbia, where every home looks identical. It was too early to walk around knocking on stranger’s doors, knowing the chance of someone speaking English was slim to none.
 
