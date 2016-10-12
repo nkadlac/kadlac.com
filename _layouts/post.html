@@ -4,7 +4,7 @@ layout: default
 
 <!-- <article class="single"> -->
 
-<header class="article_head">
+<header {% for asset in assets %}{% if asset.type == "stretched" %} class="header_img_stretched article_head" style="background-image: url("{{asset.url}}")" {% endif %}{% endfor %}>
   <div class="contain small">
 
     <h1>{{page.title}}</h1>
@@ -29,7 +29,9 @@ layout: default
 
   <div class="contain small">
 
+
     {{content}}
+
 
     {% if page.readmore %}
       <a href="{{page.readmore}}" class="button read-more-button">Read more</a>

@@ -2,7 +2,7 @@ html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }
 
-body, html { color: #333; background: #f0f4fa; }
+body, html { color: #333; background: #FFFFFF; }
 
 ul { list-style-type: none; }
 
