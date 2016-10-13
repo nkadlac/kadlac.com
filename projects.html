@@ -4,7 +4,6 @@ layout: default
 navigation_weight: 3
 ---
 
-<<<<<<< HEAD
 <header class="article_head">
   <div class="contain">
 
@@ -14,30 +13,20 @@ navigation_weight: 3
         <h3 class="subhead">{{page.subhead}}</h3>
       {% endif %}
 
-      <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div>
+      <!-- <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div> -->
   </div>
 </header>
-
-
 
 <section class="article_body">
   <div class="contain">
     <ul>
-    {% for post in site.projects %}
-     <li>
-       <a href="{{ post.url }}">{{ post.title }}</a>
-       - {{ post.date | date: "%d %B %Y" }}
-     </li>
-    {% endfor %}
+      {% for post in site.projects %}
+       <li>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+          {{ post.date | date: "%d %B %Y" }}
+       </li>
+      {% endfor %}
     </ul>
 
   </div>
 </section>
-=======
-{% for post in site.posts %}
- <li>
-   <a href="{{ post.url }}">{{ post.title }}</a>
-   - {{ post.date | date: "%d %B %Y" }}
- </li>
-{% endfor %}
->>>>>>> 39c2c3a23d06145fbf894fe2de5625fd28dc5726
