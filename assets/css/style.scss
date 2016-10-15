@@ -46,13 +46,18 @@ header.global {
 	@include row;
 }
 
+header.global .contain {
+		padding: 3.75em 1.5em;
+}
+
+
 nav.full_nav ul {
 	float: right;
 }
 
 nav.full_nav ul li {
 	float: left;
-	line-height: 3.75rem;
+	line-height: 1.75rem;
 	margin-left: 2.125em;
 }
 
@@ -125,6 +130,7 @@ header.article_head h1 {
 	background: url("/assets/img/logo_kadlac.svg") no-repeat left top;
 	height: 34px;
 	width: 34px;
+	float: left;
 }
 
 .article_body.contain {
