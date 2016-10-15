@@ -18,8 +18,11 @@ navigation_weight: 2
     <ul>
     {% for post in site.posts %}
      <li>
-       <a href="{{ post.url }}">{{ post.title }}</a>
-       {{ post.date | date: "%d %B %Y" }}
+       <a href="{{ post.url }}">
+         {{ post.title }}
+         <p class="date">{{ post.date | date: "%B %d %Y" }}</p>
+       </a>
+
      </li>
     {% endfor %}
     </ul>

@@ -15,6 +15,8 @@ html {
 
 ul {
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
@@ -44,52 +46,41 @@ header.global {
 	@include row;
 }
 
-header.global nav.full_nav ul li a.active {
-	font-weight: bold;
-}
-
-header.global nav.full_nav ul {
+nav.full_nav ul {
 	float: right;
-
 }
 
-header.global nav ul li a {
+nav.full_nav ul li {
+	float: left;
+	line-height: 3.75rem;
+	margin-left: 2.125em;
+}
+
+nav ul li a {
 	text-decoration: none;
 	color: #333;
 }
 
-header.global nav.full_nav ul li:first {
-	margin-left: 0;
-}
-
-header.global nav.full_nav ul li {
-	float: left;
-	line-height: 3.75rem;
-	margin-left: 3.125em;
-}
-
-.header_img_stretched {
-		background-position: left top;
-		background-repeat: no-repeat;
-		background-size: auto;
-}
-
-
-
-header.global nav.full_nav ul li a {
+nav.full_nav ul li a {
 	padding: 0;
 	font-size: .75em;
 	display: block;
 	color: #333333;
 	font-size: 0.75rem;
-	text-transform: uppercase;
 	letter-spacing: .1em;
 	transition: color .3s ease;
 	position: relative;
-
 }
 
-header.global nav.full_nav ul li a::after {
+nav.full_nav ul li:first {
+	margin-left: 0;
+}
+
+nav.full_nav ul li a.active {
+	font-weight: bold;
+}
+
+nav.full_nav ul li a::after {
 	border-bottom: 1px solid #2e3c40;
 	bottom: 0;
 	left: 0;
@@ -99,22 +90,27 @@ header.global nav.full_nav ul li a::after {
 	opacity: 0;
 }
 
-header.global nav.full_nav ul li a:hover::after {
+nav.full_nav ul li a:hover::after {
 	opacity: 1;
 }
 
+.header_img_stretched {
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: auto;
+}
 
 // drop cap styling
-.article_body p:first-child:first-letter {
-	float: left;
-	// color: #903;
-	font-size: 75px;
-	line-height: 60px;
-	padding-top: 4px;
-	padding-right: 8px;
-	padding-left: 3px;
-	font-family: Georgia;
-}
+// .article_body p:first-child:first-letter {
+// 	float: left;
+// 	// color: #903;
+// 	font-size: 75px;
+// 	line-height: 60px;
+// 	padding-top: 4px;
+// 	padding-right: 8px;
+// 	padding-left: 3px;
+// 	font-family: Georgia;
+// }
 
 header.article_head {
 	padding: 7.125em 0 3.375em 0;
@@ -124,6 +120,22 @@ header.article_head h1 {
 	max-width: 43.75rem;
 }
 
+.logo {
+	display: inline-block;
+	background: url("/assets/img/logo_kadlac.svg") no-repeat left top;
+	height: 34px;
+	width: 34px;
+}
+
+.article_body.contain {
+	margin-bottom: 6.5em;
+	max-width: 600px;
+	margin: 0 auto;
+	@include media($desktop) {
+		max-width: 25.25em;
+		// @include span-columns(12);
+	}
+}
 
 // all container cells to add padding to
 .contain {
@@ -155,13 +167,16 @@ header.article_head h1 {
 	}
 }
 
-.article_body.contain {
-	margin-bottom: 6.5em;
-}
-
 .portfolio_body {
 	max-width: 96.25em;
 }
+
+
+
+.date {
+	float: right;
+}
+
 
 footer {
 		// max-width: 76em;
