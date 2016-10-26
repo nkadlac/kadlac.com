@@ -2,7 +2,7 @@
 layout: page
 title: About
 date: 2016-10-15 13:06:00 -07:00
-permalink: /about
+permalink: /about/
 ---
 
 Hey this is a little bit about me.
