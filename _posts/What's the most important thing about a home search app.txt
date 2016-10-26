@@ -1,0 +1,15 @@
+What's the most important thing about a home search app? The homes of course! With this 5.8 update, we've completely overhauled what you see when you view properties. We're kind of biased, but we think you'll like what you see!
+
+As part of this update, you can now expect to see on each property listing everything that you had before, but presented in a more visually appealing way, PLUS:
+- a new and improved photo viewer
+- visual history for price and status changes and past sales
+- information on schools
+- a satellite view of the property and quick access to a map to know where it is... plus nearby amenities
+- a street view of the property
+- commute times for your saved addresses
+- and... if you're an agent, you can get to the key information you need faster
+
+In addition, we've made a few other improvements:
+- icons on the map show at a glance if the listing is new, has an open house, or has had a recent price reduction
+- the mortgage calculator now highlights that you can use the keyboard and allows for 35 year mortgages in Canada
+- we've removed a few cobwebs and cleaned up a few things around the edges
