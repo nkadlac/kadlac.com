@@ -1,9 +1,13 @@
 ---
-layout: default
 title: Contact
 date: 2016-10-01 11:33:00 -07:00
+permalink: "/contact"
+layout: default
 bgimage: "/uploads/sanfran_bridge.jpg"
+<<<<<<< HEAD:home.markdown
 permalink: /
+=======
+>>>>>>> 756bc56910b072c1f16f4d051455a99e0b25823b:_pages/home.markdown
 ---
 
 Helping real estate agents keep their clients happy by designing products at HomeSpotter.
