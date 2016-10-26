@@ -17,10 +17,13 @@ p { font-size: 1.125em; line-height: 2.375rem; margin-bottom: 2.5em; }
   .wrap::after { clear: both; content: ""; display: block; } }
 .wrap::after { clear: both; content: ""; display: block; }
 
+.wrap.home { background-size: cover; min-height: 1000px; }
+.wrap.home::after { clear: both; content: ""; display: block; }
+
 header.global { display: block; }
 header.global::after { clear: both; content: ""; display: block; }
 
-header.global .contain { padding: 3.75em 1.5em; }
+header.global .contain { padding: 4.75em 1.5em; }
 
 nav.full_nav ul { float: right; }
 
@@ -39,6 +42,19 @@ nav.full_nav ul li a::after { border-bottom: 1px solid #2e3c40; bottom: 0; left:
 nav.full_nav ul li a:hover::after { opacity: 1; }
 
 .header_img_stretched { background-position: left top; background-repeat: no-repeat; background-size: auto; }
+
+/* Hero image testing */
+.hero-title { margin-bottom: -20px; }
+
+.hero-image-cover { width: 100%; position: relative; }
+.hero-image-cover::after { clear: both; content: ""; display: block; }
+
+.hero-image-cover img { max-width: 100%; }
+
+.hero-image-cover.contain { max-width: 100%; margin: 0 auto; max-width: 1320px; }
+
+.hero-bg-color { max-width: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; height: auto; }
+.hero-bg-color::after { clear: both; content: ""; display: block; }
 
 header.article_head { padding: 7.125em 0 3.375em 0; }
 

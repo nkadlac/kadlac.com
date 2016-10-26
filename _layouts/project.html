@@ -4,7 +4,26 @@ layout: default
 
 <!-- <article class="single"> -->
 
-<header {% for image in page.images %}{% if page.images.type == "stretched" %} class="header_img_stretched article_head" style="background-image: url('{{page.images.path}}')" {% endif %}{% endfor %}>
+<header>
+  <div class="contain">
+    <div class="hero-title">
+      <h1>Agent Productivity</h1>
+    </div>
+  </div>
+
+  <!-- <div class="hero-bg-color" style="background-color: #F15F4A;"></div> -->
+  <div class="hero-image-cover" style="background-color: #F15F4A;>
+    <div class="contain">
+      <img src="/assets/img/hs_hero.jpg" />
+    </div>
+  </div>
+
+
+
+</header>
+
+<article class="article_body">
+
   <div class="contain small">
 
     <h1>{{page.title}}</h1>
@@ -15,9 +34,6 @@ layout: default
 
       <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div>
   </div>
-</header>
-
-<section class="article_body">
 
   {% if page.topimage %}
   <div class="contain large">
@@ -37,9 +53,9 @@ layout: default
       <a href="{{page.readmore}}" class="button read-more-button">Read more</a>
     {% endif %}
 
-    {% include share-buttons.html %}
+    <!-- {% include share-buttons.html %} -->
   </div>
-</section>
+</article>
 
 
 
