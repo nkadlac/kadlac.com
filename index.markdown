@@ -1,6 +1,7 @@
 ---
 title: Home
 date: 2016-10-01 11:33:00 -07:00
+position: 0
 bgimage: "/uploads/sanfran_bridge.jpg"
 layout: default
 ---
