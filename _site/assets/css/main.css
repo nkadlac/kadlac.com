@@ -2,13 +2,15 @@ html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }
 
-body, html { color: #333; background: #FFFFFF; }
+body, html { color: #333; background: #FFFFFF; font-family: "Whitney SSm A", "Whitney SSm B"; font-style: normal; font-weight: 400; }
 
 ul { list-style-type: none; padding: 0; margin: 0; }
 
-h1 { font-size: 6.25em; margin-bottom: 1.5rem; }
+h1 { font-size: 4.25em; margin-bottom: 1.5rem; }
 
 p { font-size: 1.125em; line-height: 2.375rem; margin-bottom: 2.5em; }
+
+a { color: #333; text-decoration: underline; }
 
 .article_body img { width: 100%; }
 
@@ -25,19 +27,32 @@ header.global::after { clear: both; content: ""; display: block; }
 
 header.global .contain { padding: 4.75em 1.5em; }
 
-nav.full_nav ul { float: right; }
+.home_content { height: 100%; width: 100%; padding: 4em 10em 2em 10em; }
 
-nav.full_nav ul li { float: left; line-height: 1.75rem; margin-left: 2.125em; }
+.home_background { background-color: #f7f7f7; background-size: cover; }
+
+.coverplate_image { left: 0; top: 0; width: 100; position: absolute; }
+
+.gallery { position: relative; }
+
+.cover { height: 100vh; width: 100%; }
+
+.cover_lock { display: inline-block; vertical-align: middle; font-size: 1em; float: left; display: block; margin-right: 2.35765%; width: 48.82117%; margin-left: 51.17883%; }
+.cover_lock:last-child { margin-right: 0; }
+
+.full_nav ul { float: right; }
+
+.full_nav ul li { float: left; line-height: 1.75rem; margin-left: 2.125em; }
 
 nav ul li a { text-decoration: none; color: #333; }
 
-nav.full_nav ul li a { padding: 0; font-size: .75em; display: block; color: #333333; font-size: 0.75rem; letter-spacing: .1em; transition: color .3s ease; position: relative; }
+.full_nav ul li a { padding: 0; font-size: .75em; display: block; color: #333333; font-size: 0.75rem; letter-spacing: .1em; transition: color .3s ease; position: relative; }
 
-nav.full_nav ul li:first { margin-left: 0; }
+.full_nav ul li:first { margin-left: 0; }
 
-nav.full_nav ul li a.active { font-weight: bold; }
+.full_nav ul li a.active { font-weight: bold; }
 
-nav.full_nav ul li a::after { border-bottom: 1px solid #2e3c40; bottom: 0; left: 0; width: 100%; content: ""; position: absolute; opacity: 0; }
+.full_nav ul li a::after { border-bottom: 1px solid #2e3c40; bottom: 0; left: 0; width: 100%; content: ""; position: absolute; opacity: 0; }
 
 nav.full_nav ul li a:hover::after { opacity: 1; }
 

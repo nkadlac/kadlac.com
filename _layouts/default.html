@@ -11,18 +11,20 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
+    <!-- hoefler type service -->
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/688240/609604/css/fonts.css" />
+
     <link rel="stylesheet" href="{{site.url}}/assets/css/normalize.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/main.css">
     <script src="{{site.url}}/assets/js/scripts.js"></script>
 
     <title>{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
   </head>
 
-<body {% if page.title == 'Home' %}class="home"{% endif %}>
+<body>
+  {% include header.html %}
 
-	<div class="wrap{% if page.title == 'Home' %} home" style="background-image: url('{{ page.bgimage }}')"{% endif %}>
-
-		{% include header.html %}
+	<div class="wrap">
 
 		<section class="main_content">
 
@@ -30,9 +32,9 @@
 
 		</section><!-- main_content -->
 
-		{% include footer.html %}
-
 	</div><!-- end wrap -->
+
+  {% include footer.html %}
 
 </body>
 
