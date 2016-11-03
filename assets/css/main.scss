@@ -3,14 +3,17 @@
 
 @import "bourbon/bourbon",
 				"neat/neat";
+				// "partials/base";
 
 $desktop: new-breakpoint(min-width 768px);
-
 
 body,
 html {
   color: #333;
   background: #FFFFFF;
+	font-family: "Whitney SSm A", "Whitney SSm B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 ul {
@@ -20,7 +23,7 @@ ul {
 }
 
 h1 {
-	font-size: 6.25em;
+	font-size: 4.25em;
 	margin-bottom: 1.5rem;
 }
 
@@ -29,6 +32,11 @@ p {
 	line-height: 2.375rem;
 	// max-width: 62.5rem;
 	margin-bottom: 2.5em;
+}
+
+a {
+	color: #333;
+	text-decoration: underline;;
 }
 
 .article_body img {
@@ -56,12 +64,47 @@ header.global .contain {
 		padding: 4.75em 1.5em;
 }
 
+.home_content {
+	height: 100%;
+	width: 100%;
+	padding: 4em 10em 2em 10em;
+}
 
-nav.full_nav ul {
+.home_background {
+	// background: url(/uploads/sanfran_bridge.jpg) no-repeat center center;
+	background-color: #f7f7f7;
+	background-size: cover;
+}
+
+.coverplate_image {
+	left: 0;
+	top: 0;
+	width: 100;
+	position: absolute;
+}
+
+.gallery {
+	position: relative;
+}
+
+.cover {
+	height: 100vh;
+	width: 100%;
+}
+
+.cover_lock {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1em;
+	@include span-columns(6);
+	@include shift(6);
+}
+
+.full_nav ul {
 	float: right;
 }
 
-nav.full_nav ul li {
+.full_nav ul li {
 	float: left;
 	line-height: 1.75rem;
 	margin-left: 2.125em;
@@ -72,7 +115,7 @@ nav ul li a {
 	color: #333;
 }
 
-nav.full_nav ul li a {
+.full_nav ul li a {
 	padding: 0;
 	font-size: .75em;
 	display: block;
@@ -83,15 +126,15 @@ nav.full_nav ul li a {
 	position: relative;
 }
 
-nav.full_nav ul li:first {
+.full_nav ul li:first {
 	margin-left: 0;
 }
 
-nav.full_nav ul li a.active {
+.full_nav ul li a.active {
 	font-weight: bold;
 }
 
-nav.full_nav ul li a::after {
+.full_nav ul li a::after {
 	border-bottom: 1px solid #2e3c40;
 	bottom: 0;
 	left: 0;
