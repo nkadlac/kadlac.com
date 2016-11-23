@@ -4,24 +4,19 @@ layout: default
 navigation_weight: 3
 ---
 
-<header class="article_head">
-  <div class="contain">
-
-    <h1>{{page.title}}</h1>
-
-      {% if page.subhead %}
-        <h3 class="subhead">{{page.subhead}}</h3>
-      {% endif %}
-
-      <!-- <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div> -->
+<header class="portHead">
+  <div class="portHead__contain">
+    <h1 class="portHead__title">The Work</h1>
+    <h3 class="subhead">Some recent work that has been produced in the past 5 years.</h3>
   </div>
 </header>
 
-<section class="article_body">
-  <div class="contain">
-    <ul>
+<section class="portBody">
+  <div class="portBody__contain">
+
+    <ul class="portBody__list">
       {% for post in site.projects %}
-       <li>
+       <li class="portBody__project">
          <a href="{{ post.url }}">{{ post.title }}</a>
           {{ post.date | date: "%d %B %Y" }}
        </li>

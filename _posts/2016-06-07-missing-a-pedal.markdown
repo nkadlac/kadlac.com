@@ -10,27 +10,27 @@ images:
 
 ![IMG_0575.jpg](/uploads/IMG_0575.jpg)
 
-The first day into my 600 mile bike trip, I looked down and realized my pedal had just fallen off. 
+The first day into my 600 mile bike trip, I looked down and realized my pedal had just fallen off.
 
-“Fuck!” 
+“Fuck!”
 
 I slammed on the brakes as my loose foot hit the pavement.
 
 Just moments earlier, I thought to myself, “What’s the worst that could happen, a flat tire?”
 
-![IMG_0575.jpg](/uploads/IMG_0575.jpg)
-
 We were stuck outside Montreal, where nothing was open at 6 AM. This was a lifeless suburbia, where every home looks identical. It was too early to walk around knocking on stranger’s doors, knowing the chance of someone speaking English was slim to none.
 
 I immediately tried to retrace the steps from the night before, to when I was putting the pieces of my bike together. Where did I go wrong?
 
-Maybe I had rushed the process. After all, we did get our bikes from customs a day late, and had to deal with the anxiety of never having shipped my bike in a box before. 
+> "This is a blockquote that is going to take up multiple lines of text within a document."
 
-I walked back 20 feet in disbelief, as the pedal just sat in the empty street. 
+Maybe I had rushed the process. After all, we did get our bikes from customs a day late, and had to deal with the anxiety of never having shipped my bike in a box before.
 
-After inspecting the pedal and crank, half of the threads were stripped. 
+I walked back 20 feet in disbelief, as the pedal just sat in the empty street.
 
-In that moment, I realized that the night before, I must have tightened the pedal slightly off-center. Each downstroke of the pedal, I was slowly stripping away the threads. 
+After inspecting the pedal and crank, half of the threads were stripped.
+
+In that moment, I realized that the night before, I must have tightened the pedal slightly off-center. Each downstroke of the pedal, I was slowly stripping away the threads.
 
 “We need to find an adjustable wrench,” Eric said.
 
