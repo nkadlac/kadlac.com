@@ -21,10 +21,15 @@
     <title>{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
   </head>
 
-<body>
-  {% include header.html %}
+<body {% if page.title == home %}{{ 'class="home"' }}{% endif %}>
 
 	<div class="wrap">
+
+    {% if page.title != home %}
+
+      {% include header.html %}
+
+    {% endif %}
 
 		<section class="main_content">
 
@@ -32,9 +37,15 @@
 
 		</section><!-- main_content -->
 
+    {% if page.title != home %}
+
+      {% include footer.html %}
+
+    {% endif %}
+
 	</div><!-- end wrap -->
 
-  {% include footer.html %}
+
 
 </body>
 

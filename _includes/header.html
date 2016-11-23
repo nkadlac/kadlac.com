@@ -1,17 +1,15 @@
-<header class="global">
-	<div class="contain">
+<header class="header">
+	<div class="header__contain">
 		<!-- kadlac logo -->
 		<a href="#" class="logo"></a>
 
-		<nav class="full_nav">
-				<ul>
-					<li><a href="{{site.url}}/about"{% if page.url contains "/about/" %} class="active" {% endif %} >About</a></li>
-					<li><a href="{{site.url}}/vlog"{% if page.url contains "/vlog/" %} class="active" {% endif %} >Vlog</a></li>
-					<li><a href="/projects/"{% if page.url contains "/projects/" %} class="active" {% endif %} >Design</a></li>
-					<li><a href="/posts/"{% if page.url contains "/posts/" %} class="active" {% endif %} >Write</a></li>
-					<li><a href="{{site.url}}/contact"{% if page.url contains "/contact/" %} class="active" {% endif %} >Inquire</a></li>
-					<!-- <li><a href="http://twitter.com/{{ site.twitter.username }}">Follow me on Twitter</a></li> -->
-				</ul>
-		</nav>
+			<ul class="nav">
+				<li class="nav__item"><a href="{{site.url}}/about"{% if page.url contains "/about/" %} class="active" {% endif %} >About</a></li>
+				<li class="nav__item"><a href="{{site.url}}/vlog"{% if page.url contains "/vlog/" %} class="active" {% endif %} >Vlog</a></li>
+				<li class="nav__item"><a href="/projects/"{% if page.url contains "/projects/" %} class="active" {% endif %} >Design</a></li>
+				<li class="nav__item"><a href="/posts/"{% if page.url contains "/posts/" %} class="active" {% endif %} >Write</a></li>
+				<li class="nav__item"><a href="{{site.url}}/contact"{% if page.url contains "/contact/" %} class="active" {% endif %} >Inquire</a></li>
+				<!-- <li><a href="http://twitter.com/{{ site.twitter.username }}">Follow me on Twitter</a></li> -->
+			</ul>
 	</div>
 </header>
