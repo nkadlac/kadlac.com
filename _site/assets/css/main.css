@@ -24,7 +24,7 @@ body { background: #FAF8F4; }
 
 .contain { padding: 4.75em 1.5em; }
 
-.home_content { height: 100%; width: 100%; padding: 4em 5% 0 0; font-size: 24px; line-height: 1.5em; }
+.home_content { height: 100%; width: 100%; padding: 1em 5% 0 0; font-size: 24px; line-height: 1.5em; }
 @media screen and (min-width: 768px) { .home_content { padding: 4em 30% 2em 0; font-size: 32px; max-width: 62.5em; } }
 
 .home h1 { font-size: 42px; }
