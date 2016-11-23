@@ -7,7 +7,7 @@ body, html { color: #333; font-family: "Whitney SSm A", "Whitney SSm B"; font-st
 body { background: #FAF8F4; }
 
 .wrap { max-width: 100%; margin-left: auto; margin-right: auto; }
-@media screen and (min-width: 768px) { .wrap { max-width: 100%; margin-left: auto; margin-right: auto; }
+@media screen and (min-width: 868px) { .wrap { max-width: 100%; margin-left: auto; margin-right: auto; }
   .wrap::after { clear: both; content: ""; display: block; } }
 .wrap::after { clear: both; content: ""; display: block; }
 
@@ -24,14 +24,19 @@ body { background: #FAF8F4; }
 
 .contain { padding: 4.75em 1.5em; }
 
-.home_content { height: 100%; width: 100%; padding: 1em 5% 0 0; font-size: 24px; line-height: 1.5em; }
-@media screen and (min-width: 768px) { .home_content { padding: 4em 30% 2em 0; font-size: 32px; max-width: 62.5em; } }
+.home_content { height: 100%; width: 100%; padding: 1em 5% 4em 0; font-size: 24px; line-height: 1.5em; }
+@media screen and (min-width: 400px) { .home_content { padding: 2em 10% 4em 1em; } }
+@media screen and (min-width: 868px) { .home_content { padding: 4em 20% 4em 3em; font-size: 32px; max-width: 62.5em; } }
 
-.home h1 { font-size: 42px; }
+.home h1 { font-size: 26px; line-height: 1.5em; }
+@media screen and (min-width: 400px) { .home h1 { font-size: 30px; } }
+@media screen and (min-width: 868px) { .home h1 { font-size: 40px; } }
 
-.home button { background: #F6A623; border: none; text-decoration: none; font-style: none; font-weight: bold; border-radius: 4px; font-size: 28px; padding: .5em 1em; }
+.home button { background: #C13030; border: none; text-decoration: none; font-style: none; font-weight: bold; border-radius: 4px; font-size: 28px; padding: .5em 1em; color: #FFF; }
 
-.home button:hover { background: #E0951B; }
+.home button a { color: #FFFFFF; }
+
+.home button:hover { background: #B02525; }
 
 .home button a { text-decoration: none; }
 
@@ -79,19 +84,19 @@ header.article_head { padding: 7.125em 0 3.375em 0; }
 header.article_head h1 { max-width: 43.75rem; }
 
 .article_body.contain { margin-bottom: 6.5em; max-width: 600px; margin: 0 auto; }
-@media screen and (min-width: 768px) { .article_body.contain { max-width: 25.25em; } }
+@media screen and (min-width: 868px) { .article_body.contain { max-width: 25.25em; } }
 
 .contain { padding: 0 1.5em; margin: 0 auto; }
-@media screen and (min-width: 768px) { .contain { max-width: 76em; } }
+@media screen and (min-width: 868px) { .contain { max-width: 76em; } }
 
 /* Portfolio body --------------------------------------- */
 .portBody { max-width: 96.25em; }
 
 .postSmall { max-width: 100%; }
-@media screen and (min-width: 768px) { .postSmall { max-width: 51.125em; } }
+@media screen and (min-width: 868px) { .postSmall { max-width: 51.125em; } }
 
 .contain.large { max-width: 100%; padding: 0; }
-@media screen and (min-width: 768px) { .contain.large { max-width: 82.25em; } }
+@media screen and (min-width: 868px) { .contain.large { max-width: 82.25em; } }
 
 .portBody__contain, .portHead__contain { padding: 0 10em; }
 
@@ -125,4 +130,4 @@ header.article_head h1 { max-width: 43.75rem; }
 /* Footer  ----------------------------------- */
 body.home { background: #222222; color: #FFFFFF; }
 
-.home a { color: #FFF; }
+.home a { color: #C13030; }

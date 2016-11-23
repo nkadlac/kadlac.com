@@ -5,7 +5,10 @@
 				"neat/neat";
 				// "partials/base";
 
-$desktop: new-breakpoint(min-width 768px);
+$desktop: new-breakpoint(min-width 868px);
+$mid: new-breakpoint(min-width 400px);
+$home_link: #C13030;
+$home_link_hover: #B02525;
 
 body,
 html {
@@ -59,22 +62,32 @@ body {
 .home_content {
 	height: 100%;
 	width: 100%;
-	padding: 1em 5% 0 0;
+	padding: 1em 5% 4em 0;
 	font-size: 24px;
 	line-height: 1.5em;
+	@include media($mid) {
+		padding: 2em 10% 4em 1em;
+	}
 	@include media($desktop) {
-		padding: 4em 30% 2em 0;
+		padding: 4em 20% 4em 3em;
 		font-size: 32px;
 		max-width: 62.5em;
 	}
 }
 
 .home h1 {
-	font-size: 42px;
+	font-size: 26px;
+	line-height: 1.5em;
+	@include media($mid) {
+		font-size: 30px;
+	}
+	@include media($desktop) {
+		font-size: 40px;
+	}
 }
 
  .home button {
-	 background: #F6A623;
+	 background: $home_link;
 	 border: none;
 	 text-decoration: none;
 	 font-style: none;
@@ -82,10 +95,15 @@ body {
 	 border-radius: 4px;
 	 font-size: 28px;
 	 padding: .5em 1em;
+	 color: #FFF;
+ }
+
+ .home button a {
+	 color: #FFFFFF;
  }
 
  .home button:hover {
-	 background: #E0951B;
+	 background: $home_link_hover;
  }
 
  .home button a {
@@ -368,5 +386,5 @@ body.home {
 }
 
 .home a {
-	color: #FFF;
+	color: $home_link;
 }
