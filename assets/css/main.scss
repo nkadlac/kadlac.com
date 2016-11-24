@@ -87,6 +87,7 @@ body {
 }
 
  .home button {
+	 transition: background 0.3s ease;
 	 background: $home_link;
 	 border: none;
 	 text-decoration: none;
@@ -96,6 +97,7 @@ body {
 	 font-size: 28px;
 	 padding: .5em 1em;
 	 color: #FFF;
+
  }
 
  .home button a {
@@ -104,6 +106,8 @@ body {
 
  .home button:hover {
 	 background: $home_link_hover;
+	 border-bottom: none;
+	 text-decoration: none;
  }
 
  .home button a {
@@ -386,5 +390,13 @@ body.home {
 }
 
 .home a {
+	transition: border-bottom 0.3s ease;
 	color: $home_link;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	text-decoration: none;
+}
+
+.home a:hover {
+	border-bottom: 1px solid $home_link;
+	text-decoration: none;
 }
