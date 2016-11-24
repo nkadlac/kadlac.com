@@ -7,8 +7,8 @@
 
 $desktop: new-breakpoint(min-width 868px);
 $mid: new-breakpoint(min-width 400px);
-$home_link: #C13030;
-$home_link_hover: #B02525;
+$home_link: #D8A76A;
+$home_link_hover: #C79556;
 
 body,
 html {
@@ -112,6 +112,12 @@ body {
 
  .home button a {
 	 text-decoration: none;
+	 border-bottom: none;
+ }
+
+ .home button a:hover {
+	text-decoration: none;
+	border-bottom: none;
  }
 
 .cover_lock {
