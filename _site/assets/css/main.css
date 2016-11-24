@@ -32,11 +32,11 @@ body { background: #FAF8F4; }
 @media screen and (min-width: 400px) { .home h1 { font-size: 30px; } }
 @media screen and (min-width: 868px) { .home h1 { font-size: 40px; } }
 
-.home button { background: #C13030; border: none; text-decoration: none; font-style: none; font-weight: bold; border-radius: 4px; font-size: 28px; padding: .5em 1em; color: #FFF; }
+.home button { transition: background 0.3s ease; background: #C13030; border: none; text-decoration: none; font-style: none; font-weight: bold; border-radius: 4px; font-size: 28px; padding: .5em 1em; color: #FFF; }
 
 .home button a { color: #FFFFFF; }
 
-.home button:hover { background: #B02525; }
+.home button:hover { background: #B02525; border-bottom: none; text-decoration: none; }
 
 .home button a { text-decoration: none; }
 
@@ -130,4 +130,6 @@ header.article_head h1 { max-width: 43.75rem; }
 /* Footer  ----------------------------------- */
 body.home { background: #222222; color: #FFFFFF; }
 
-.home a { color: #C13030; }
+.home a { transition: border-bottom 0.3s ease; color: #C13030; border-bottom: 1px solid transparent; text-decoration: none; }
+
+.home a:hover { border-bottom: 1px solid #C13030; text-decoration: none; }
