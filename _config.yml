@@ -17,7 +17,7 @@ url: http://kadlac.com
 twitter_username: kadlac
 github_username: nkadlac
 markdown: kramdown
-theme: minima
+# theme: minima
 gems:
 - jekyll-feed
 exclude:

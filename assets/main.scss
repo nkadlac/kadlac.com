@@ -1,0 +1,26 @@
+---
+---
+@import "normalize";
+
+
+$tablet: 400px;
+$laptop: 800px;
+$monitor: 1200px;
+
+
+
+body,
+button,
+input,
+textarea {
+  font-family: "Whitney SSm A", "Whitney SSm B", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+// @media (min-width: $tablet) {
+//   color: red;
+// }
+
+.container {
+  width: 100%;
+}
