@@ -1,7 +1,8 @@
 ---
 title: About
 permalink: "/about/"
-layout: page
 position: 4
+layout: page
 ---
+
 Ths is the about page
