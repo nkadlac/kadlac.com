@@ -2,8 +2,8 @@
 title: Nate Kadlac
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  blog:
+    title: Blog
     output: true
   uploads:
     title: Uploads
