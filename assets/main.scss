@@ -3,24 +3,80 @@
 @import "normalize";
 
 
-$tablet: 400px;
-$laptop: 800px;
-$monitor: 1200px;
+$tablet: 600px;
+$laptop: 900px;
+$monitor: 1400px;
 
 
-
-body,
-button,
-input,
-textarea {
-  font-family: "Whitney SSm A", "Whitney SSm B", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+html, body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
+body {
+  font-size: 16px;
+  font-family: "Whitney SSm A", "Whitney SSm B", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+a {
+  color: red;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
 
 // @media (min-width: $tablet) {
 //   color: red;
 // }
 
-.container {
-  width: 100%;
+.wrap {
+  margin: 0 auto;
+  text-align: left;
+  @media (min-width: $tablet) {
+
+  }
+  @media (min-width: $laptop) {
+
+  }
+  @media (min-width: $monitor) {
+
+  }
+}
+
+.main_header {
+
+}
+
+.main_content {
+
+}
+
+.main_footer {
+
+}
+
+.main_content__contain,
+.main_header__contain,
+.main_footer__contain {
+  margin: 0 auto;
+  min-height: 10em;
+  max-width: 1200px;
+  @media (min-width: $tablet) {
+
+  }
+  @media (min-width: $laptop) {
+
+  }
+}
+
+.main_content__contain {
+  background: #f7f7f7;
+}
+
+
+
+.logo a {
+  color: #333;
+  text-decoration: none;
 }

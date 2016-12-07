@@ -5,17 +5,24 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="wrap">
 
-    <main class="">
-      <div class="wrapper">
+      {% include header.html %}
 
-        {{ content }}
+      <section class="main_content">
 
-      </div>
-    </main>
+        <div class="main_content__contain">
 
-    {% include footer.html %}
+          {{ content }}
+
+        </div>
+
+      </section>
+
+
+      {% include footer.html %}
+
+    </div><!-- end wrap -->
 
   </body>
 
