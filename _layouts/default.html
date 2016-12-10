@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.title == "Home" %} class="home" {% endif %} >
 
     <div class="wrap">
 
