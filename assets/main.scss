@@ -134,8 +134,9 @@ a {
 /* Home ---------------------------------  */
 
 body.home {
-  background: #ffeb68 url(/assets/images/bg_home.gif) no-repeat center bottom;
-  // background-size: cover;
+  background: #ffeb68 url(/assets/images/bg_home.gif) no-repeat 0 bottom;
+  // background-attachment: fixed:
+  background-size: 100% auto;
 }
 
 .home__message {
@@ -174,7 +175,7 @@ body.home {
 
 .main_footer {
   // background: url(/assets/images/bg_home.gif) no-repeat left bottom;
-  height: 50vh;
+  height: 40vh;
 }
 
 .btn_contact {
