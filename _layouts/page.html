@@ -1,15 +1,28 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<article class="page">
-  <header>
-    <h2>{{page.title}}</h2>
-  </header>
+{% include head.html %}
 
-  <div class="content">
+<body>
 
-    {{content}}
+  <div class="wrap">
 
-  </div>
-</article>
+    {% include header.html %}
+
+    <section class="main_content">
+
+      <div class="main_content__contain">
+
+        {{ content }}
+
+      </div>
+
+    </section>
+
+    {% include footer.html %}
+
+  </div><!-- end wrap -->
+
+</body>
+
+</html>

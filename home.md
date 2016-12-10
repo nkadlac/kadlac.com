@@ -1,0 +1,10 @@
+---
+permalink: "/"
+layout: default
+---
+
+# Hi, I’m Nate. You wouldn’t know it by looking at this page, but I’m a multidisciplinary designer living in San Francisco. I’m currently helping real estate agents add more value to their client relationships with [HomeSpotter](https://homespotter.com).
+
+## If you’re looking for design guidance, I’m available to take on freelance projects. Take a peek at some work [here](https://dribbble.com/natekadlac) and [here](https://www.behance.net/natekadlac).
+
+## I’m also making vids over [here](https://www.youtube.com/channel/UCXyF7Or3OX7zXa-z2CVg_Yw) about living small in San Francisco.

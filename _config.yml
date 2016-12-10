@@ -1,35 +1,30 @@
 ---
 title: Nate Kadlac
-timezone: America/Los_Angeles
+timezone: UTC
 collections:
+  blog:
+    title: Blog
+    output: true
   posts:
     title: Posts
-    output: true
-    is featured: true
-  projects:
-    title: Projects
     output: true
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-    author: Nate
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: projects
-    type: projects
-  values:
-    layout: project
-permalink: pretty
-twitter:
-  username: kadlac
+  work:
+    title: Work
+    output: true
+email: nate@kadlac.com
+description: Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+baseurl: ''
+url: http://kadlac.com
+twitter_username: kadlac
+github_username: nkadlac
+markdown: kramdown
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
