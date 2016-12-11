@@ -134,9 +134,16 @@ a {
 /* Home ---------------------------------  */
 
 body.home {
-  background: #e22b00 url(/assets/images/bg_home.gif) no-repeat 0 bottom;
-  // background-attachment: fixed:
-  background-size: 100% auto;
+  background: #e22b00 url(/assets/images/bg_home.gif) no-repeat left bottom;
+  background-size: 250% auto;
+  @media (min-width: $tablet) {
+    background: #e22b00 url(/assets/images/bg_home.gif) no-repeat left bottom;
+    background-size: 130% auto;
+  }
+  @media (min-width: $laptop) {
+    background: #e22b00 url(/assets/images/bg_home.gif) no-repeat 0 bottom;
+    background-size: 100% auto;
+  }
 }
 
 .home__message {
@@ -154,8 +161,10 @@ body.home {
   transition: all 0.3s ease;
   text-decoration: none;
   border-bottom: 1px solid rgba(255,255,255,1);
-  // line-height: 2em;
-  padding-bottom: 8px;
+  padding-bottom: 2px;
+  @media (min-width: $tablet) {
+    padding-bottom: 8px;
+  }
   &:hover {
       text-decoration: none;
       border-bottom: 1px solid rgba(255,255,255,0);
