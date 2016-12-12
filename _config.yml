@@ -5,21 +5,22 @@ collections:
   blog:
     title: Blog
     output: true
-  work:
-    title: Work
+  posts:
+    title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
+  work:
+    title: Work
+    output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "work"
-    values:
-      layout: "project"
-      image: "/assets/image001.jpg"
-
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: project
+    image: "/assets/image001.jpg"
 email: nate@kadlac.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
