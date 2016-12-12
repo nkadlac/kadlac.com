@@ -41,11 +41,18 @@
 
           <h2 class="project_description">Deco was never fully launched, but it was a effort to allow photographers focus on what their experts at, and allow Deco to handle everything else.</h2>
 
+          <!-- {% for category in page.categories %} -->
+          {% if page.collections %}
+
           <ul class="work_tags">
-            <li><a href="#">Design</a></li>
-            <li><a href="#">User Experience</a></li>
-            <li><a href="#">Brand Identity</a></li>
+            <li><a href="#">{% for category in page.collections %}{{ page.category }}{% endfor %}</a></li>
+            <!-- <li><a href="#">User Experience</a></li>
+            <li><a href="#">Brand Identity</a></li> -->
           </ul>
+
+          {% endif %}
+          <!-- {% endfor %} -->
+
 
             {{ content }}
 
