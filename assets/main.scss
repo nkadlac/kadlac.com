@@ -45,20 +45,12 @@ a {
   }
 }
 
-.main_header {
-  width: 90%;
+.main_header, .main_content, .main_footer {
+  // width: 90%;
   margin: 0 auto;
-}
-
-.main_content {
-  width: 90%;
-  margin: 0 auto;
-
-}
-
-.main_footer {
-  width: 90%;
-  margin: 0 auto;
+  @media (min-width: $laptop) {
+    width: 100%;
+  }
 }
 
 .main_content__contain,
@@ -67,11 +59,13 @@ a {
   margin: 0 auto;
   // min-height: 10em;
   max-width: 1200px;
+  width: 90%;
   @media (min-width: $tablet) {
 
   }
   @media (min-width: $laptop) {
-
+    width: 90%;
+    max-width: 1200px;
   }
 }
 
@@ -86,6 +80,8 @@ a {
     align-items: baseline;
   }
 }
+
+
 
 .nav {
   display: flex;
@@ -106,14 +102,16 @@ a {
   }
 }
 
+
+body.home .nav__link a {
+  color: #FFF;
+}
+
 .nav__link a {
   color: #333;
   text-decoration: none;
 }
 
-.main_content__contain {
-  // background: #f7f7f7;
-}
 
 .logo {
   text-align: center;
@@ -125,8 +123,14 @@ a {
   }
 }
 
-.logo a {
+
+
+body.home .logo a {
   color: #FFF;
+}
+
+.logo a {
+  color: #e22b00;
   text-decoration: none;
 }
 
@@ -201,7 +205,6 @@ body.home {
 }
 
 .main_footer {
-  // background: url(/assets/images/bg_home.gif) no-repeat left bottom;
   height: 40vh;
 }
 
@@ -228,5 +231,105 @@ body.home {
   transition: all .3s ease;
   &:hover {
     color: #e22b00;
+  }
+}
+
+.work_head {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 460px;
+}
+
+.work_head .left_col, .work_head .right_col {
+  width: 48%;
+}
+
+.work_head .left_col .col {
+  flex: 1;
+}
+
+.work_head .right_col {
+  justify-content: space-between;
+}
+
+.work_head .right_col .col{
+  height: 200px;
+}
+
+.work_head__col {
+  display: flex;
+  flex-direction: row;
+}
+
+.work_head__col .col {
+  flex: 1;
+}
+
+.work_head .col {
+  background: #f7f7f7;
+  min-height: 100px;
+  flex: 1;
+}
+
+.project_title {
+  // font-family: ;
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #e22b00;
+  font-weight: bold;
+  margin: .5em 0;
+}
+
+.project_description {
+  font-family: "freight-text-pro-1", "freight-text-pro-2";
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #333;
+  font-weight: 300;
+  margin-top: .2em;
+}
+
+.work_body {
+  margin: 50px 15.9090909090909%;
+}
+
+.work_body p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+
+.work_tags {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 20px;
+  font-size: .8em;
+  min-width: 100px;
+  display: inline-block;
+}
+.work_tags li:before {
+  content: "\2022 ";
+  color: #999;
+  font-size: 1em;
+  padding-right: 14px;
+}
+
+.work_tags li:first-child:before {
+  list-style: none;
+  content: none;
+}
+
+.work_tags li {
+  padding: 0 8px 0 8px;
+  display: inline;
+}
+
+.work_tags li a {
+  color: rgba(0,0,0, .2);
+  text-decoration: none;
+  &:hover {
+      color: #333;
   }
 }
