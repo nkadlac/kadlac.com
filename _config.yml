@@ -22,7 +22,8 @@ defaults:
     layout: project
     image: "/assets/image001.jpg"
 email: nate@kadlac.com
-description: Nate Kadlac is a multidisciplinary designer living in San Francisco, California.
+description: Nate Kadlac is a multidisciplinary designer living in San Francisco,
+  California.
 baseurl: ''
 url: http://kadlac.com
 twitter_username: kadlac
