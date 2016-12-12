@@ -22,9 +22,8 @@ defaults:
     layout: project
     image: "/assets/image001.jpg"
 email: nate@kadlac.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+description: Nate Kadlac is a multidisciplinary designer living in San Francisco,
+  California.
 baseurl: ''
 url: http://kadlac.com
 twitter_username: kadlac
