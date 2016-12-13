@@ -16,12 +16,13 @@ collections:
     output: true
 defaults:
 - scope:
+    path: ''
     type: work
   values:
     layout: project
-    header image 01: ""
-    header image 02: ""
-    header image 03: ""
+    header image 01: ''
+    header image 02: ''
+    header image 03: ''
 email: nate@kadlac.com
 description: Nate Kadlac is a multidisciplinary designer living in San Francisco,
   California.
