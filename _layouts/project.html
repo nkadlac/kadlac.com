@@ -15,7 +15,7 @@
           <div class="left_col">
 
             <div class="col">
-
+              <img src="{{ page['header 01 image'] }}" data-rjs="2" />
             </div>
 
           </div>
@@ -23,10 +23,12 @@
           <div class="right_col">
 
             <div class="col">
+              <img src="{{ page['header 02 image'] }}" data-rjs="2" />
 
             </div>
 
             <div class="col">
+              <img src="{{ page['header 03 image'] }}" data-rjs="2" />
 
             </div>
 
@@ -37,9 +39,9 @@
 
         <section class="work_body">
 
-          <h1 class="project_title">A Marketplace for Photographers</h1>
+          <h1 class="project_title">{{ page.["project description"] }}</h1>
 
-          <h2 class="project_description">Deco was never fully launched, but it was a effort to allow photographers focus on what their experts at, and allow Deco to handle everything else.</h2>
+          <h2 class="project_description">{{ page.["project subtitle"] }}</h2>
 
           <!-- {% for category in page.categories %} -->
           {% if page.collections %}
@@ -69,6 +71,8 @@
     {% include footer.html %}
 
   </div><!-- end wrap -->
+
+  <script type="text/javascript" src="/assets/js/retina.min.js"></script>
 
 </body>
 
