@@ -22,11 +22,11 @@ defaults:
     type: work
   values:
     layout: project
-    project description:
-    project subtitle:
-    header 01 image:
-    header 02 image:
-    header 03 image:
+    project description: 
+    project subtitle: 
+    header 01 image: 
+    header 02 image: 
+    header 03 image: 
 email: nate@kadlac.com
 description: Nate Kadlac is a multidisciplinary designer living in San Francisco,
   California.
