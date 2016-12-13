@@ -8,6 +8,9 @@ categories:
 project description: A Marketplace for Photographers
 project subtitle: Deco was never fully launched, but it was a effort to allow photographers
   focus on what their experts at, and allow Deco to handle everything else.
+header 01 image: "/uploads/image01@2x.jpg"
+header 02 image: "/uploads/image02@2x.jpg"
+header 03 image: "/uploads/image03@2x.jpg"
 layout: project
 ---
 
