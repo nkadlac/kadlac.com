@@ -5,8 +5,6 @@ categories:
 - design
 - user experience
 - identity
-Header Image 02: 
-Header Image 03: 
 layout: project
 ---
 
