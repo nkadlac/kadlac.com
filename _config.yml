@@ -2,9 +2,6 @@
 title: Nate Kadlac
 timezone: UTC
 collections:
-  blog:
-    title: Blog
-    output: true
   posts:
     title: Posts
     output: true
@@ -20,8 +17,8 @@ defaults:
     type: work
   values:
     layout: project
-    project description: 
-    project subtitle: 
+    project description:
+    project subtitle:
     header image 01: ''
     header image 02: ''
     header image 03: ''
