@@ -15,6 +15,11 @@ html, body {
   text-align: center;
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
 body {
   font-size: 16px;
   font-family: "Whitney SSm A", "Whitney SSm B", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -267,7 +272,7 @@ body.home {
 }
 
 .work_head .col {
-  background: #f7f7f7;
+  // background: #f7f7f7;
   min-height: 100px;
   flex: 1;
 }
