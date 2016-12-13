@@ -5,7 +5,8 @@ categories:
 - design
 - user experience
 - identity
-project description: Deco was never fully launched, but it was a effort to allow photographers
+project description: A Marketplace for Photographers
+project subtitle: Deco was never fully launched, but it was a effort to allow photographers
   focus on what their experts at, and allow Deco to handle everything else.
 layout: project
 ---
