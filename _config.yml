@@ -2,11 +2,8 @@
 title: Nate Kadlac
 timezone: UTC
 collections:
-  blog:
-    title: Blog
-    output: true
   posts:
-    title: Posts
+    title: Blog
     output: true
   uploads:
     title: Uploads
@@ -17,14 +14,19 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+- scope:
+    path: ''
     type: work
   values:
     layout: project
-    project description: 
-    project subtitle: 
-    header 01 image: 
-    header 02 image: 
-    header 03 image: 
+    project description:
+    project subtitle:
+    header 01 image:
+    header 02 image:
+    header 03 image:
 email: nate@kadlac.com
 description: Nate Kadlac is a multidisciplinary designer living in San Francisco,
   California.
