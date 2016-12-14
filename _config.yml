@@ -2,11 +2,8 @@
 title: Nate Kadlac
 timezone: UTC
 collections:
-  blog:
-    title: Blog
-    output: true
   posts:
-    title: Posts
+    title: Blog
     output: true
   uploads:
     title: Uploads
@@ -15,6 +12,11 @@ collections:
     title: Work
     output: true
 defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
 - scope:
     path: ''
     type: work
