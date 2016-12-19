@@ -19,7 +19,7 @@ html, body {
 
 img {
   width: 100%;
-  max-width: 100%;
+  // max-width: 100%;
 }
 
 body {
@@ -247,6 +247,14 @@ body.home {
   @media (min-width: $tablet) {
     display: flex;
   }
+}
+
+.work_body img {
+  border-radius: 6px;
+}
+
+.work_body p img {
+
 }
 
 .work_head .left_col, .work_head .right_col {
