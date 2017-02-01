@@ -390,3 +390,24 @@ body.home {
       color: #333;
   }
 }
+
+
+
+
+
+
+
+/* temporary portfolio work */
+
+.portfolio_header {
+  text-align:center;
+  font-size: 1.5em;
+
+}
+
+.main_content__port_contain {
+
+  @media (min-width: $laptop) {
+    // max-width: 900px;
+  }
+}

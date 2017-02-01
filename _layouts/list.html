@@ -1,0 +1,26 @@
+{% include head.html %}
+
+  <body {% if page.title == "Home" %} class="home" {% endif %} >
+
+    <div class="wrap">
+
+      {% include header.html %}
+
+      <section class="main_content">
+
+        <div class="main_content__contain">
+
+          {{ content }}
+
+        </div>
+
+      </section>
+
+
+      <!-- {% include footer.html %} -->
+
+    </div><!-- end wrap -->
+
+  </body>
+
+</html>
