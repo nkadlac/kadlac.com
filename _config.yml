@@ -30,7 +30,7 @@ defaults:
 email: nate@kadlac.com
 description: Nate Kadlac is a multidisciplinary designer living in San Francisco,
   California.
-baseurl: ''
+baseurl: 
 url: http://kadlac.com
 twitter_username: kadlac
 github_username: nkadlac
