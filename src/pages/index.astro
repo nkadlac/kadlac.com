@@ -1,0 +1,103 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { getCollection } from 'astro:content';
+
+// Get latest articles
+const articles = await getCollection('articles');
+const latestArticles = articles
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+// Get featured projects
+const projects = await getCollection('projects');
+const featuredProjects = projects.slice(0, 3);
+---
+
+<Layout title="Nate Kadlac: Designer, Writer, Instructor">
+  <!-- Hero Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <div class="max-w-3xl">
+      <h1 class="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
+        Design smarter,<br />Not harder.
+      </h1>
+      <p class="mt-6 text-xl md:text-2xl text-brand-brown/80 max-w-2xl">
+        I help solopreneurs and non-designers make better design decisions through writing, teaching, and design partnerships.
+      </p>
+
+      <!-- Newsletter CTA -->
+      <div class="mt-10">
+        <NewsletterForm variant="card" />
+      </div>
+    </div>
+  </section>
+
+  <!-- What I'm Building Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16">
+    <h2 class="font-heading text-2xl md:text-3xl font-semibold mb-8">
+      What I'm building
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {featuredProjects.map((project) => (
+        <a href={`/projects/${project.slug}`} class="card group hover:scale-[1.02] transition-transform">
+          <div class="aspect-video bg-brand-brown/5 rounded-lg mb-4 overflow-hidden">
+            {project.data.coverImage ? (
+              <img
+                src={project.data.coverImage}
+                alt={project.data.title}
+                class="w-full h-full object-cover"
+              />
+            ) : (
+              <div class="w-full h-full flex items-center justify-center text-brand-brown/30">
+                [Image]
+              </div>
+            )}
+          </div>
+          <h3 class="font-heading text-lg font-semibold group-hover:opacity-70 transition-opacity">
+            {project.data.title}
+          </h3>
+          <p class="mt-2 text-brand-brown/70 text-sm">
+            {project.data.description}
+          </p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest Writing Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="font-heading text-2xl md:text-3xl font-semibold">
+        Latest writing
+      </h2>
+      <a href="/articles" class="font-heading text-sm font-medium hover:opacity-70 transition-opacity">
+        View all →
+      </a>
+    </div>
+    <div class="space-y-6">
+      {latestArticles.map((article) => (
+        <a href={`/articles/${article.slug}`} class="block group">
+          <article class="flex flex-col md:flex-row gap-4 md:gap-8 py-6 border-b border-brand-brown/10">
+            <div class="flex-1">
+              <h3 class="font-heading text-xl font-semibold group-hover:opacity-70 transition-opacity">
+                {article.data.title}
+              </h3>
+              {article.data.description && (
+                <p class="mt-2 text-brand-brown/70">
+                  {article.data.description}
+                </p>
+              )}
+            </div>
+            <time class="text-sm text-brand-brown/50 md:text-right whitespace-nowrap">
+              {article.data.date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+              })}
+            </time>
+          </article>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

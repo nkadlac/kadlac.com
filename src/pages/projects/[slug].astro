@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+
+<Layout title={project.data.title} description={project.data.description}>
+  <article class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <!-- Project Header -->
+    <header class="max-w-3xl mb-12">
+      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+        {project.data.title}
+      </h1>
+      {project.data.tags && (
+        <p class="text-lg text-brand-brown/60 mt-4">
+          {project.data.tags.join(' • ')}
+        </p>
+      )}
+      <p class="text-xl text-brand-brown/70 mt-6">
+        {project.data.description}
+      </p>
+    </header>
+
+    <!-- Cover Image -->
+    {project.data.coverImage && (
+      <img
+        src={project.data.coverImage}
+        alt={project.data.title}
+        class="w-full rounded-2xl mb-12"
+      />
+    )}
+
+    <!-- Project Content -->
+    <div class="prose max-w-3xl">
+      <Content />
+    </div>
+
+    <!-- Back Link -->
+    <div class="mt-16 pt-8 border-t border-brand-brown/10">
+      <a href="/projects" class="font-heading font-medium hover:opacity-70 transition-opacity">
+        ← Back to all projects
+      </a>
+    </div>
+  </article>
+</Layout>

@@ -1,0 +1,77 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes');
+  return notes.map((note) => ({
+    params: { slug: note.slug },
+    props: { note },
+  }));
+}
+
+const { note } = Astro.props;
+const { Content } = await render(note);
+---
+
+<Layout title={`${note.data.title} - Book Notes`} description={note.data.description || `Book notes and summary for ${note.data.title} by ${note.data.author}`}>
+  <article class="max-w-[900px] mx-auto px-6 py-16 md:py-24">
+    <!-- Book Header -->
+    <header class="mb-12">
+      <div class="flex flex-col md:flex-row gap-8 md:gap-12">
+        <!-- Book Cover -->
+        {note.data.coverImage && (
+          <div class="flex-shrink-0">
+            <img
+              src={note.data.coverImage}
+              alt={note.data.title}
+              class="w-48 md:w-56 rounded-lg shadow-lg"
+            />
+          </div>
+        )}
+
+        <!-- Book Info -->
+        <div class="flex-1">
+          <h1 class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+            {note.data.title}
+          </h1>
+          <p class="text-xl text-brand-brown/70 mt-2">
+            by {note.data.author}
+          </p>
+
+          <!-- Rating -->
+          <div class="mt-6 flex items-center gap-2">
+            <span class="font-heading font-semibold text-2xl">
+              {note.data.rating}/10
+            </span>
+            <span class="text-brand-brown/50">rating</span>
+          </div>
+
+          <!-- Amazon Link -->
+          {note.data.amazonUrl && (
+            <a
+              href={note.data.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary mt-6"
+            >
+              Read more on Amazon ↗
+            </a>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <!-- Book Notes Content -->
+    <div class="prose">
+      <Content />
+    </div>
+
+    <!-- Back Link -->
+    <div class="mt-16 pt-8 border-t border-brand-brown/10">
+      <a href="/articles" class="font-heading font-medium hover:opacity-70 transition-opacity">
+        ← Back to all articles
+      </a>
+    </div>
+  </article>
+</Layout>

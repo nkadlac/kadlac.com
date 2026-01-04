@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+/* Design System - kadlac.com */
+@theme {
+  /* Colors */
+  --color-brand-yellow: #ffe180;
+  --color-brand-cream: #ffeeba;
+  --color-brand-brown: #1c1706;
+  --color-brand-brown-light: #3d3520;
+
+  /* Typography */
+  --font-display: "General Sans", system-ui, sans-serif;
+  --font-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-serif: "EB Garamond", Georgia, serif;
+
+  /* Spacing */
+  --radius-card: 16px;
+  --radius-button: 24px;
+
+  /* Breakpoints (matching Framer) */
+  --breakpoint-tablet: 810px;
+  --breakpoint-desktop: 1200px;
+}
+
+/* Base styles */
+html {
+  font-family: var(--font-body);
+  background-color: var(--color-brand-yellow);
+  color: var(--color-brand-brown);
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Typography utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Prose styles for article content */
+.prose {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.prose h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 8vw, 7.5rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.prose h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1.5rem;
+}
+
+.prose blockquote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.375rem;
+  border-left: 3px solid var(--color-brand-brown);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-card);
+  margin: 2rem 0;
+}
+
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  opacity: 0.7;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+/* Button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-button);
+  font-family: var(--font-heading);
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-primary {
+  background-color: var(--color-brand-brown);
+  color: var(--color-brand-yellow);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-brand-brown);
+  border: 2px solid var(--color-brand-brown);
+}
+
+/* Card base */
+.card {
+  background-color: var(--color-brand-cream);
+  border-radius: var(--radius-card);
+  padding: 1.5rem;
+}

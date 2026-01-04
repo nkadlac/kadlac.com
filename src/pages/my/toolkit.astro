@@ -1,0 +1,122 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import toolkitData from '../../content/toolkit/items.json';
+
+const categories = ['all', 'books', 'health', 'design', 'drawing', 'writing', 'tech'] as const;
+const toolkitItems = toolkitData.items;
+---
+
+<Layout title="Nate's Toolkit" description="Here are 50+ of my fav books, tools, products and resources that will help you learn, create, and sell online.">
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <header class="mb-12">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold mb-4">
+        My Toolkit
+      </h1>
+      <p class="text-xl text-brand-brown/70 max-w-2xl">
+        Here are {toolkitItems.length}+ pieces of my toolkit that will help you learn, create, and sell online.
+      </p>
+      <p class="text-sm text-brand-brown/50 mt-4">
+        Some links are affiliate links. I only recommend products I personally use.
+      </p>
+    </header>
+
+    <!-- Category Filter -->
+    <div class="flex flex-wrap gap-2 mb-12" id="category-filters">
+      {categories.map((category) => (
+        <button
+          data-category={category}
+          class:list={[
+            "px-4 py-2 rounded-full font-heading text-sm font-medium transition-all cursor-pointer",
+            category === 'all'
+              ? "bg-brand-brown text-brand-yellow"
+              : "bg-brand-cream text-brand-brown hover:bg-brand-brown hover:text-brand-yellow"
+          ]}
+        >
+          {category.charAt(0).toUpperCase() + category.slice(1)}
+        </button>
+      ))}
+    </div>
+
+    <!-- Toolkit Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="toolkit-grid">
+      {toolkitItems.map((item) => (
+        <div
+          data-category={item.category}
+          class="card flex flex-col"
+        >
+          <!-- Image -->
+          {item.image && (
+            <div class="aspect-square bg-white rounded-lg mb-4 overflow-hidden flex items-center justify-center p-4">
+              <img
+                src={item.image}
+                alt={item.name}
+                class="max-w-full max-h-full object-contain"
+                loading="lazy"
+              />
+            </div>
+          )}
+
+          <!-- Category Tag -->
+          <span class="text-xs text-brand-brown/50 uppercase tracking-wider font-medium">
+            {item.description || item.category}
+          </span>
+
+          <!-- Name -->
+          <h3 class="font-heading font-semibold mt-1 flex-1">
+            {item.name}
+          </h3>
+
+          <!-- Actions -->
+          <div class="flex gap-2 mt-4">
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary text-sm flex-1"
+            >
+              View
+            </a>
+            {item.reviewUrl && (
+              <a
+                href={item.reviewUrl}
+                class="btn btn-secondary text-sm"
+              >
+                Review
+              </a>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const filters = document.querySelectorAll('#category-filters button');
+  const grid = document.getElementById('toolkit-grid');
+  const items = grid?.querySelectorAll('[data-category]');
+
+  filters.forEach(filter => {
+    filter.addEventListener('click', () => {
+      const category = filter.getAttribute('data-category');
+
+      // Update active button styles
+      filters.forEach(f => {
+        f.classList.remove('bg-brand-brown', 'text-brand-yellow');
+        f.classList.add('bg-brand-cream', 'text-brand-brown');
+      });
+      filter.classList.remove('bg-brand-cream', 'text-brand-brown');
+      filter.classList.add('bg-brand-brown', 'text-brand-yellow');
+
+      // Filter items
+      items?.forEach(item => {
+        const itemCategory = item.getAttribute('data-category');
+        if (category === 'all' || itemCategory === category) {
+          (item as HTMLElement).style.display = '';
+        } else {
+          (item as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

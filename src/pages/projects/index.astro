@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const projects = await getCollection('projects');
+const sortedProjects = projects.sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+---
+
+<Layout title="Projects" description="A collection of past work incorporating branding, illustration, and product design.">
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <header class="mb-12">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold mb-4">
+        Projects
+      </h1>
+      <p class="text-xl text-brand-brown/70 max-w-2xl">
+        A collection of past work incorporating branding, illustration, and product design.
+      </p>
+    </header>
+
+    <!-- Projects Carousel/Grid -->
+    <div class="relative">
+      {sortedProjects.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {sortedProjects.map(project => (
+            <a
+              href={`/projects/${project.slug}`}
+              class="group block"
+            >
+              <div class="aspect-square bg-brand-cream rounded-2xl overflow-hidden mb-4">
+                {project.data.coverImage ? (
+                  <img
+                    src={project.data.coverImage}
+                    alt={project.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center text-brand-brown/30">
+                    [Image]
+                  </div>
+                )}
+              </div>
+              <h2 class="font-heading text-xl font-semibold group-hover:opacity-70 transition-opacity">
+                {project.data.title}
+              </h2>
+              {project.data.tags && (
+                <p class="text-sm text-brand-brown/60 mt-1">
+                  {project.data.tags.join(' • ')}
+                </p>
+              )}
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="text-brand-brown/60 italic">
+          Projects coming soon...
+        </p>
+      )}
+    </div>
+  </section>
+</Layout>

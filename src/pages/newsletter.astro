@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+
+const testimonials = [
+  {
+    quote: "Nate's newsletter is one of the few I actually read every time it hits my inbox.",
+    author: "Design enthusiast"
+  },
+  {
+    quote: "The insights are practical and the writing is engaging. Highly recommend.",
+    author: "Solopreneur"
+  }
+];
+---
+
+<Layout title="Make It Yours Newsletter" description="Nate Kadlac publishes every Sunday. Sign up here for inspiring stories and links about design, creativity, and pursuing your next thing.">
+  <section class="max-w-[800px] mx-auto px-6 py-16 md:py-24 text-center">
+    <!-- Hero -->
+    <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+      Design smarter,<br />Not harder.
+    </h1>
+    <p class="mt-6 text-xl text-brand-brown/70 max-w-xl mx-auto">
+      Join thousands of solopreneurs getting dollar-driven design tips, personalized branding strategies, and clear offers that convert.
+    </p>
+
+    <!-- Newsletter Form -->
+    <div class="mt-10">
+      <NewsletterForm centered={true} />
+    </div>
+
+    <!-- Trust Signals -->
+    <div class="mt-16 pt-16 border-t border-brand-brown/10">
+      <p class="text-sm text-brand-brown/50 uppercase tracking-wider font-medium mb-8">
+        What readers are saying
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {testimonials.map(testimonial => (
+          <blockquote class="card text-left">
+            <p class="font-serif text-lg italic text-brand-brown/80">
+              "{testimonial.quote}"
+            </p>
+            <footer class="mt-4 text-sm text-brand-brown/50">
+              — {testimonial.author}
+            </footer>
+          </blockquote>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

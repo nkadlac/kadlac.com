@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const lastUpdated = 'December 2024';
+
+const currentFocus = [
+  {
+    title: 'Relocating to Hudson Valley',
+    description: 'Making the move from the city in 2025.',
+  },
+  {
+    title: 'Building a workshop on personal websites',
+    description: 'Helping people create websites that deliver opportunity and serendipity.',
+  },
+  {
+    title: 'Running Dollar Design',
+    description: 'A private coaching community for design-curious entrepreneurs.',
+  },
+  {
+    title: 'Hey, Good Game',
+    description: 'Building a gaming studio focused on casual puzzle games.',
+  },
+  {
+    title: 'Fresh Prompts',
+    description: 'A drawing prompt generator to spark creativity.',
+  },
+];
+---
+
+<Layout title="What I'm doing now | Nate Kadlac" description="This is what my personal and professional life is currently focused on.">
+  <section class="max-w-[800px] mx-auto px-6 py-16 md:py-24">
+    <header class="mb-12">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold">
+        What I'm doing now
+      </h1>
+      <p class="mt-4 text-brand-brown/60">
+        Here's a quick hit list of where my attention is now. Last updated <span class="font-medium">{lastUpdated}</span>.
+      </p>
+    </header>
+
+    <!-- Current Focus List -->
+    <ul class="space-y-8">
+      {currentFocus.map(item => (
+        <li class="flex gap-4">
+          <span class="text-brand-brown/30 mt-1">•</span>
+          <div>
+            <h2 class="font-heading text-xl font-semibold">
+              {item.title}
+            </h2>
+            <p class="mt-1 text-brand-brown/70">
+              {item.description}
+            </p>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <!-- About Section -->
+    <div class="mt-16 pt-12 border-t border-brand-brown/10">
+      <p class="text-brand-brown/70">
+        I'm an independent designer, instructor, and entrepreneur. I believe the ability to
+        communicate visually, tell stories with copy, or connect with branding should be
+        approachable to everyone.
+      </p>
+      <p class="mt-4">
+        <a href="/about" class="font-heading font-medium hover:opacity-70 transition-opacity">
+          Learn more about me →
+        </a>
+      </p>
+    </div>
+  </section>
+</Layout>

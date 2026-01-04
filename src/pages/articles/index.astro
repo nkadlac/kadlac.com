@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+
+// Group articles by category
+const categories = {
+  design: { label: 'Design, Branding, & Creativity', articles: [] as typeof articles },
+  personal: { label: 'Personal Writing', articles: [] as typeof articles },
+  visual: { label: 'Visual Communication & Drawing', articles: [] as typeof articles },
+  books: { label: 'Book Notes', articles: [] as typeof articles },
+};
+
+articles.forEach(article => {
+  const cat = article.data.category;
+  if (categories[cat]) {
+    categories[cat].articles.push(article);
+  }
+});
+
+// Sort each category by date
+Object.values(categories).forEach(cat => {
+  cat.articles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+});
+---
+
+<Layout title="All Articles by Nate Kadlac" description="Written essays about our relationship with art, creativity, design, and your well-being.">
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <h1 class="font-heading text-4xl md:text-5xl font-bold mb-4">
+      Writing
+    </h1>
+    <p class="text-xl text-brand-brown/70 max-w-2xl mb-16">
+      Exploring your relationship with design, creativity, and art.
+    </p>
+
+    {Object.entries(categories).map(([key, category]) => (
+      category.articles.length > 0 && (
+        <div class="mb-16">
+          <h2 class="font-heading text-xl font-semibold mb-6 pb-2 border-b border-brand-brown/10">
+            {category.label}
+          </h2>
+          <ul class="space-y-4">
+            {category.articles.map((article, index) => (
+              <li>
+                <a
+                  href={`/articles/${article.slug}`}
+                  class="group flex items-baseline gap-4 py-2 hover:opacity-70 transition-opacity"
+                >
+                  <span class="font-heading font-medium group-hover:underline">
+                    {article.data.title}
+                  </span>
+                  {index === 0 && article.data.date && (
+                    <time class="text-sm text-brand-brown/50 whitespace-nowrap">
+                      {article.data.date.toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric'
+                      })}
+                    </time>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    ))}
+
+    {articles.length === 0 && (
+      <p class="text-brand-brown/60 italic">
+        Articles coming soon...
+      </p>
+    )}
+  </section>
+</Layout>

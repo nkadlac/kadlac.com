@@ -1,0 +1,88 @@
+---
+const navLinks = [
+  { href: '/about', label: 'About' },
+  { href: '/articles', label: 'Writing' },
+  { href: '/hire', label: 'Work With Me' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-brand-yellow/95 backdrop-blur-sm border-b border-[#222222]">
+  <div class="max-w-[1200px] mx-auto px-6 py-4">
+    <nav class="flex items-center justify-between">
+      <!-- Logo -->
+      <a href="/" class="hover:opacity-70 transition-opacity">
+        <img src="/logo.svg" alt="Nate Kadlac" class="h-5 md:h-6" />
+        <span class="block text-[10px] md:text-xs tracking-widest uppercase text-brand-brown/70 mt-1">
+          Designer, Writer, & Instructor
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-8">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              "font-heading text-sm font-medium transition-opacity hover:opacity-70",
+              currentPath.startsWith(link.href) ? "opacity-100" : "opacity-80"
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+        <a href="/my/toolkit" class="btn btn-primary text-sm">
+          My Free Toolkit
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-toggle"
+        class="md:hidden p-2 -mr-2"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <svg class="w-6 h-6 hamburger-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg class="w-6 h-6 close-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden pt-4 pb-2">
+      <div class="flex flex-col gap-4">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="font-heading text-base font-medium py-2"
+          >
+            {link.label}
+          </a>
+        ))}
+        <a href="/my/toolkit" class="btn btn-primary text-sm w-fit mt-2">
+          My Free Toolkit
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const hamburger = toggle?.querySelector('.hamburger-icon');
+  const closeIcon = toggle?.querySelector('.close-icon');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = menu?.classList.contains('hidden');
+    menu?.classList.toggle('hidden');
+    hamburger?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+</script>

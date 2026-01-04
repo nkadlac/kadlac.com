@@ -1,0 +1,516 @@
+{
+  "items": [
+    {
+      "name": "Casper Glow Light",
+      "category": "health",
+      "description": "Light",
+      "url": "https://casper.com/products/glow",
+      "image": "https://framerusercontent.com/images/VSQfuVg5p2GX9GqNQWlp5kuHg.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Fgma",
+      "category": "design",
+      "description": "Design",
+      "url": "https://figma.com/",
+      "image": "https://framerusercontent.com/images/49zB4qzyFBdWm2JhobZRmr1qZ1A.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Simplify Gmail",
+      "category": "tech",
+      "description": "Simplify",
+      "url": "https://simpl.fyi/",
+      "image": "https://framerusercontent.com/images/JMPOLdJMLCCmyBEA0WBztkgx6I.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Tally",
+      "category": "tech",
+      "description": "Forms",
+      "url": "https://tally.so",
+      "image": "https://framerusercontent.com/images/rlqNtD8FOfKIAvogbTOb0Iou98.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Loom",
+      "category": "tech",
+      "description": "Walkthrough",
+      "url": "https://www.loom.com",
+      "image": "https://framerusercontent.com/images/OQ9nZLsQkaXUQj6oXC9hAk0KL1Y.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Hello, My Name Is Awesome",
+      "category": "books",
+      "description": "Naming",
+      "url": "https://geni.us/CyV21",
+      "image": "https://framerusercontent.com/images/nix1S1f6GMCKbKzc6WddgA7VSwU.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "The Pathless Path",
+      "category": "books",
+      "description": "Transformation",
+      "url": "https://geni.us/0W2K5",
+      "image": "https://framerusercontent.com/images/ajkCe3MEgkePaQCVC6jhTruAA.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": " The Adweek Handbook",
+      "category": "books",
+      "description": "Copywriting",
+      "url": "https://geni.us/UD3Xb",
+      "image": "https://framerusercontent.com/images/e1ckHDPnsWsAFMtU1SnJFQok5I.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Thrivecart",
+      "category": "tech",
+      "description": "Sell",
+      "url": "https://nkadlac--checkout.thrivecart.com/thrivecart-standard-account/",
+      "image": "https://framerusercontent.com/images/vj9frrWaEP5hCuEsWhqZjW5u7Ls.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "CalDigit TS4",
+      "category": "tech",
+      "description": "Connect",
+      "url": "https://geni.us/OA13fH",
+      "image": "https://framerusercontent.com/images/RUGlBlRLT6Ib7cu2uAtIPPZ8gus.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "ConvertBox",
+      "category": "tech",
+      "description": "Attract",
+      "url": "https://nkadlac--sslcheckout.thrivecart.com/cb-lifetime/",
+      "image": "https://framerusercontent.com/images/NGhfeB6WuSkxtpEYFJ8lwmnZinA.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "CleanShot X",
+      "category": "tech",
+      "description": "Screenshots",
+      "url": "https://cleanshot.com/",
+      "image": "https://framerusercontent.com/images/8NBwStS7Ed5VpUGUPJITQOFup6E.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Spark Mail",
+      "category": "tech",
+      "description": "Email",
+      "url": "https://sparkmailapp.com/",
+      "image": "https://framerusercontent.com/images/bq8fLVJIMTUqGoToYNkJKeOt8c.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Profit First",
+      "category": "books",
+      "description": "Business",
+      "url": "https://geni.us/9LhG9AP",
+      "image": "https://framerusercontent.com/images/PKEsaVP3WrsZy7s1o8DQRRuqxE.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Made to Stick",
+      "category": "books",
+      "description": "Ideas",
+      "url": "https://geni.us/HM1pX4",
+      "image": "https://framerusercontent.com/images/T5vq4YtP2fa54kZ2FSEkMq2uzys.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "The Creative Act",
+      "category": "books",
+      "description": "Creativity",
+      "url": "https://geni.us/yR400qA",
+      "image": "https://framerusercontent.com/images/lnXAS5ylH9GscHote4V6mOyjts.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Magic Keyboard (Touch ID)",
+      "category": "writing",
+      "description": "Writing",
+      "url": "https://geni.us/u2eEcHb",
+      "image": "https://framerusercontent.com/images/HtkmrYlS1y23thCxxhl7RkMHvjA.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Framer",
+      "category": "design",
+      "description": "Website",
+      "url": "https://www.framer.com?via=kadlac",
+      "image": "https://framerusercontent.com/images/JhH4sFLm9jpwOb6vwHyq5Au9PLk.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Baronfig Index Cards",
+      "category": "writing",
+      "description": "Notecards",
+      "url": "https://geni.us/jSt9u",
+      "image": "https://framerusercontent.com/images/WTTLmpxls4XsakYCqDuR67hG4.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Screen Studio",
+      "category": "tech",
+      "description": "Demos",
+      "url": "https://geni.us/vAAoao2",
+      "image": "https://framerusercontent.com/images/qxaLs03K4HU9UBiolM1mRiBm7g.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Kit",
+      "category": "writing",
+      "description": "Newsletter",
+      "url": "https://partners.kit.com/3l46gt65vb70",
+      "image": "https://framerusercontent.com/images/koSjfn7OPDbezCxQTEcF830rgUM.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Core Fitness Dumbbells",
+      "category": "health",
+      "description": "Weightlift",
+      "url": "https://geni.us/os7YR",
+      "image": "https://framerusercontent.com/images/bIi1RxwujwhcGkytCF3SdvJDc.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "On Writing",
+      "category": "books",
+      "description": "Writing",
+      "url": "https://geni.us/AmbQ",
+      "image": "https://framerusercontent.com/images/kah4G4eJfXZqrQz4F7gMslksn4.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Sigma 23mm 1.4",
+      "category": "tech",
+      "description": "Video",
+      "url": "https://geni.us/PNTP",
+      "image": "https://framerusercontent.com/images/E015BHK3SpFGh5ikzaAwV7bEo.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Apple Pencil (2nd Gen)",
+      "category": "drawing",
+      "description": "Drawing",
+      "url": "https://geni.us/nESmNqT",
+      "image": "https://framerusercontent.com/images/6dGhEW1Uuo18wOKtCmTmPS7dAhk.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Marine Layer Under Eye",
+      "category": "health",
+      "description": "Eye Recovery",
+      "url": "https://geni.us/vKwYKDW",
+      "image": "https://framerusercontent.com/images/FbYB7FTXMDr2m7Rvm07E48Hxo.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "12x18\" Cutting Mat",
+      "category": "design",
+      "description": "Desk Mat",
+      "url": "https://geni.us/PGI4HXe",
+      "image": "https://framerusercontent.com/images/CnljYcGVxwRlPhyGgxAJPXncQo.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "M1 MacBook Pro 14\" 2TB",
+      "category": "design",
+      "description": "Work",
+      "url": "https://geni.us/t0jWbBt",
+      "image": "https://framerusercontent.com/images/9l2CNhm6i0tdYsxinGKwR9pFI.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Visual Electric",
+      "category": "tech",
+      "description": "AI Visuals",
+      "url": "https://geni.us/smbghW9",
+      "image": "https://framerusercontent.com/images/QMwCSw6QQtSddog8bFFkaGgqQ.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Raycast",
+      "category": "tech",
+      "description": "Shortcuts",
+      "url": "https://geni.us/B1uZT3",
+      "image": "https://framerusercontent.com/images/W6mHUEay0jnnzEwgYdgLbvLAkc.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Deep Work",
+      "category": "books",
+      "description": "Productivity",
+      "url": "https://geni.us/GQZmaN",
+      "image": "https://framerusercontent.com/images/faRF7KMM2qc2tPWJJ1H3I9vB6R0.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "2018 12.9\" iPad Pro",
+      "category": "drawing",
+      "description": "Illustration",
+      "url": "https://geni.us/E9AiCK",
+      "image": "https://framerusercontent.com/images/cAXTQddx6WCBHkPSpfozEShmO0.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Elgato Key Light",
+      "category": "tech",
+      "description": "Lighting",
+      "url": "https://geni.us/feS5",
+      "image": "https://framerusercontent.com/images/hnpjQcySEqLhlJofHROnxxsGc4.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Shure SM7dB",
+      "category": "tech",
+      "description": "Podcast",
+      "url": "https://geni.us/06ro",
+      "image": "https://framerusercontent.com/images/9RRc16qxdQKKQlpLXFQpBQ8suLE.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Crypto Confidential",
+      "category": "books",
+      "description": "Crypto",
+      "url": "https://geni.us/Yz30ebl",
+      "image": "https://framerusercontent.com/images/ptPkCg9lOlxz5AJZFlUic8nimU.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "The 2-Hour Cocktail Party",
+      "category": "books",
+      "description": "Friends",
+      "url": "https://geni.us/JmcaA",
+      "image": "https://framerusercontent.com/images/EpcgXF8GwFw7AXCnfmLk83rBM.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Good Work",
+      "category": "books",
+      "description": "Reimagination",
+      "url": "https://geni.us/yatdUn",
+      "image": "https://framerusercontent.com/images/VjxFLINC2GiCvqIOBEhZAeaPbc.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Hunt, Gather, Parent",
+      "category": "books",
+      "description": "Family",
+      "url": "https://geni.us/VZGl4i",
+      "image": "https://framerusercontent.com/images/XDbs1LjKAVbOuBzByrBTFjK8eY.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Whey Protein",
+      "category": "health",
+      "description": "Muscle",
+      "url": "https://geni.us/A1wesQj",
+      "image": "https://framerusercontent.com/images/BRYCfVm49BHKhQFWrOLQb7f9o.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Purist Mover 18oz",
+      "category": "health",
+      "description": "Water Bottle",
+      "url": "https://geni.us/jqLMSir",
+      "image": "https://framerusercontent.com/images/5XT6FZbUgbz4HpdPt91oYdXB2Ck.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Sony ZV-E10",
+      "category": "tech",
+      "description": "Video",
+      "url": "https://geni.us/0qGEz",
+      "image": "https://framerusercontent.com/images/c03lBFPz1qnYvo7qzgJLJsdKVTg.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Procreate",
+      "category": "drawing",
+      "description": "Drawing",
+      "url": "https://geni.us/dT7ruix",
+      "image": "https://framerusercontent.com/images/yrZj2yDdtsBCO1xDv60BjtWakw.png",
+      "reviewUrl": "https://www.kadlac.com/articles/learn-to-draw"
+    },
+    {
+      "name": "The Courage to be Disliked",
+      "category": "books",
+      "description": "Self-Help",
+      "url": "https://geni.us/courage-be-disliked",
+      "image": "https://framerusercontent.com/images/EVoS83XVn2l6O5tAOurJxRnpwHQ.png",
+      "reviewUrl": "/notes/the-courage-to-be-disliked"
+    },
+    {
+      "name": "Typing Mind",
+      "category": "tech",
+      "description": "AI",
+      "url": "https://geni.us/QHO6Jw6",
+      "image": "https://framerusercontent.com/images/WWW2nTIGGYSY68PzkRHnSUwnrNM.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Shoe Dog",
+      "category": "books",
+      "description": "Business",
+      "url": "https://geni.us/phil-knight-shoe-dog",
+      "image": "https://framerusercontent.com/images/YzGekqvhyJH3KnQpicZVYQPxKA8.png",
+      "reviewUrl": "https://www.kadlac.com/notes/shoe-dog-phil-knight"
+    },
+    {
+      "name": "Kortex",
+      "category": "writing",
+      "description": "Notetaking",
+      "url": "https://kortex.co?via=nate94",
+      "image": "https://framerusercontent.com/images/OnEti59gyJpEMtIQ3Mz8vm3AyE.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Building a StoryBrand",
+      "category": "books",
+      "description": "Branding",
+      "url": "https://geni.us/buildstorybrand",
+      "image": "https://framerusercontent.com/images/78oULYafX9gKghgEMR0My3Hjos.png",
+      "reviewUrl": "https://www.kadlac.com/notes/building-a-storybrand"
+    },
+    {
+      "name": "AirPods 3rd Gen",
+      "category": "tech",
+      "description": "Listen",
+      "url": "https://geni.us/4Z59t",
+      "image": "https://framerusercontent.com/images/RVV9tTWbVyVjXRfuDw5tcQXk.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "The Mom Test",
+      "category": "books",
+      "description": "Research",
+      "url": "https://geni.us/mom-test",
+      "image": "https://framerusercontent.com/images/HoTTLKlg04zGMMhbpwURdFse9w.png",
+      "reviewUrl": "https://www.kadlac.com/notes/the-mom-test-rob-fitzpatrick"
+    },
+    {
+      "name": " Uni Boxy",
+      "category": "drawing",
+      "description": "Eraser",
+      "url": "https://geni.us/RbEeAtn",
+      "image": "https://framerusercontent.com/images/hMugoOPobxu2XdnuZdzJkCtn3Ik.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Logitech MX Master 3S",
+      "category": "design",
+      "description": "Mouse",
+      "url": "https://geni.us/0sJH4S",
+      "image": "https://framerusercontent.com/images/WzpWQtXyZ9CdbzoLOliPlLWaISc.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Apple Studio Display",
+      "category": "design",
+      "description": "Monitor",
+      "url": "https://geni.us/RduqSAJ",
+      "image": "https://framerusercontent.com/images/HQvJ7mjscbZemz0gjEUf51BbtoA.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Blackwing Pencils",
+      "category": "drawing",
+      "description": "Sketching",
+      "url": "https://geni.us/Vy5of",
+      "image": "https://framerusercontent.com/images/zbPkzlnODz20rXEhyoudF1slvo.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Steal Like an Artist",
+      "category": "books",
+      "description": "Inspiration",
+      "url": "https://geni.us/steal-artist-austin",
+      "image": "https://framerusercontent.com/images/q8QRTsZ5kDfUawrR6UIKXLjiETE.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Thinking With Type",
+      "category": "books",
+      "description": "Typography",
+      "url": "https://geni.us/ibOP",
+      "image": "https://framerusercontent.com/images/ATP4nV7lGH2jnio6SEB3hWiEv8.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "iA Writer",
+      "category": "writing",
+      "description": "Writing App",
+      "url": "https://geni.us/VJBM",
+      "image": "https://framerusercontent.com/images/IetUZAIPvNopmkrvflt9cm9DA.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Titanium Always Pan",
+      "category": "health",
+      "description": "Cooking",
+      "url": "https://geni.us/MaLvX",
+      "image": "https://framerusercontent.com/images/WfnNFAoko3F1iI8cuSlaAAj4a0.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Buckwheat Pillow",
+      "category": "health",
+      "description": "Sleep",
+      "url": "https://geni.us/CNIeW",
+      "image": "https://framerusercontent.com/images/95Rzhfl1aFpSp61hC2JGs7XfHyE.png",
+      "reviewUrl": "https://www.kadlac.com/articles/buckwheat-pillows"
+    },
+    {
+      "name": "Maruman Mnemosyne A5",
+      "category": "writing",
+      "description": "Notebook",
+      "url": "https://geni.us/O8qcI",
+      "image": "https://framerusercontent.com/images/KGjZozIONgCnBVDyv5miysZO0U.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Kindle Paperwhite",
+      "category": "tech",
+      "description": "Reading",
+      "url": "https://geni.us/zyNRL",
+      "image": "https://framerusercontent.com/images/DMBPV8V4Ax425okMSoQPOUCUq4.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "The Brand Gap",
+      "category": "books",
+      "description": "Branding",
+      "url": "https://geni.us/KvW9",
+      "image": "https://framerusercontent.com/images/cxMsTiNQFDOosWOcyUs2m4pERo.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Storyworthy",
+      "category": "books",
+      "description": "Storytelling",
+      "url": "https://geni.us/wNAAsoM",
+      "image": "https://framerusercontent.com/images/8eBOwtmG8WFhFLSC1dNIZA0ts.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Dr. Bronners Soap",
+      "category": "health",
+      "description": "Body",
+      "url": "https://geni.us/HJlF9",
+      "image": "https://framerusercontent.com/images/jJubIMw9y9xNwnrrSaK35c2w.png",
+      "reviewUrl": ""
+    },
+    {
+      "name": "Mark One Pen",
+      "category": "writing",
+      "description": "Notes",
+      "url": "https://geni.us/JMhaf",
+      "image": "https://framerusercontent.com/images/xw0O5jMasJZ7bY1Tjvm92NEA.png",
+      "reviewUrl": ""
+    }
+  ]
+}
