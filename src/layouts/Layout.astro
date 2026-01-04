@@ -33,7 +33,7 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 
     <!-- SEO -->
     <link rel="canonical" href={canonicalUrl} />
-    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content="noindex, nofollow" />
 
     <!-- Open Graph / Social -->
     <meta property="og:type" content="website" />

@@ -1,47 +1,114 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NewsletterForm from '../components/NewsletterForm.astro';
 
 const testimonials = [
   {
-    quote: "Nate's newsletter is one of the few I actually read every time it hits my inbox.",
-    author: "Design enthusiast"
+    quote: "Nate's newsletter reminds me of the best of Seth Godin's work. Each issue is thoughtful, actionable, and makes me think differently about design.",
+    author: "Clay Hebert",
+    title: "Speaker, The Perfect Brand"
   },
   {
-    quote: "The insights are practical and the writing is engaging. Highly recommend.",
-    author: "Solopreneur"
+    quote: "Nate is always thinking about what's next. His newsletter is full of forward-thinking insights that help me stay ahead.",
+    author: "Cam Houser",
+    title: "CEO Actionworks"
+  },
+  {
+    quote: "Nate's storytelling is engaging and his mix of topics keeps me coming back. It's one of the few newsletters I actually look forward to.",
+    author: "Teke O'Reilly",
+    title: "@icecreamingmeme"
+  },
+  {
+    quote: "Make It Yours is a weekly must-read for me. Nate has a gift for making complex design concepts feel approachable.",
+    author: "Lyle McKeany",
+    title: "Just Enough to Get Me in Trouble"
   }
 ];
 ---
 
 <Layout title="Make It Yours Newsletter | Nate Kadlac" description="Join thousands of solopreneurs getting design tips, branding strategies, and clear offers that convert. Published every Sunday by Nate Kadlac.">
-  <section class="max-w-[800px] mx-auto px-6 py-16 md:py-24 text-center">
+  <section class="max-w-[900px] mx-auto px-6 py-16 md:py-24">
     <!-- Hero -->
-    <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-      Design smarter,<br />Not harder.
-    </h1>
-    <p class="mt-6 text-xl text-brand-brown/70 max-w-xl mx-auto">
-      Join thousands of solopreneurs getting dollar-driven design tips, personalized branding strategies, and clear offers that convert.
-    </p>
+    <div class="text-center">
+      <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+        Design smarter,<br />Not harder.
+      </h1>
 
-    <!-- Newsletter Form -->
-    <div class="mt-10">
-      <NewsletterForm centered={true} />
+      <div class="mt-8 text-left max-w-lg mx-auto">
+        <p class="text-xl text-brand-brown/80 mb-4">
+          Join 3,800+ solopreneurs & professionals who are:
+        </p>
+        <ul class="space-y-2 text-lg text-brand-brown/70">
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Building trust with personalized branding</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Increasing sales with premium packaging</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Creating clear offers that convert</span>
+          </li>
+        </ul>
+      </div>
+
+      <p class="mt-8 text-lg text-brand-brown/80 max-w-lg mx-auto">
+        <strong>Dollar Design > Graphic Design.</strong> Get dollar driven design tips <em class="font-serif">(without hiring a designer)</em>.
+      </p>
+
+      <!-- Newsletter Form -->
+      <div class="mt-10 max-w-md mx-auto">
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <form
+            action="https://app.kit.com/forms/3725037/subscriptions"
+            method="post"
+            data-sv-form="3725037"
+            data-uid="3725037"
+            data-format="inline"
+            data-version="5"
+            class="newsletter-form flex flex-col gap-4"
+          >
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Your best email"
+              required
+              aria-label="Email address"
+              class="w-full px-5 py-4 rounded-xl bg-[#f5f5f5] text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 text-lg"
+            />
+            <button
+              type="submit"
+              class="w-full px-5 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-lg hover:opacity-90 transition-opacity"
+            >
+              Level Up Your Design Eye
+            </button>
+          </form>
+        </div>
+        <p class="mt-4 text-sm text-brand-brown/60">
+          Make It Yours is sent 2-3x every week. NO SPAM. I write every email.
+        </p>
+      </div>
     </div>
 
-    <!-- Trust Signals -->
-    <div class="mt-16 pt-16 border-t border-brand-brown/10">
-      <p class="text-sm text-brand-brown/50 uppercase tracking-wider font-medium mb-8">
+    <!-- Testimonials -->
+    <div class="mt-20">
+      <p class="text-sm text-brand-brown/50 uppercase tracking-wider font-medium mb-8 text-center">
         What readers are saying
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {testimonials.map(testimonial => (
-          <blockquote class="card text-left">
+          <blockquote class="card">
             <p class="font-serif text-lg italic text-brand-brown/80">
               "{testimonial.quote}"
             </p>
-            <footer class="mt-4 text-sm text-brand-brown/50">
-              — {testimonial.author}
+            <footer class="mt-4">
+              <p class="font-heading font-semibold text-brand-brown">
+                {testimonial.author}
+              </p>
+              <p class="text-sm text-brand-brown/50">
+                {testimonial.title}
+              </p>
             </footer>
           </blockquote>
         ))}
