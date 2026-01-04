@@ -1,41 +1,55 @@
 ---
 const quickLinks = [
-  { href: '/about', label: 'About' },
+  { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Articles' },
-  { href: '/hire', label: 'Hire' },
-  { href: '/newsletter', label: 'Newsletter' },
+  { href: '/hire', label: 'Hire me' },
+  { href: '/newsletter', label: 'Sunday Newsletter' },
+  { href: 'https://twitter.com/kadlac', label: 'DM me on X', external: true },
+  { href: 'https://cal.com/kadlac/discovery-call', label: 'Coaching', external: true },
+  { href: '/now', label: 'Now' },
 ];
 
 const products = [
-  { href: '/my/toolkit', label: 'Free Toolkit' },
-  { href: 'https://approachabledesign.co', label: 'Approachable Design', external: true },
+  { href: '/my', label: 'My Free Creative Toolkit', underline: true },
+  { href: 'https://approachabledesign.co/courses/8020-design-challenge', label: 'The Creator Design Kit', external: true },
+  { href: 'https://approachabledesign.co/products/design-vault', label: 'The Design Vault', external: true },
+  { href: 'https://approachabledesign.co/products/youtube-masterclass', label: 'YouTube Thumbnail Design', external: true },
+  { href: 'https://writersdraw.com', label: "Writer's Draw", external: true },
 ];
 
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="bg-brand-cream mt-auto">
+<footer class="bg-brand-brown text-white mt-auto">
   <div class="max-w-[1200px] mx-auto px-6 py-16">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
-      <!-- Brand Column -->
-      <div class="md:col-span-2">
-        <a href="/">
-          <img src="/logo.svg" alt="Nate Kadlac" class="h-6" />
-        </a>
-        <p class="mt-4 text-brand-brown/80 max-w-sm">
-          Helping non-designers make better design decisions through writing, teaching, and design partnerships.
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
+      <!-- Bio Column -->
+      <div class="md:col-span-5">
+        <p class="text-xl leading-relaxed">
+          <strong class="font-bold">I'm Nate Kadlac:</strong> independent designer, instructor, and entrepreneur.
+        </p>
+        <p class="mt-6 text-white/80 leading-relaxed">
+          I believe the ability to communicate visually, tell stories with copy, or connect with branding should be approachable to everyone.
+        </p>
+        <p class="mt-6 text-white/80 leading-relaxed">
+          The world is a better place when we can confidently reflect our inner taste with the world around us.
         </p>
       </div>
 
       <!-- Quick Links -->
-      <div>
-        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-4">
+      <div class="md:col-span-3 md:col-start-7">
+        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6 text-brand-yellow">
           Quick Links
         </h4>
-        <ul class="space-y-3">
+        <ul class="space-y-4">
           {quickLinks.map((link) => (
             <li>
-              <a href={link.href} class="text-brand-brown/80 hover:text-brand-brown transition-colors">
+              <a
+                href={link.href}
+                class="text-white/80 hover:text-white transition-colors"
+                target={link.external ? '_blank' : undefined}
+                rel={link.external ? 'noopener noreferrer' : undefined}
+              >
                 {link.label}
               </a>
             </li>
@@ -44,23 +58,23 @@ const currentYear = new Date().getFullYear();
       </div>
 
       <!-- Products & Services -->
-      <div>
-        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-4">
+      <div class="md:col-span-3">
+        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6 text-brand-yellow">
           Products & Services
         </h4>
-        <ul class="space-y-3">
+        <ul class="space-y-4">
           {products.map((link) => (
             <li>
               <a
                 href={link.href}
-                class="text-brand-brown/80 hover:text-brand-brown transition-colors"
+                class:list={[
+                  "text-white/80 hover:text-white transition-colors",
+                  link.underline && "underline"
+                ]}
                 target={link.external ? '_blank' : undefined}
                 rel={link.external ? 'noopener noreferrer' : undefined}
               >
                 {link.label}
-                {link.external && (
-                  <span class="inline-block ml-1 opacity-50">↗</span>
-                )}
               </a>
             </li>
           ))}
@@ -68,48 +82,11 @@ const currentYear = new Date().getFullYear();
       </div>
     </div>
 
-    <!-- Bottom Bar -->
-    <div class="mt-12 pt-8 border-t border-brand-brown/10">
-      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-sm text-brand-brown/60">
-          © {currentYear} Nate Kadlac. All rights reserved.
-        </p>
-        <div class="flex items-center gap-6">
-          <a
-            href="https://twitter.com/kadlac"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-brand-brown/60 hover:text-brand-brown transition-colors"
-            aria-label="Twitter"
-          >
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-            </svg>
-          </a>
-          <a
-            href="https://linkedin.com/in/kadlac"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-brand-brown/60 hover:text-brand-brown transition-colors"
-            aria-label="LinkedIn"
-          >
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-            </svg>
-          </a>
-          <a
-            href="https://youtube.com/@natekadlac"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-brand-brown/60 hover:text-brand-brown transition-colors"
-            aria-label="YouTube"
-          >
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-            </svg>
-          </a>
-        </div>
-      </div>
+    <!-- Copyright -->
+    <div class="mt-16">
+      <p class="text-sm text-white/50">
+        © {currentYear} Approachable Design LLC. All rights reserved.
+      </p>
     </div>
   </div>
 </footer>
