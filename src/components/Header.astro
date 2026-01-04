@@ -2,7 +2,41 @@
 const navLinks = [
   { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Writing' },
-  { href: '/hire', label: 'Work With Me' },
+];
+
+const learnProducts = [
+  {
+    title: 'The Perfect Personal Website',
+    description: 'Build a website that creates serendipity',
+    badge: 'COMING SOON',
+    href: '#',
+    image: '/images/product-website.jpg',
+    comingSoon: true,
+  },
+  {
+    title: 'The Creator Design Kit',
+    description: 'Learn design and build your own visual design kit',
+    badge: 'LOVED BY 250+ CREATORS',
+    href: 'https://approachabledesign.co/courses/8020-design-challenge',
+    image: '/images/product-design-kit.jpg',
+    external: true,
+  },
+  {
+    title: "Writers' Draw",
+    description: 'Draw visual stories using Procreate (for beginners)',
+    badge: 'LOVED BY 75+ WRITERS',
+    href: 'https://writersdraw.com',
+    image: '/images/product-writers-draw.jpg',
+    external: true,
+  },
+  {
+    title: 'The Design Vault',
+    description: 'Get inspired by over 170+ beautiful websites',
+    badge: 'LOVED BY 50+ CREATORS',
+    href: 'https://approachabledesign.co/products/design-vault',
+    image: '/images/product-design-vault.jpg',
+    external: true,
+  },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -32,6 +66,76 @@ const currentPath = Astro.url.pathname;
             {link.label}
           </a>
         ))}
+
+        <!-- Learn to Create Dropdown -->
+        <div class="relative" id="learn-dropdown">
+          <button
+            class="font-heading text-sm font-medium opacity-80 hover:opacity-70 transition-opacity flex items-center gap-1"
+            id="learn-dropdown-toggle"
+            aria-expanded="false"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Learn to Create
+          </button>
+
+          <!-- Dropdown Panel -->
+          <div
+            id="learn-dropdown-panel"
+            class="absolute top-full right-0 mt-4 w-[580px] bg-white rounded-2xl shadow-xl p-6 hidden opacity-0 transition-opacity duration-200"
+          >
+            <div class="grid grid-cols-2 gap-6">
+              {learnProducts.map((product) => (
+                <a
+                  href={product.comingSoon ? '#' : product.href}
+                  target={product.external ? '_blank' : undefined}
+                  rel={product.external ? 'noopener noreferrer' : undefined}
+                  class:list={[
+                    "group block",
+                    product.comingSoon && "cursor-default"
+                  ]}
+                >
+                  <!-- Product Image -->
+                  <div class="aspect-[4/3] bg-brand-cream rounded-xl overflow-hidden mb-3 relative">
+                    <img
+                      src={product.image}
+                      alt={product.title}
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+
+                  <!-- Product Info -->
+                  <h3 class:list={[
+                    "font-heading font-bold text-brand-brown",
+                    !product.comingSoon && "group-hover:opacity-70 transition-opacity"
+                  ]}>
+                    {product.title}
+                  </h3>
+                  <p class="text-sm text-brand-brown/70 mt-1">
+                    {product.description}
+                  </p>
+                  {!product.comingSoon && (
+                    <p class="text-xs text-brand-brown/50 uppercase tracking-wider mt-2">
+                      {product.badge}
+                    </p>
+                  )}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="/hire"
+          class:list={[
+            "font-heading text-sm font-medium transition-opacity hover:opacity-70",
+            currentPath.startsWith('/hire') ? "opacity-100" : "opacity-80"
+          ]}
+        >
+          Work With Me
+        </a>
+
         <a href="/my" class="btn btn-primary text-sm">
           My Free Toolkit
         </a>
@@ -64,6 +168,31 @@ const currentPath = Astro.url.pathname;
             {link.label}
           </a>
         ))}
+
+        <!-- Mobile Learn to Create -->
+        <div class="py-2">
+          <p class="font-heading text-base font-medium mb-3">Learn to Create</p>
+          <div class="pl-4 space-y-3">
+            {learnProducts.filter(p => !p.comingSoon).map((product) => (
+              <a
+                href={product.href}
+                target={product.external ? '_blank' : undefined}
+                rel={product.external ? 'noopener noreferrer' : undefined}
+                class="block text-sm text-brand-brown/80"
+              >
+                {product.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <a
+          href="/hire"
+          class="font-heading text-base font-medium py-2"
+        >
+          Work With Me
+        </a>
+
         <a href="/my" class="btn btn-primary text-sm w-fit mt-2">
           My Free Toolkit
         </a>
@@ -73,6 +202,7 @@ const currentPath = Astro.url.pathname;
 </header>
 
 <script>
+  // Mobile menu toggle
   const toggle = document.getElementById('mobile-menu-toggle');
   const menu = document.getElementById('mobile-menu');
   const hamburger = toggle?.querySelector('.hamburger-icon');
@@ -84,5 +214,73 @@ const currentPath = Astro.url.pathname;
     hamburger?.classList.toggle('hidden');
     closeIcon?.classList.toggle('hidden');
     toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  // Learn dropdown toggle
+  const dropdownToggle = document.getElementById('learn-dropdown-toggle');
+  const dropdownPanel = document.getElementById('learn-dropdown-panel');
+  const dropdown = document.getElementById('learn-dropdown');
+
+  let isOpen = false;
+  let closeTimeout: ReturnType<typeof setTimeout> | null = null;
+
+  function openDropdown() {
+    if (closeTimeout) {
+      clearTimeout(closeTimeout);
+      closeTimeout = null;
+    }
+    if (!isOpen) {
+      dropdownPanel?.classList.remove('hidden');
+      setTimeout(() => {
+        dropdownPanel?.classList.remove('opacity-0');
+      }, 10);
+      dropdownToggle?.setAttribute('aria-expanded', 'true');
+      isOpen = true;
+    }
+  }
+
+  function closeDropdown() {
+    if (isOpen) {
+      dropdownPanel?.classList.add('opacity-0');
+      setTimeout(() => {
+        dropdownPanel?.classList.add('hidden');
+      }, 200);
+      dropdownToggle?.setAttribute('aria-expanded', 'false');
+      isOpen = false;
+    }
+  }
+
+  function scheduleClose() {
+    closeTimeout = setTimeout(() => {
+      closeDropdown();
+    }, 150);
+  }
+
+  // Open on hover
+  dropdown?.addEventListener('mouseenter', openDropdown);
+  dropdown?.addEventListener('mouseleave', scheduleClose);
+
+  // Toggle on click (for accessibility)
+  dropdownToggle?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (isOpen) {
+      closeDropdown();
+    } else {
+      openDropdown();
+    }
+  });
+
+  // Close on click outside
+  document.addEventListener('click', (e) => {
+    if (!dropdown?.contains(e.target as Node)) {
+      closeDropdown();
+    }
+  });
+
+  // Close on escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeDropdown();
+    }
   });
 </script>
