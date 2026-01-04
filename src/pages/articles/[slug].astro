@@ -20,7 +20,7 @@ const formattedDate = article.data.date.toLocaleDateString('en-US', {
 });
 ---
 
-<Layout title={article.data.title} description={article.data.description}>
+<Layout title={`${article.data.title} | Nate Kadlac`} description={article.data.description || `${article.data.title} - an article by Nate Kadlac on design, creativity, and building your business.`} ogImage={article.data.image}>
   <article class="max-w-[900px] mx-auto px-6 py-16 md:py-24">
     <!-- Article Header -->
     <header class="mb-12">

@@ -14,7 +14,7 @@ const { project } = Astro.props;
 const { Content } = await render(project);
 ---
 
-<Layout title={project.data.title} description={project.data.description}>
+<Layout title={`${project.data.title} | Nate Kadlac`} description={project.data.description} ogImage={project.data.coverImage}>
   <article class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
     <!-- Project Header -->
     <header class="max-w-3xl mb-12">

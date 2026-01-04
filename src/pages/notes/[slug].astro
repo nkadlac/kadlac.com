@@ -14,7 +14,7 @@ const { note } = Astro.props;
 const { Content } = await render(note);
 ---
 
-<Layout title={`${note.data.title} - Book Notes`} description={note.data.description || `Book notes and summary for ${note.data.title} by ${note.data.author}`}>
+<Layout title={`${note.data.title} - Book Notes | Nate Kadlac`} description={note.data.description || `Book notes and summary for ${note.data.title} by ${note.data.author}. Key insights, quotes, and takeaways.`} ogImage={note.data.coverImage}>
   <article class="max-w-[900px] mx-auto px-6 py-16 md:py-24">
     <!-- Book Header -->
     <header class="mb-12">
