@@ -1,6 +1,6 @@
 ---
 const navLinks = [
-  { href: '/about', label: 'About' },
+  { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Writing' },
   { href: '/hire', label: 'Work With Me' },
 ];
@@ -32,7 +32,7 @@ const currentPath = Astro.url.pathname;
             {link.label}
           </a>
         ))}
-        <a href="/my/toolkit" class="btn btn-primary text-sm">
+        <a href="/my" class="btn btn-primary text-sm">
           My Free Toolkit
         </a>
       </div>
@@ -64,7 +64,7 @@ const currentPath = Astro.url.pathname;
             {link.label}
           </a>
         ))}
-        <a href="/my/toolkit" class="btn btn-primary text-sm w-fit mt-2">
+        <a href="/my" class="btn btn-primary text-sm w-fit mt-2">
           My Free Toolkit
         </a>
       </div>

@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const testimonials = [
+  {
+    quote: "You helped me find my next note taking app!",
+    author: "Lumi"
+  },
+  {
+    quote: "There are some hidden gems in here!",
+    author: "Rob Roseman",
+    link: { url: "https://wtfdivorce.com", label: "WTF Divorce" }
+  }
+];
+---
+
+<Layout title="My Creative Toolkit | Nate Kadlac" description="Get my free toolkit of 59+ resources that will help you learn, create, and sell online.">
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <!-- Left Column -->
+      <div>
+        <!-- Badge -->
+        <span class="inline-block bg-brand-brown text-brand-yellow font-heading font-semibold text-sm uppercase tracking-wider px-4 py-2 rounded-full mb-6">
+          My Creative Toolkit
+        </span>
+
+        <!-- Headline -->
+        <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-tight uppercase">
+          Learn, Create, and Sell Online
+        </h1>
+
+        <!-- Body -->
+        <p class="mt-6 text-xl text-brand-brown/80">
+          Get my free toolkit of 59+ resources that will help you learn, create, and sell online.
+        </p>
+
+        <!-- Email Signup Form -->
+        <div class="mt-8 max-w-md">
+          <div class="bg-white rounded-2xl p-6 shadow-sm">
+            <form
+              action="https://app.kit.com/forms/3725037/subscriptions"
+              method="post"
+              data-sv-form="3725037"
+              data-uid="3725037"
+              data-format="inline"
+              data-version="5"
+              class="newsletter-form flex flex-col gap-4"
+            >
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your best email"
+                required
+                aria-label="Email address"
+                class="w-full px-5 py-4 rounded-xl bg-[#f5f5f5] text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 text-lg"
+              />
+              <button
+                type="submit"
+                class="w-full px-5 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-lg hover:opacity-90 transition-opacity"
+              >
+                Get My Free Toolkit
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="mt-10 space-y-4">
+          {testimonials.map(testimonial => (
+            <div>
+              <div class="flex gap-1 mb-1">
+                {[...Array(5)].map(() => (
+                  <span class="text-brand-brown">★</span>
+                ))}
+              </div>
+              <p class="text-brand-brown/80">
+                "{testimonial.quote}" —{testimonial.author}{testimonial.link && (
+                  <span>, <a href={testimonial.link.url} target="_blank" rel="noopener noreferrer" class="underline hover:opacity-70">{testimonial.link.label}</a></span>
+                )}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Right Column - Phone Mockup -->
+      <div class="hidden lg:flex justify-center">
+        <div class="relative">
+          <!-- Placeholder for phone mockup image -->
+          <div class="w-[350px] h-[700px] bg-brand-cream rounded-[3rem] flex items-center justify-center text-brand-brown/30 border-8 border-brand-brown/10">
+            [Phone Mockup Image]
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="mt-20 max-w-2xl">
+      <h2 class="font-heading text-2xl md:text-3xl font-bold mb-6">
+        I'm Nate Kadlac: independent designer, instructor, and entrepreneur.
+      </h2>
+      <p class="text-lg text-brand-brown/70">
+        I believe the ability to communicate visually, tell stories with copy, or connect with branding should be approachable to everyone. The world is a better place when we can confidently reflect our inner taste with the world around us.
+      </p>
+    </div>
+  </section>
+</Layout>
