@@ -21,6 +21,7 @@ const isCard = variant === 'card';
       data-uid={formId}
       data-format="inline"
       data-version="5"
+      data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/welcome"}}}'
       class="newsletter-form flex flex-col gap-4"
     >
       <input
@@ -48,6 +49,7 @@ const isCard = variant === 'card';
     data-uid={formId}
     data-format="inline"
     data-version="5"
+    data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/welcome"}}}'
     class:list={[
       "newsletter-form flex flex-col sm:flex-row gap-3",
       centered ? "max-w-md mx-auto" : "max-w-md"

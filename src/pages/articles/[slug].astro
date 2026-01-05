@@ -1,16 +1,17 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import StickyEmailSignup from '../../components/StickyEmailSignup.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
   return articles.map((article) => ({
     params: { slug: article.slug },
-    props: { article },
+    props: { article, allArticles: articles },
   }));
 }
 
-const { article } = Astro.props;
+const { article, allArticles } = Astro.props;
 const { Content } = await render(article);
 
 const formattedDate = article.data.date.toLocaleDateString('en-US', {
@@ -18,44 +19,85 @@ const formattedDate = article.data.date.toLocaleDateString('en-US', {
   day: 'numeric',
   year: 'numeric',
 });
+
+// Get 3 recommended articles (excluding current, sorted by date)
+const recommendedArticles = allArticles
+  .filter((a) => a.slug !== article.slug)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
 ---
 
 <Layout title={`${article.data.title} | Nate Kadlac`} description={article.data.description || `${article.data.title} - an article by Nate Kadlac on design, creativity, and building your business.`} ogImage={article.data.image}>
-  <article class="max-w-[900px] mx-auto px-6 py-16 md:py-24">
-    <!-- Article Header -->
-    <header class="mb-12">
-      <time class="text-sm text-brand-brown/60 font-medium uppercase tracking-wider">
-        {formattedDate}
-      </time>
-      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mt-4 leading-tight tracking-tight">
-        {article.data.title}
-      </h1>
-      {article.data.description && (
-        <p class="text-xl text-brand-brown/70 mt-6">
-          {article.data.description}
-        </p>
-      )}
-    </header>
+  <div class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <div class="flex gap-12">
+      <!-- Main Article Content -->
+      <article class="flex-1 max-w-[720px]">
+        <!-- Article Header -->
+        <header class="mb-12">
+          <time class="text-sm text-brand-brown/60 font-medium uppercase tracking-wider">
+            {formattedDate}
+          </time>
+          <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mt-4 leading-tight tracking-tight">
+            {article.data.title}
+          </h1>
+          {article.data.description && (
+            <p class="text-xl text-brand-brown/70 mt-6">
+              {article.data.description}
+            </p>
+          )}
+        </header>
 
-    <!-- Hero Image -->
-    {article.data.image && (
-      <img
-        src={article.data.image}
-        alt={article.data.title}
-        class="w-full rounded-2xl mb-12"
-      />
+        <!-- Hero Image -->
+        {article.data.image && (
+          <img
+            src={article.data.image}
+            alt={article.data.title}
+            class="w-full rounded-2xl mb-12"
+          />
+        )}
+
+        <!-- Article Content -->
+        <div class="prose">
+          <Content />
+        </div>
+
+        <!-- Back Link -->
+        <div class="mt-16 pt-8 border-t border-brand-brown/10">
+          <a href="/articles" class="font-heading font-medium hover:opacity-70 transition-opacity">
+            ← Back to all articles
+          </a>
+        </div>
+      </article>
+
+      <!-- Sticky Sidebar -->
+      <StickyEmailSignup />
+    </div>
+
+    <!-- Recommended Reading -->
+    {recommendedArticles.length > 0 && (
+      <section class="mt-20 pt-16 border-t border-brand-brown/10">
+        <h2 class="font-serif text-xl md:text-2xl italic text-brand-brown/80 uppercase tracking-wide mb-10">
+          The next three articles you should read
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {recommendedArticles.map((rec) => (
+            <a href={`/articles/${rec.slug}`} class="group block">
+              {rec.data.image && (
+                <div class="aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+                  <img
+                    src={rec.data.image}
+                    alt={rec.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
+              <h3 class="font-heading text-lg md:text-xl font-semibold leading-snug group-hover:opacity-70 transition-opacity">
+                {rec.data.title}
+              </h3>
+            </a>
+          ))}
+        </div>
+      </section>
     )}
-
-    <!-- Article Content -->
-    <div class="prose">
-      <Content />
-    </div>
-
-    <!-- Back Link -->
-    <div class="mt-16 pt-8 border-t border-brand-brown/10">
-      <a href="/articles" class="font-heading font-medium hover:opacity-70 transition-opacity">
-        ← Back to all articles
-      </a>
-    </div>
-  </article>
+  </div>
 </Layout>
