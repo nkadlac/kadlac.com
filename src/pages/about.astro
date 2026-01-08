@@ -1,5 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getSubscriberCount, formatSubscriberCount } from '../lib/kit';
+
+// Get subscriber count from Kit
+const subscriberCount = await getSubscriberCount();
+const formattedCount = formatSubscriberCount(subscriberCount);
 
 const socialLinks = [
   { label: 'X (Twitter)', url: 'https://twitter.com/kadlac', icon: 'x' },
@@ -63,7 +68,7 @@ const guestAppearances = [
             Make It Yours Newsletter
           </h2>
           <p class="text-lg text-brand-brown/70 font-heading font-normal leading-relaxed">
-            Join 3,800+ subscribers and get creative tips to design your business or brand to stand out. Delivered Tues, Thurs and Sun.
+            Join {formattedCount} subscribers and get creative tips to design your business or brand to stand out. Delivered Tues, Thurs and Sun.
           </p>
         </div>
         <div class="flex-1 max-w-md">

@@ -3,12 +3,17 @@ import Layout from '../layouts/Layout.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
 import LogoMarquee from '../components/LogoMarquee.astro';
 import { getCollection } from 'astro:content';
+import { getSubscriberCount, formatSubscriberCount } from '../lib/kit';
 
 // Get latest articles
 const articles = await getCollection('articles');
 const latestArticles = articles
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 5);
+
+// Get subscriber count from Kit
+const subscriberCount = await getSubscriberCount();
+const formattedCount = formatSubscriberCount(subscriberCount);
 ---
 
 <Layout title="Nate Kadlac: Designer, Writer, Instructor" description="I help solopreneurs and non-designers make better design decisions through writing, teaching, and design partnerships. Join my weekly newsletter." bgSaturated={true}>
@@ -21,7 +26,7 @@ const latestArticles = articles
           DESIGN SMARTER,<br />NOT HARDER.
         </h1>
         <p class="mt-6 text-[1.375rem] text-brand-brown/80">
-          Join 3,800+ solopreneurs & professionals who are upgrading their design eye by:
+          Join {formattedCount} solopreneurs & professionals who are upgrading their design eye by:
         </p>
         <ul class="mt-4 space-y-2 text-[1.375rem] text-brand-brown/80">
           <li class="flex gap-3">
