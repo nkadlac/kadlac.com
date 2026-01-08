@@ -29,7 +29,5 @@ export async function getSubscriberCount(): Promise<number> {
 }
 
 export function formatSubscriberCount(count: number): string {
-  // Round down to nearest hundred for display (e.g., 3847 -> "3,800+")
-  const rounded = Math.floor(count / 100) * 100;
-  return `${rounded.toLocaleString()}+`;
+  return count.toLocaleString();
 }
