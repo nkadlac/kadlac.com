@@ -3,11 +3,11 @@ title: "The Courage to Be Disliked review"
 author: "Ichiro Kishimi and Fumitake Koga"
 rating: 8
 amazonUrl: "https://geni.us/courage-be-disliked"
-coverImage: "https://framerusercontent.com/images/cMzArBhLsVRxs0AvYuyKAUsso.png"
+coverImage: "/images/articles/cMzArBhLsVRxs0AvYuyK.webp"
 description: "All problems are derived from interpersonal relationship problems."
 ---
 
-![Alfred Adler — The Courage to Be Disliked](https://framerusercontent.com/images/9bpotDQWjN1mcyx9AhPJnHOxKI.jpg)
+![Alfred Adler — The Courage to Be Disliked](/images/articles/9bpotDQWjN1mcyx9AhPJ.webp)
 
 ## Book Summary of The Courage to Be Disliked
 

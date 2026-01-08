@@ -27,7 +27,7 @@ By giving significant and unregulated power to banks and lenders, they determine
 Design can come in many forms. In the form of, “[Redlining](https://www.treetriage.com/tree-removal/link-between-redlining-and-shade-trees/),” lenders outlined large areas with red ink on city maps to indicate where they wouldn’t loan to African Americans, forcing them to concentrate in certain regions. These racist property clauses established long-lasting patterns.  
   
 
-![An original HOLC map of New Orleans](https://framerusercontent.com/images/9XLE279pO2FPiGoOBgvJU6gGXB8.jpeg)
+![An original HOLC map of New Orleans](/images/articles/9XLE279pO2FPiGoOBgvJ.webp)
 
 As Segregated by Design describes in [this video](https://www.segregatedbydesign.com/), the basis for many of these decisions clearly state in _The Underwriting Manual_ of the Federal Housing Administration (FHA):
 
@@ -41,14 +41,14 @@ The FHA extended this practice for over 30 years until 1968 when it was banned. 
 
 In my hometown of Minneapolis, I grew up thinking that I lived in a progressive city, without understanding the full history. But Minneapolis has the lowest rate of homeownership among African American households of any U.S. city. 
 
-![Racial housing covenants](https://framerusercontent.com/images/ZCHXhXjjO38V8KaUEYwZtf9DYPs.jpeg)
+![Racial housing covenants](/images/articles/ZCHXhXjjO38V8KaUEYwZ.webp)
 
 “All that civic rhetoric about \[Minneapolis\] being a model metropolis at the cutting edge of great urban planning obscures some darker truths about the city,” said Kirsten Delegard, a Minneapolis historian and Mapping Prejudice co-founder.
 
 A large part of this was due to racial covenants. These were designed to include explicit clauses in the property deeds that determined who could and could not buy.   
   
 
-![Lake Nokomis racial covenants](https://framerusercontent.com/images/Rvw11cISdH2h6WLa9akqBmjMBA4.png)
+![Lake Nokomis racial covenants](/images/articles/Rvw11cISdH2h6WLa9akq.webp)
 
 From the Minneapolis Star in 1923, “Premises shall not be sold, mortgaged, or leased to or occupied by any person or persons other than members of the Caucasian race.”
 

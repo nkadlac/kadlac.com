@@ -2,7 +2,7 @@
 title: "Collaborative Tools for Real Estate Agents"
 client: "HomeSpotter"
 description: "As the founding brand and product designer, I designed collaborative tools for real estate agents, brokers, and MLSs to facilitate the homebuying experience in competitve markets. In 2021, we were acquired in the mid-eight figures."
-coverImage: "https://framerusercontent.com/images/mYKGNjD8ZH3TvpUpOERwsq7YcY.png"
+coverImage: "/images/articles/mYKGNjD8ZH3TvpUpOERw.webp"
 tags: ["Website Design • Brand Identity • User Experience Design • Mobile App"]
 liveUrl: "https://homespotter.com"
 order: 8
@@ -20,4 +20,4 @@ HomeSpotter was one of the first companies to provide mobile app solutions to re
 
 As the mobile landscape quickly developed, we were pushed to expand our offerings further to help agents market their listings. We designed solutions to market seller listings through our automated Boost product, saving agents time and money while bringing their listing to a wider buying audience.
 
-![](https://framerusercontent.com/images/ukXwpg7oxv0dqzF8vFpFWM7fApE.png)![](https://framerusercontent.com/images/e8yhgae0y6VcY1VASidFcNfwIM.png)![](https://framerusercontent.com/images/GCsY5aY3h96ENlHm9InUoARTik.png)![](https://framerusercontent.com/images/JVFeWFKJs6qNdo4Z05DaXTFnWVs.png)![](https://framerusercontent.com/images/qrnOkdQL1vKCd8gBHdvvBxd7ys4.png)![](https://framerusercontent.com/images/RoBaJ42ArjxPTwphj28VTjEeXas.png)![](https://framerusercontent.com/images/lFipHJ6TSb178UvNd9AvPvUZimo.png)![](https://framerusercontent.com/images/SfOJ7KxLZkulRsThKLj4BZFHeAc.png)
+![](/images/articles/ukXwpg7oxv0dqzF8vFpF.webp)![](/images/articles/e8yhgae0y6VcY1VASidF.webp)![](/images/articles/GCsY5aY3h96ENlHm9InU.webp)![](/images/articles/JVFeWFKJs6qNdo4Z05Da.webp)![](/images/articles/qrnOkdQL1vKCd8gBHdvv.webp)![](/images/articles/RoBaJ42ArjxPTwphj28V.webp)![](/images/articles/lFipHJ6TSb178UvNd9Av.webp)![](/images/articles/SfOJ7KxLZkulRsThKLj4.webp)

@@ -3,10 +3,10 @@ title: "Should you invest in design now or later?"
 date: 2024-12-06
 category: design
 description: "When should you invest in design? "
-image: "https://framerusercontent.com/images/WTaCMZcN3M0CNGTegnEH5JdwsRs.png"
+image: "/images/articles/WTaCMZcN3M0CNGTegnEH.webp"
 ---
 
-![Josh Spector Redesign](https://framerusercontent.com/images/EBPQdUmI9DBVdD2J8oiO44.png)
+![Josh Spector Redesign](/images/articles/EBPQdUmI9DBVdD2J8oiO.webp)
 
 Over the past few months, I worked with [Josh Spector](https://joshspector.com/) to overhaul his online presence.
 

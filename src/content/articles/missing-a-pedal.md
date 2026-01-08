@@ -3,10 +3,10 @@ title: "Missing a pedal"
 date: 2020-07-22
 category: personal
 description: "25 miles into a 600-mile bike trip between Montreal and Buffalo, the right pedal of my bike falls off."
-image: "https://framerusercontent.com/images/6VDh0tFvPGsChefuzZBx3QDtxnk.jpg"
+image: "/images/articles/6VDh0tFvPGsChefuzZBx.webp"
 ---
 
-![](https://framerusercontent.com/images/aclGczVGij0vKcab66RWvtLs.jpg)
+![](/images/articles/aclGczVGij0vKcab66RW.webp)
 
 The first day into my 600 mile bike trip, I looked down and realized my pedal had just fallen off.
 

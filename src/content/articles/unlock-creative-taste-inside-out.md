@@ -3,10 +3,10 @@ title: "Unlock your creative taste from the inside out"
 date: 2022-10-18
 category: design
 description: "To add definition to your creative taste, you need to start by looking inside-out. "
-image: "https://framerusercontent.com/images/jWHPfTeufLubffh0jdEw4HcUI.jpg"
+image: "/images/articles/jWHPfTeufLubffh0jdEw.webp"
 ---
 
-![](https://framerusercontent.com/images/03TjyQxvgx8qqMLXrOmIj5Etltg.jpg)
+![](/images/articles/03TjyQxvgx8qqMLXrOmI.webp)
 
 ## How do you design your life, whether it’s the personal brand aesthetic you unleash unto the world, or the dreams you decide to chase?
 

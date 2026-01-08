@@ -3,10 +3,10 @@ title: "KonMari your creative life"
 date: 2022-10-18
 category: design
 description: "Applying the KonMari method to your creative life lets you quickly find inspiration from the books you read, the articles you curate, or the quotes you have saved. "
-image: "https://framerusercontent.com/images/4VwAHWvasT6Qxu8Vc9rrbkLemEY.jpg"
+image: "/images/articles/4VwAHWvasT6Qxu8Vc9rr.webp"
 ---
 
-![](https://framerusercontent.com/images/4VwAHWvasT6Qxu8Vc9rrbkLemEY.jpg)
+![](/images/articles/4VwAHWvasT6Qxu8Vc9rr.webp)
 
 I’ve moved nine times in nine years. The spark that ignited this series of moves started when I promptly sold my condo. 
 
@@ -43,7 +43,7 @@ Marie Kondo asks us for _perfection_. The slow pace at which we reduce cannot ke
 
 _“Start by discarding, all at once, intensely and completely.”—Marie Kondo_
 
-![](https://framerusercontent.com/images/Ysiqp3sylbUJIEkZFYPbKFryw.jpg)
+![](/images/articles/Ysiqp3sylbUJIEkZFYPb.webp)
 
 Creativity is something to be cared for and nurtured. It’s sacred, fun, playful, and requires a bit of darkness to manifest itself into something useful. 
 
@@ -124,7 +124,7 @@ Some examples of how you might capture these creative artifacts:
 
 **Commonplace book**
 
-![](https://framerusercontent.com/images/gpLCR3gm54dUKsT07rn35mf7xyU.jpg)
+![](/images/articles/gpLCR3gm54dUKsT07rn3.webp)
 
 **‍**For thousands of years, commonplace books have been used as a centralized place for your ideas, stories, quotes, and observations. It’s a box filled with the most interesting and creative ideas you have surfaced from everything you have read or watched.
 
@@ -134,7 +134,7 @@ The problem with this type of capture system is that it’s hard to search quick
 
 **Digital note-taking apps**
 
-![](https://framerusercontent.com/images/aozGYSCjyYoshDXkiteIwOpET8.jpg)
+![](/images/articles/aozGYSCjyYoshDXkiteI.webp)
 
 **‍**An alternative place for your creative ideas is to use a digital note-capture system. This is a more common method because it allows you to collect an ocean of information across all media types. Surfacing highlights from books and videos has never been easier. 
 

@@ -20,7 +20,7 @@ Typefaces with only regular, bold, and italic can feel limiting. This is why you
 
 But, if you choose one like [Noto Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)—which has 18 styles!—you have an unlimited amount of combinations that are designed to work well together. 
 
-![Noto Serif](https://framerusercontent.com/images/wd2jzPd9pevMyfa1oS0djGLTKGk.jpg)
+![Noto Serif](/images/articles/wd2jzPd9pevMyfa1oS0d.webp)
 
 ### **Design tip #2: Use padding instead of borders**
 
@@ -30,7 +30,7 @@ You might have a lot of text boxes on the screen, and you’re thinking, “this
 
 Stop. This is why we can use spacing and padding to achieve an invisible border. By adding a little bit of extra spacing, it gives the illusion of a border. 
 
-![](https://framerusercontent.com/images/uZBtgAZIqCQl1Ga8WtyqKNk8Bck.jpg)
+![](/images/articles/uZBtgAZIqCQl1Ga8Wtyq.webp)
 
 ### **Design tip #3: Ignore color psychology (Hot take!)**
 
@@ -58,7 +58,7 @@ The contrast between elements can be created using scale, imagery, color, and sh
 
 See tip #6 for combining contrasting typefaces.
 
-![](https://framerusercontent.com/images/X2HMY9cyFvcdLXM7wtWUUmMwHms.jpg)
+![](/images/articles/X2HMY9cyFvcdLXM7wtWU.webp)
 
 ### **Design tip #6: Don’t use similar typefaces**
 
@@ -68,7 +68,7 @@ Instead, combine two that have high contrast in style, like a serif and a sans-s
 
 By combining two fonts that look very different, you instantly create an emotional pull.
 
-![](https://framerusercontent.com/images/3pEQoW6ppKWSNxEpVcyGXMAU.jpg)
+![](/images/articles/3pEQoW6ppKWSNxEpVcyG.webp)
 
 ### **Design tip #7: Create a visual stack** 
 
@@ -176,7 +176,7 @@ The back of a book is compelling but reserved for marketing the author and offer
 
 Your websites should be designed similarly. Take creative control over your home pages and about pages, and make sure your middle content is legible and comfortable to read. 
 
-![Treat your website like a book](https://framerusercontent.com/images/tr0eo8CwrUR3hfrx4oVEpdM2Gn0.jpg)
+![Treat your website like a book](/images/articles/tr0eo8CwrUR3hfrx4oVE.webp)
 
 ### **Design tip #20: Minimalism is boring**
 

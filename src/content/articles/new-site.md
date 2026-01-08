@@ -3,10 +3,10 @@ title: "A new site and a new visual style"
 date: 2024-07-07
 category: personal
 description: "A fresh new look for kadlac.com"
-image: "https://framerusercontent.com/images/NylaavNpynbijuq7cfmQxXRKDc0.png"
+image: "/images/articles/NylaavNpynbijuq7cfmQ.webp"
 ---
 
-![New site home page](https://framerusercontent.com/images/NylaavNpynbijuq7cfmQxXRKDc0.png)
+![New site home page](/images/articles/NylaavNpynbijuq7cfmQ.webp)
 
 The first website I built for a client was done in exchange for a BMW.
 
@@ -40,7 +40,7 @@ Inspiration for creating your visual style can come from anywhere, and if you're
 
 (Or [take my course](https://approachabledesign.co/courses/8020-design-challenge) on designing smarter.)
 
-![Site inspiration](https://framerusercontent.com/images/JbkKQZXda6aHrikBLjWc2wQz7l0.png)
+![Site inspiration](/images/articles/JbkKQZXda6aHrikBLjWc.webp)
 
 I'm thankful to Nat for being an inspiration in showing that personal sites can be more than one thing. And in fact, being many things gives people another reason to come back and stay interested.
 

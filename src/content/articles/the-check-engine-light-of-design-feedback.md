@@ -3,10 +3,10 @@ title: "The ‘check engine' light of design feedback"
 date: 2020-08-27
 category: design
 description: "Great design doesn’t appear from the abyss. It’s a back and forth process that feeds itself on strong feedback loops. How do we get better at giving thoughtful feedback?"
-image: "https://framerusercontent.com/images/5snAoNBSRWIPsBIhOEEeuPjrjEU.jpg"
+image: "/images/articles/5snAoNBSRWIPsBIhOEEe.webp"
 ---
 
-![Check engine light of design feedback](https://framerusercontent.com/images/5snAoNBSRWIPsBIhOEEeuPjrjEU.jpg)
+![Check engine light of design feedback](/images/articles/5snAoNBSRWIPsBIhOEEe.webp)
 
 I shut the driver’s side door to leave for a weekend trip to Joshua Tree National Park, and turned the key. The engine didn’t budge. The only indication that something was wrong was the blinking ‘check engine’ light staring me in the face. 
 
@@ -36,7 +36,7 @@ I have to admit, there’s a certain mystique that many creatives like to perpet
 
 While many designers might tell themselves this, seeking out feedback—and more importantly—giving great feedback is the foundation of building beautiful products in any capacity.‍
 
-![Bad feedback is like a noisy muffler](https://framerusercontent.com/images/lYpRTJjFmrqZPYKRLl92ww3HRU.jpg)
+![Bad feedback is like a noisy muffler](/images/articles/lYpRTJjFmrqZPYKRLl92.webp)
 
 ### **Why poor feedback backfires**
 
@@ -109,7 +109,7 @@ _“If your buddy tells you a funny story, it would feel quite weird to evaluate
 
 Remember, It’s all about first showing some intentional love, then providing clear and specific feedback, and finally bringing evidence supported ideas to the designer. ‍
 
-![Check engine light](https://framerusercontent.com/images/13GoF6WXZoNmJ3OSEnjRTR7VZU.jpg)
+![Check engine light](/images/articles/13GoF6WXZoNmJ3OSEnjR.webp)
 
 ### **Don’t be the check engine light of creative feedback**
 

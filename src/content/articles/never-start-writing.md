@@ -3,10 +3,10 @@ title: "How to never start a writing habit"
 date: 2022-12-28
 category: design
 description: "Five lessons to prevent you from ever starting a writing habit"
-image: "https://framerusercontent.com/images/t0KpHFLMuOsZYhR9kd5kAjaFoUY.jpg"
+image: "/images/articles/t0KpHFLMuOsZYhR9kd5k.webp"
 ---
 
-![Five lessons to never start a consistent writing habit](https://framerusercontent.com/images/t0KpHFLMuOsZYhR9kd5kAjaFoUY.jpg)
+![Five lessons to never start a consistent writing habit](/images/articles/t0KpHFLMuOsZYhR9kd5k.webp)
 
 For as long as I can remember, I wanted to be known as someone who wrote online. But, I could never figure out how to build a consistent writing habit.
 

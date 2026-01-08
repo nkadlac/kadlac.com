@@ -3,10 +3,10 @@ title: "What are some unconventional and easy things to draw on Procreate?"
 date: 2023-05-14
 category: visual
 description: "Drawing in Procreate can be intimidating. Learn the essentials of Procreate and discover four unconventional ideas to get drawing immediately"
-image: "https://framerusercontent.com/images/Qh1hXZuJ99gbnfwv5xe6RwDixaI.jpg"
+image: "/images/articles/Qh1hXZuJ99gbnfwv5xe6.webp"
 ---
 
-![Start drawing in Procreate by tracing remixed ideas](https://framerusercontent.com/images/jMDoAHH9sTkGyZYcFFZxPnakc.jpg)
+![Start drawing in Procreate by tracing remixed ideas](/images/articles/jMDoAHH9sTkGyZYcFFZx.webp)
 
 Drawing can be intimidating. I don't consider myself an artist, but there's an emerging world of sameness happening around us. Everyone is reaching for the same Unsplash and generic stock photos.
 
@@ -57,7 +57,7 @@ Skip ahead to the drawing ideas section if you already know how to use the app.
 
 For my illustrations, I always start with a new canvas set to the **screen size**. You can always crop or downsize the canvas later if need be. From the main screen, tap the "+" icon in the top right to reveal the popover menu.
 
-![Create a new canvas in Procreate](https://framerusercontent.com/images/AOtmVXzqN6oQOZcyyaKpwskOL0.jpg)
+![Create a new canvas in Procreate](/images/articles/AOtmVXzqN6oQOZcyyaKp.webp)
 
 ### **Undo Shortcut**
 
@@ -79,7 +79,7 @@ Similar to redo, to undo you just need to use three fingers. 
 
 ### **The actions palette**
 
-![The actions palette](https://framerusercontent.com/images/5flCPerTrHLPVSf07IQ8DQi5ong.jpg)
+![The actions palette](/images/articles/5flCPerTrHLPVSf07IQ8.webp)
 
 The actions palette within Procreate contains important things like adding external photos, sharing, cropping & resize your canvas, and video playback.
 
@@ -87,7 +87,7 @@ I usually open this menu at the start of a project to import a photo, or at the 
 
 ### **Transform tool**
 
-![Resize within Procreate](https://framerusercontent.com/images/t6kQBLEN6r4g8IoAdm4YktUlQb0.jpg)
+![Resize within Procreate](/images/articles/t6kQBLEN6r4g8IoAdm4Y.webp)
 
 I use the transform tool when I am importing external images and need to resize, or if I need to resize the selected layer of my illustration.
 
@@ -102,7 +102,7 @@ I use the transform tool when I am importing external images and need to resize,
 
 ### **Layers**
 
-![Layers in Procreate](https://framerusercontent.com/images/fJ0Eo5rphbb2ANKrtOw8N9LqwE.jpg)
+![Layers in Procreate](/images/articles/fJ0Eo5rphbb2ANKrtOw8.webp)
 
 Layers are the cornerstone of improving your more advanced drawing skills. If you were to draw everything on one layer, it would be difficult to separate your outlines from your color, your foreground from your background, or your lighting effects.
 
@@ -125,7 +125,7 @@ By keeping objects or sketches in their layers, you'll give yourself more flexib
 
 ### **Brush library**
 
-![Procreate brush set](https://framerusercontent.com/images/ynCXYHIFgKsY1htzABL86UtDmx0.jpg)
+![Procreate brush set](/images/articles/ynCXYHIFgKsY1htzABL8.webp)
 
 The Procreate brush library not only contains brushes, but pencils, pens, materials, and effects. But opening this library can be confusing and overwhelming.
 
@@ -142,7 +142,7 @@ I ignore about 97% of what's included here, and I recommend picking 2-3 of your 
 
 ### **Brush opacity and size**
 
-![Adjustable size and opacity sliders](https://framerusercontent.com/images/4sNSsNwY8Ul7MAEY9vPzI2QItOU.jpg)
+![Adjustable size and opacity sliders](/images/articles/4sNSsNwY8Ul7MAEY9vPz.webp)
 
 On the right side of the app (or left side depending on your Procreate setup), you'll find two sliders affecting both brush size and opacity.
 
@@ -150,7 +150,7 @@ The top slider affects the size, and the bottom slider affects the opacity. Tap 
 
 ### **Eraser tool**
 
-![Eraser brush](https://framerusercontent.com/images/8vXkwYYCJ1uhBSuZRmAa8T2X0xY.jpg)
+![Eraser brush](/images/articles/8vXkwYYCJ1uhBSuZRmAa.webp)
 
 You'll end up using the eraser tool quite often, and it's conveniently located in the top right of the interface, next to the layers icon. Simply tap it once to use it immediately, or tap it again to open up the settings to use the eraser with a different brush.
 
@@ -204,7 +204,7 @@ Hopefully you'll have no problem creating original Procreate drawing ideas.
 
 ### **Idea #1: Draw digital art based on words from an article, a quote, or book you love**
 
-![The E-Myth book illustration](https://framerusercontent.com/images/JJPXN8fmyUR8F5todxbE3uUqAm8.jpg)
+![The E-Myth book illustration](/images/articles/JJPXN8fmyUR8F5todxbE.webp)
 
 Much of the time, I need a reference photo and look to Google to find objects that I can combine to tell a visual story.
 
@@ -214,23 +214,23 @@ I searched Google for Procreate ideas to draw, and created a composite that made
 
 To me, each of the objects represents one of the characters and combining them in this order made for a nice and consistent look for the article.
 
-![Google image search composition](https://framerusercontent.com/images/zrZJ74LrW6KcG41d7d43mJ0Ty3s.jpg)
+![Google image search composition](/images/articles/zrZJ74LrW6KcG41d7d43.webp)
 
 The next thing I did was to bring back the opacity on the images and trace them with a 6B pencil. You'll see I just drew the outlines of the shapes, on the left, and then started to fill in the color on the right on a new layer underneath the outlines. Normally, I want to create a sense of story within the images I'm choosing.
 
-![E-Myth drawing process](https://framerusercontent.com/images/KiPq5rc4kyvXU2pQJfMRnEl1Is.jpg)
+![E-Myth drawing process](/images/articles/KiPq5rc4kyvXU2pQJfMR.webp)
 
 In the layers palette, you can see how I organized the layers and the groups.
 
 After I am finished with the drawings, I hide the artwork on the bottom layer. To create a group, select a layer and swipe left on anther layer, then tap "Group."
 
-![Layer palette and organization](https://framerusercontent.com/images/xV5q4y9CYThMm6P36PK86nQKRyQ.jpg)
+![Layer palette and organization](/images/articles/xV5q4y9CYThMm6P36PK8.webp)
 
 Finding Procreate ideas for your illustrations start with writing down several words that you can search for online. You should have no problem finding things to draw when you start to get your creative juices flowing with the process.
 
 ### **Idea #2: Easy drawing ideas from pop culture**
 
-![Pop-culture based illustration for a newsletter](https://framerusercontent.com/images/vso70uoi6XOX4tYm6g4VVXhQLU.jpg)
+![Pop-culture based illustration for a newsletter](/images/articles/vso70uoi6XOX4tYm6g4V.webp)
 
 I have traveled to Toronto half a dozen times to attend the Toronto International Film Festival (TIFF). I love movies, and I also love to draw some of my favorite scenes.
 
@@ -238,27 +238,27 @@ Like many, I love Wes Anderson. For this piece, I was writing about finding our 
 
 The next thing I knew, I was searching for Wes Anderson films, looking for a scene that had a nook-like feel. The scene from The Life Aquatic image appeared when they were in an underwater submarine type of machine, and I thought I could use that for this image. With some cutting and cropping, I composed a layout that placed them inside the tennis ball.
 
-![Google image search composition](https://framerusercontent.com/images/3pgzOjiRowdGxyLYJ40aMpWIn8.jpg)
+![Google image search composition](/images/articles/3pgzOjiRowdGxyLYJ40a.webp)
 
 Below you'll see the overall process of first sketching and drawing in the outlines from the composition I made with the original images. Then I add color underneath those layers, using the procreate brushes. I prefer to use individual layers for each colored object.
 
-![A creative nook process](https://framerusercontent.com/images/wfzdpnKT3kUvOsI5ZRKL70qiBLA.jpg)
+![A creative nook process](/images/articles/wfzdpnKT3kUvOsI5ZRKL.webp)
 
 Part of the beauty of this process is knowing you can't draw this from memory, but by leveraging an already constructed composition, you can trace almost anything in your style.
 
 ### **Idea #3: Draw your name or initials from a font**
 
-![Illustration of my own initial](https://framerusercontent.com/images/Km2xJZ3BXJbXfrQXpjBri2sE.jpg)
+![Illustration of my own initial](/images/articles/Km2xJZ3BXJbXfrQXpjBr.webp)
 
 There's no word more important to us than our name. And while you can draw art in the app, I will have you type out your name in Procreate. Then, we'll trace over it, getting a feel for how drawing letters can be creative and fun.
 
 First, we'll type out our names or initials using the text tool. Then pick a font that looks fun to trace. I chose a serif font since I'm drawn to their elegance.
 
-![Adding text to Procreate](https://framerusercontent.com/images/yjhsaJz2UeVaTFlRb1p4ODULBEg.jpg)
+![Adding text to Procreate](/images/articles/yjhsaJz2UeVaTFlRb1p4.webp)
 
 Next, scale up your name to fill most of the canvas so we can work at a large size. We can always scale these down to use for our signature or headers of a website/newsletter.
 
-![Resizing your text to fit the canvas](https://framerusercontent.com/images/zF6L0cmMQVkneplRr7H1J3rKyY.jpg)
+![Resizing your text to fit the canvas](/images/articles/zF6L0cmMQVkneplRr7H1.webp)
 
 Lower the opacity of the layer by opening up the layer palette, then two-finger tapping the layer with your name on it.
 
@@ -266,17 +266,17 @@ Then you'll see a slider appear along the top edge of the app, and just slide yo
 
 You want to decrease the opacity just enough so you can see it, but fill in using your pencil or brush. I dropped the opacity of my drawing close to 10%.
 
-![Pulling back the opacity to start tracing](https://framerusercontent.com/images/tdHdHCKu6tVeOZDIA5EM1Q1Sexk.jpg)
+![Pulling back the opacity to start tracing](/images/articles/tdHdHCKu6tVeOZDIA5EM.webp)
 
 Now you want to add a new layer and trace your name in with a pencil or pen. Keep everything in a separate layer so you're not affecting the original, and you'll be able to hide the other layers if you need to.
 
-![Drawing my own name](https://framerusercontent.com/images/96n5xo2ITnYTc7cG77uCIso5Vg.jpg)
+![Drawing my own name](/images/articles/96n5xo2ITnYTc7cG77uC.webp)
 
 Now, you have your final name sketched out by hand, which you can use to personalize anything you need.
 
 Other ways I use this is by creating my own signature in a digital format, and using that image for signed documents.
 
-![Final rendition of my own name](https://framerusercontent.com/images/M4VcexnxW8nA3Y6y4eLKthR8U.jpg)
+![Final rendition of my own name](/images/articles/M4VcexnxW8nA3Y6y4eLK.webp)
 
 ‍
 
@@ -284,7 +284,7 @@ Other ways I use this is by creating my own signature in a digital format, and u
 
 Sometimes, you'll have an idea from your own photo selection that could make a good idea for an illustration.
 
-![Drawing a bicycle tire for a piece of writing](https://framerusercontent.com/images/hXXDdBTiOwcTyFcxeQg6Cbc4jU.jpg)
+![Drawing a bicycle tire for a piece of writing](/images/articles/hXXDdBTiOwcTyFcxeQg6.webp)
 
 I love to bike, so I grabbed this bike wheel photo from my own bike, and gave it a sense of life. Like every image before, I illustrated the pencil drawing using a 6B pencil, then filled in some basic coloring in the spokes and the wheels around it.
 
@@ -292,7 +292,7 @@ The article it was for was about [finding your creative alignment](https://plany
 
 The finishing touch was to write some phrases in a straight continuous line drawing as the spokes. I think the illustration benefitted from this unique concept, versus just being a simple wheel.
 
-![The process of tracing and copying a bicycle tire](https://framerusercontent.com/images/CyPrYOu3qjmXgnJnjMQqcs4DhVw.jpg)
+![The process of tracing and copying a bicycle tire](/images/articles/CyPrYOu3qjmXgnJnjMQq.webp)
 
 This is the magic in remixing illustrations this way. Finding your creative voice over time, and tweaking the physical elements with the imaginary world of our minds. This is the foundation for your digital painting exploration.
 

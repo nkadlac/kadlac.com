@@ -3,10 +3,10 @@ title: "Minimalism is boring"
 date: 2022-10-18
 category: design
 description: "Unlock your own creative taste, and splatter your experiences into a sea of blank canvases"
-image: "https://framerusercontent.com/images/0X1dw2742sLLYsCSSqIkSCQVoA.jpg"
+image: "/images/articles/0X1dw2742sLLYsCSSqIk.webp"
 ---
 
-![](https://framerusercontent.com/images/0X1dw2742sLLYsCSSqIkSCQVoA.jpg)
+![](/images/articles/0X1dw2742sLLYsCSSqIk.webp)
 
 There’s an old photograph of Steve Jobs in his twenties, sitting cross-legged on a wooden floor in an empty room. There’s nothing in the room except a Tiffany lamp, a cup of tea, and a few papers scattered in front of him.
 
@@ -62,7 +62,7 @@ We were born into this world with a clean slate, but it’s gotten pretty damn m
 
 This is a world without personality.
 
-![](https://framerusercontent.com/images/FO0WqmPH7Xs8uuATya3RAjlQUb8.jpeg)
+![](/images/articles/FO0WqmPH7Xs8uuATya3R.webp)
 
 While it feels beautiful to imagine Steve Jobs as a minimalist changing the world from an empty room, he was anything but. 
 

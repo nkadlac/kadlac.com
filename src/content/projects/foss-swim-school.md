@@ -2,7 +2,7 @@
 title: "Digital Tools for Helping Kids Swim"
 client: "FOSS Swim School"
 description: "We live in a world that is 80% water, and yet the majority of Americans don't have adequate swimming ability."
-coverImage: "https://framerusercontent.com/images/JvcL7OlHZZoXQeFtfF78ooNq9wk.jpg"
+coverImage: "/images/articles/JvcL7OlHZZoXQeFtfF78.webp"
 tags: ["UI Design • UX Design • Brand identity • Illustration"]
 liveUrl: "https://www.fossswimschool.com/"
 order: 6
@@ -18,4 +18,4 @@ The opportunity to establish FOSS as a leader in swim education included refresh
 
 It started with designing children's t-shirts based off the FOSS swim techniques. It quickly expanded into a redesign of the site and building a new and improved system for showing what stage a swimmer is at in their journey.
 
-![](https://framerusercontent.com/images/s1OWwP2XpmOGFQsuKPVukr360U.jpg)![](https://framerusercontent.com/images/VYlVAtURGPtfECPJjmEteki7yI0.jpg)![](https://framerusercontent.com/images/LXkwAUdzbhSC0X3KZWZBOxWLKLo.jpg)![](https://framerusercontent.com/images/kT3i3VTM9fqEmGqGFO0T2KP7Cg.jpg)![](https://framerusercontent.com/images/xFElcz3vOWm61vcB1kKVd24MLc.jpg)![](https://framerusercontent.com/images/tOIWu3bDZctjMLOd38mt9b32zY.jpg)![](https://framerusercontent.com/images/JvcL7OlHZZoXQeFtfF78ooNq9wk.jpg)![](https://framerusercontent.com/images/1gVKvslHs7I1BMVkorBxI5c2JSg.jpg)![](https://framerusercontent.com/images/kYP0YWqza6IPSxA8KttH8WRs5L8.jpg)
+![](/images/articles/s1OWwP2XpmOGFQsuKPVu.webp)![](/images/articles/VYlVAtURGPtfECPJjmEt.webp)![](/images/articles/LXkwAUdzbhSC0X3KZWZB.webp)![](/images/articles/kT3i3VTM9fqEmGqGFO0T.webp)![](/images/articles/xFElcz3vOWm61vcB1kKV.webp)![](/images/articles/tOIWu3bDZctjMLOd38mt.webp)![](/images/articles/JvcL7OlHZZoXQeFtfF78.webp)![](/images/articles/1gVKvslHs7I1BMVkorBx.webp)![](/images/articles/kYP0YWqza6IPSxA8KttH.webp)

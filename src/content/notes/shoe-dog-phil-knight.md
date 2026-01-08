@@ -3,7 +3,7 @@ title: "Shoe Dog"
 author: "Phil Knight Book Summary and Notes"
 rating: 9
 amazonUrl: "https://geni.us/phil-knight-shoe-dog"
-coverImage: "https://framerusercontent.com/images/KTKQFswtPMFSScdOdI062PPXU.png"
+coverImage: "/images/articles/KTKQFswtPMFSScdOdI06.webp"
 description: "This memoir describes in detail how many times Nike was close to failing, seemingly flying into headwinds for much of its early life. "
 ---
 

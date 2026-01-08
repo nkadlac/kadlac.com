@@ -3,10 +3,10 @@ title: "An embarrassing story about debt, cutlery, and costumes"
 date: 2022-10-18
 category: personal
 description: "Eighteen months after quitting college, I find myself in a predicament between cutlery and cash."
-image: "https://framerusercontent.com/images/qdfJw3eD61OvaZiQMw6WxBD6R3M.jpg"
+image: "/images/articles/qdfJw3eD61OvaZiQMw6W.webp"
 ---
 
-![](https://framerusercontent.com/images/qdfJw3eD61OvaZiQMw6WxBD6R3M.jpg)
+![](/images/articles/qdfJw3eD61OvaZiQMw6W.webp)
 
 In twenty minutes, I‘ll be in my rusted car speeding towards the hockey arena of the Minnesota Wild. 
 
@@ -39,7 +39,7 @@ Never could I have imagined that in eighteen months, I would be dressed up as an
 
 ## The obstacle is the way
 
-![](https://framerusercontent.com/images/BuxkQp0Gjjmk5ZtfTfTMSQlnLA.jpg)
+![](/images/articles/BuxkQp0Gjjmk5ZtfTfTM.webp)
 
 Back in front of the mirror, I’d love to leave for the arena, but the costumed pilot staring back at me has a steel barbell protruding from the bottom lip. Piercings were not traditionally needed to fly WWI aircraft in the early 20th century—and if that wasn’t enough—I had strict instructions _not_ to have any piercings. 
 
@@ -58,7 +58,7 @@ I look ridiculous and exasperated having run out of options.
 
 ## Closing deals with cutlery
 
-![](https://framerusercontent.com/images/PTGtOlLqF602t3qieNRbRpgeQfg.jpg)
+![](/images/articles/PTGtOlLqF602t3qieNRb.webp)
 
 My first summer out of high school, I sold [Cutco knives door to door](https://framer.com/articles/how-selling-knives-gave-me-confidence-to-become-a-self-taught-designer). 
 

@@ -3,7 +3,7 @@ title: "How do people find you?"
 date: 2024-12-11
 category: design
 description: "Choose your goals and design a site that creates serendipity for you"
-image: "https://framerusercontent.com/images/Ri5Dq356cQ24n68rNS8Jc2A6U.png"
+image: "/images/articles/Ri5Dq356cQ24n68rNS8J.webp"
 ---
 
 Yesterday at 11:05 am I hopped on a 15-minute call with a reader who came across an article I wrote online.
@@ -18,7 +18,7 @@ Yesterday at 11:05 am I hopped on a 15-minute call with a reader who came across
 
 ​In the past year, 87,700 people have visited my personal site, and I have had hundreds of calls from people worldwide with little effort.
 
-![](https://framerusercontent.com/images/Ri5Dq356cQ24n68rNS8Jc2A6U.png)
+![](/images/articles/Ri5Dq356cQ24n68rNS8J.webp)
 
 Many have become clients.
 

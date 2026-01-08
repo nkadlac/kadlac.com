@@ -18,7 +18,7 @@ But I think there’s a reason behind this.
 
 **We’re starved for beauty.** And Europe is just 7-10 hours away for us in the States to lather our senses with it.
 
-![Divider](https://framerusercontent.com/images/tuisUoEGDfGwVVLsCU9CvL6EbOY.png)
+![Divider](/images/articles/tuisUoEGDfGwVVLsCU9C.webp)
 
 My first trip overseas trip was to London in 2004. I stayed in an old dusty hostel with a bunch of Australians sitting in a lobby centered around a 24-pack of Foster’s beer, who promptly criticized the quality but laughed at the ridiculousness of the scene.
 
@@ -26,7 +26,7 @@ I roamed the cobblestone streets of London, fetching two-story buses as often as
 
 I stared up at Big Ben’s beauty, navigated the Tate Museum, and strode through Piccadilly Circus. I had zero dollars to my name but I remember coming home from that trip thinking, “I could have walked around with a bag over my head while carrying a squirrel, and no one would have even cared.”
 
-![Divider](https://framerusercontent.com/images/tuisUoEGDfGwVVLsCU9CvL6EbOY.png)
+![Divider](/images/articles/tuisUoEGDfGwVVLsCU9C.webp)
 
 This sense of beauty found in old cities is something I find difficult to find here in the States. The modernist approach permits the Ikeafication of all things minimalist.
 
@@ -34,7 +34,7 @@ That first trip to Europe carved a hole in my soul that exists today. It’s a l
 
 And it’s these memories and recollections of beauty that make me cringe at the words, “form follows function.”
 
-![Divider](https://framerusercontent.com/images/tuisUoEGDfGwVVLsCU9CvL6EbOY.png)
+![Divider](/images/articles/tuisUoEGDfGwVVLsCU9C.webp)
 
 Form follows function. The wet dream of modernism.
 
@@ -46,7 +46,7 @@ Count me on the side of the fifteenth-century man who enjoys his gingerbread coo
 
 Later, the architect Louis Sullivan picked up the ball and coined the maxim as we know it today, saying, “a rationally designed structure may not necessarily be beautiful but no building can be beautiful that does not have a rationally designed structure.”
 
-![Divider](https://framerusercontent.com/images/tuisUoEGDfGwVVLsCU9CvL6EbOY.png)
+![Divider](/images/articles/tuisUoEGDfGwVVLsCU9C.webp)
 
 The saying, “Form follows function” persists in our culture today. Manifesting itself in architecture, software, and even [cars](https://en.wikipedia.org/wiki/Fiat_Multipla).  
 

@@ -3,7 +3,7 @@ title: "The Mom Test"
 author: "Rob Fitzpatrick"
 rating: 9
 amazonUrl: "https://geni.us/mom-test"
-coverImage: "https://framerusercontent.com/images/SL8vYGJ9spXVX3butdIkYbYGOho.png"
+coverImage: "/images/articles/SL8vYGJ9spXVX3butdIk.webp"
 description: "The Mom Test is a set of simple rules for crafting good questions that even your mom can't lie to you about."
 ---
 

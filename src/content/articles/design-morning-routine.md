@@ -3,10 +3,10 @@ title: "The morning routine of a designer who can’t unsee design"
 date: 2022-10-18
 category: personal
 description: "Can you appreciate design even in the early hours? "
-image: "https://framerusercontent.com/images/sBO0rD5TmJLfUQtJ1AmHjJNt0Vg.jpg"
+image: "/images/articles/sBO0rD5TmJLfUQtJ1AmH.webp"
 ---
 
-![](https://framerusercontent.com/images/sBO0rD5TmJLfUQtJ1AmHjJNt0Vg.jpg)
+![](/images/articles/sBO0rD5TmJLfUQtJ1AmH.webp)
 
 It’s six am and my muffled iPhone alarm wrestles its way up through the valley of sheets. It’s calling for rescue, a political phone prisoner after having its snooze button punched more than a couple of times. 
 

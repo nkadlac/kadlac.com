@@ -6,7 +6,7 @@ description: "As the pandemic smashed the world, the rooms in my two-bedroom apa
 
 ---
 
-![My home office space](https://framerusercontent.com/images/2P5VaEHzxvU7JaeX1PcURgFOmYM.jpg)
+![My home office space](/images/articles/2P5VaEHzxvU7JaeX1PcU.webp)
 
 ‍As the pandemic smashed the world, the rooms in my two-bedroom apartment created split personalities for themselves, almost unexpectedly.
 

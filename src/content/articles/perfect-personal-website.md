@@ -3,7 +3,7 @@ title: "Does the perfect personal website exist?"
 date: 2024-12-05
 category: design
 description: "Spoiler alert : It doesn't. But it can change your direction."
-image: "https://framerusercontent.com/images/ZkO9kd0I1LuP9J0nQngddWOL8QM.jpg"
+image: "/images/articles/ZkO9kd0I1LuP9J0nQngd.webp"
 ---
 
 I was 11 and my brother and I finally stopped sharing a bedroom.
@@ -20,7 +20,7 @@ Now as an adult, I still love to personalize everything.
 
 My restored ‘83 Schwinn. My travel bag. My personal website.
 
-![](https://framerusercontent.com/images/HTdfrptwn0f0rDCGtJqA8xaj0.png)
+![](/images/articles/HTdfrptwn0f0rDCGtJqA.webp)
 
 It’s why this newsletter is called Make It Yours.
 

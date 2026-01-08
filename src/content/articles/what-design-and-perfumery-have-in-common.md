@@ -3,10 +3,10 @@ title: "What design and perfumery have in common"
 date: 2022-10-18
 category: design
 description: "How the notes of a fragrance are like the visual layers of design."
-image: "https://framerusercontent.com/images/slWnYmoFGECJv76diRSuX6e7JY.jpg"
+image: "/images/articles/slWnYmoFGECJv76diRSu.webp"
 ---
 
-![](https://framerusercontent.com/images/TLQ6HlGWKnGyAEDLHVihJ7IKcqs.jpg)
+![](/images/articles/TLQ6HlGWKnGyAEDLHVih.webp)
 
 Last week, I caught myself in the middle of the Netflix series, [Halston](https://en.wikipedia.org/wiki/Halston). It’s based on the life of Roy Halston, the American designer who rose to international fame in the ‘70s.
 

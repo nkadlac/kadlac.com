@@ -3,10 +3,10 @@ title: "Have higher standards by doing this"
 date: 2024-12-17
 category: design
 description: "Quality work meets spec—not perfection. Learn how clear standards, high specs, and customer focus can improve your work and delight your audience."
-image: "https://framerusercontent.com/images/BetG4aJHwki3TpZnrXxbJEkJGiM.png"
+image: "/images/articles/BetG4aJHwki3TpZnrXxb.webp"
 ---
 
-![Have Higher Standards](https://framerusercontent.com/images/wVBcYS9jXMWnAD51aTWl36RqrCw.png)
+![Have Higher Standards](/images/articles/wVBcYS9jXMWnAD51aTWl.webp)
 
 Seth Godin recently stated the obvious. (Again)
 

@@ -3,10 +3,10 @@ title: "How selling knives gave me the confidence to become a self-taught design
 date: 2022-10-18
 category: personal
 description: "I didn’t realize it at the moment, but that simple choice to sell knives gave me the confidence to quit college and seek out a nontraditional path to becoming a designer. "
-image: "https://framerusercontent.com/images/bEFOMlBkHrRz6vg4TrkhE2wWI.jpg"
+image: "/images/articles/bEFOMlBkHrRz6vg4Trkh.webp"
 ---
 
-![Cutco knives](https://framerusercontent.com/images/bEFOMlBkHrRz6vg4TrkhE2wWI.jpg)
+![Cutco knives](/images/articles/bEFOMlBkHrRz6vg4Trkh.webp)
 
 Every time I watch the movie Edward Scissorhands, I think back to my first summer out of high school, selling knives door-to-door. 
 

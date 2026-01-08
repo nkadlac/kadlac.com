@@ -3,10 +3,10 @@ title: "Learn How To Draw In Procreate So You Can Stop Using The Same Unsplash P
 date: 2023-05-12
 category: visual
 description: "Create inspiring illustrations in Procreate by following these 10 steps"
-image: "https://framerusercontent.com/images/AP0fpbBo52kfG3QiubzSXDxs.jpg"
+image: "/images/articles/AP0fpbBo52kfG3QiubzS.webp"
 ---
 
-![](https://framerusercontent.com/images/AP0fpbBo52kfG3QiubzSXDxs.jpg)
+![](/images/articles/AP0fpbBo52kfG3QiubzS.webp)
 
 “What do you want to be when you grow up?”
 
@@ -108,7 +108,7 @@ What you’re looking for are interesting metaphors for ideas. Images that might
 
 If you’re struggling with finding images, get out your phone and take photos of things around the house. If you need a picture of your hands, take a picture of your own!
 
-![](https://framerusercontent.com/images/Cn2wtH2Yj5YLSCnykmNnovCBBVE.jpg)
+![](/images/articles/Cn2wtH2Yj5YLSCnykmNn.webp)
 
 Collect around 3-5 images and start thinking about how to remix them in the next step. I usually add these to my photo library app on my iPad so it’s easy to access in Procreate.
 
@@ -132,7 +132,7 @@ This image wouldn’t have been as strong if it were just the branded artifacts 
 
 Take 10 minutes and think about how to combine 2-3 images, and I’ll show you how to lay them out in the next step.
 
-![](https://framerusercontent.com/images/frizifN0jtCsBZugefVhge9vc.jpg)
+![](/images/articles/frizifN0jtCsBZugefVh.webp)
 
   
 
@@ -145,28 +145,28 @@ Procreate is a powerful piece of drawing software that might feel intimidating, 
 **Create a new document  
 **Start by creating a new document, using the default “Screen Size option.” You’ll be staring into a blank canvas, and you’ll next need to add your 3-5 images. Or the ones you decided to use. 
 
-![](https://framerusercontent.com/images/lt45nIqcsbOWFtLKDh2MOwJztk.jpg)
+![](/images/articles/lt45nIqcsbOWFtLKDh2M.webp)
 
 **Add your images  
 **Tapping the wrench tool in the top left opens a popover menu. Select “Add” from the first icon and insert the photos that you collected from your Google search. 
 
-![](https://framerusercontent.com/images/gq4lCeTJbTAzbpthOzsI3ZKjQ.jpg)
+![](/images/articles/gq4lCeTJbTAzbpthOzsI.webp)
 
 **Move and mix  
 **Before we start to draw, we want to create a rough composition by moving the images into place. We’re not trying to draw from scratch, but layer the photos to create an interesting composition that we can trace.
 
 In this example, you can see how I layered the images into place to create something strange and unique.
 
-![](https://framerusercontent.com/images/UoCAV9rAsyQgKEhFPlYgGIgjJ3Y.jpg)
+![](/images/articles/UoCAV9rAsyQgKEhFPlYg.webp)
 
 **Reduce opacity and set up our drawing layer  
 **At this point, we want to prep our file by reducing the opacity of our composition so we can still use the images for reference.
 
-![](https://framerusercontent.com/images/zXKNymtWNQpk6jPpUYmm722KjiI.jpg)
+![](/images/articles/zXKNymtWNQpk6jPpUYmm.webp)
 
 We’ll also [create a new layer](https://procreate.art/handbook/procreate/5.1/layers/layers-create/) above the old one so we maintain control over our new illustration. We don’t want to draw on the same layer as the photos, because we’ll hide that completely once we’re done.
 
-![](https://framerusercontent.com/images/anaOAmclxoiRbKET4zgXS7M1E.jpg)
+![](/images/articles/anaOAmclxoiRbKET4zgX.webp)
 
 ‍_**Tip**: To quickly reduce the opacity of a layer, open the layers menu and double-finger tap the layer, and then swipe left anywhere on the screen to slide the opacity down._
 
@@ -182,7 +182,7 @@ If you prefer a very sketchy, informal look, I would opt to use a pencil instead
 
 I typically use the 6B pencil, and the Gloaming brush. The 6B pencil comes in handy for making thick outlines, and the brush is great for coloring and adding depth. 
 
-![](https://framerusercontent.com/images/Ypxo5CbzxEHuhN7EkiG2XEUwF4.jpg)
+![](/images/articles/Ypxo5CbzxEHuhN7EkiG2.webp)
 
 Choose one tool for sketching—an ink pen or pencil—and a brush for “painting” in color. There are no hard and fast rules here, so you could just choose one tool for everything if you prefer. But if you’re just starting out, stick with just a couple. 
 
@@ -202,13 +202,13 @@ There are many ways to draw, and I’ll share my own. But know that you could se
 
 I’ll usually start by tracing my lines like we’re making a coloring book, and then filling in the color later. But if you’re feeling creative, you could try the opposite, or not use outlines at all!
 
-![](https://framerusercontent.com/images/3F9ZAbDFlm1KbKrGnFocLZg45cg.jpg)
+![](/images/articles/3F9ZAbDFlm1KbKrGnFoc.webp)
 
 By tracing your remixed composition, you’re melding your ideas into one strong illustration, just through the act of remixing photos. It’s a shortcut to creating something unique, like how a DJ mixes two songs together.
 
 Spend some time here getting a good foundation and a look that you’re happy with. You may think this is cheating, but you’re actually learning more quickly by doing, and developing a skill set more rapidly than if I were to ask you to draw a bird by imagining it.
 
-![](https://framerusercontent.com/images/A2sGcMlbCzIyrD6huh6ynIqiC0.jpg)
+![](/images/articles/A2sGcMlbCzIyrD6huh6y.webp)
 
   
 
@@ -219,7 +219,7 @@ Once you have the foundation of your sketch, create a new layer and we’ll drag
 **Select your colors using the eyedropper tool  
 **To quickly replicate the illustration using colors from the original photo, I’ll use the eyedropper tool to quickly get close. By holding your finger on the screen, it will turn into a loupe, allowing you to select the color you’re hovering on, then replace the current fill with the newly selected color.
 
-![](https://framerusercontent.com/images/NfMo8v8IVKASkTRftNECuz8nU.jpg)
+![](/images/articles/NfMo8v8IVKASkTRftNEC.webp)
 
 You can make adjustments to this by tapping the selected fill color in the top right corner, and modifying it however you like. 
 
@@ -227,7 +227,7 @@ The point is to quickly fill in the outlines with some color, using your brushes
 
 Take some time to add multiple colors if you’d like, and fill your illustration in. 
 
-![](https://framerusercontent.com/images/5Z6HMQBRvzA5GD2msvV9IiMhux8.jpg)
+![](/images/articles/5Z6HMQBRvzA5GD2msvV9.webp)
 
 #### Adjusting colors and using the HSB color model
 
@@ -243,7 +243,7 @@ What you might have right now is a 2D illustration, without any depth or sense o
 
 Imagine there’s a light—or the sun— sitting somewhere on your canvas. That light source is going to hit your illustration in the same way it hits an object in real life, and will cast shadows. Those shadows give objects a sense of space, and it’s the easiest way to help a drawing come to life. 
 
-![](https://framerusercontent.com/images/5WaqvKJ2AC9LAyJYf6xjCDCabk.jpg)
+![](/images/articles/5WaqvKJ2AC9LAyJYf6xj.webp)
 
 Now instead of just adding some black or white tints to your images, think about adding shades and tints—lights and darks—of the existing colors you’re using. So if you’re using a brown in your image, select that brown and find a darker shade of that color and use that to create shadows. 
 

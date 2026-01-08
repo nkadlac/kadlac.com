@@ -3,10 +3,10 @@ title: "2023 Reflections: A  year of wandering"
 date: 2024-03-17
 category: personal
 description: "I'm horrible at reflecting, but here goes. "
-image: "https://framerusercontent.com/images/ZZvHwpuivWkIS5PGxne3hcDvg.jpg"
+image: "/images/articles/ZZvHwpuivWkIS5PGxne3.webp"
 ---
 
-![](https://framerusercontent.com/images/WsY0aKqCkgDUqYPXTgIZusZTlk.jpg)
+![](/images/articles/WsY0aKqCkgDUqYPXTgIZ.webp)
 
 I'm horrible at reflecting.
 
@@ -190,4 +190,4 @@ I also have been operating under a sole-proprietorship for the past five years, 
 
 ## Misc Photos
 
-![](https://framerusercontent.com/images/TOPWWpaTvxXKeaOsSDVaAGSug6k.jpeg)![](https://framerusercontent.com/images/1jxPzVyYOj96fYPHec7338WgdJw.jpg)![](https://framerusercontent.com/images/JVpQuq7eDmhtlsGwfH5Q4zDGTHw.jpeg)![](https://framerusercontent.com/images/6kQGKS6pScKqMNVKIdkYpW2E2M.jpeg)![](https://framerusercontent.com/images/4P7dHsAjtjGkhL3uRmQZD5Q.jpeg)![](https://framerusercontent.com/images/Kh0t5fI98nR6pBN56VRClyWrP0.jpeg)![](https://framerusercontent.com/images/RlFoP1C05frsGNqOZrekB0suq4.jpg)
+![](/images/articles/TOPWWpaTvxXKeaOsSDVa.webp)![](/images/articles/1jxPzVyYOj96fYPHec73.webp)![](/images/articles/JVpQuq7eDmhtlsGwfH5Q.webp)![](/images/articles/6kQGKS6pScKqMNVKIdkY.webp)![](/images/articles/4P7dHsAjtjGkhL3uRmQZ.webp)![](/images/articles/Kh0t5fI98nR6pBN56VRC.webp)![](/images/articles/RlFoP1C05frsGNqOZrek.webp)

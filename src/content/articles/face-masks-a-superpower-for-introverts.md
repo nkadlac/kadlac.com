@@ -3,10 +3,10 @@ title: "Face masks: A superpower for introverts"
 date: 2022-10-18
 category: design
 description: "Wearing a mask provides introverts a superpower to feel comfortably quiet, simultaneously outsourcing our social expectations to be loud, onto a piece of fabric. "
-image: "https://framerusercontent.com/images/ztkEx8wcEgho3hBYIKZVsayySs.jpg"
+image: "/images/articles/ztkEx8wcEgho3hBYIKZV.webp"
 ---
 
-![A history of face masks](https://framerusercontent.com/images/ztkEx8wcEgho3hBYIKZVsayySs.jpg)
+![A history of face masks](/images/articles/ztkEx8wcEgho3hBYIKZV.webp)
 
 Six years ago, I ditched Minnesota’s frozen tundra for California’s scorching sun.
 
@@ -52,18 +52,18 @@ Masks have an immediate negative reaction. Wearing one implies that something is
 
 Thankfully, we’re far beyond the need for the ‘beak mask’, that would literally scare the shit out of people. The wearer would often fill the beaks with dried flowers, herbs, and spices just to compensate for the smell of death.
 
-![The Beak mask](https://framerusercontent.com/images/TxkJ2zRtZKz3E3mzqu6iZHe21dk.jpg)
+![The Beak mask](/images/articles/TxkJ2zRtZKz3E3mzqu6i.webp)
 
 ‍As an introvert, I’ve found ways to instead focus on the benefits of mask-wearing outside of the health impact. In the same way, artists are finding ways to creatively express themselves using a mix of high-art, sci-fi, and concept car showrooms.
 
 "The face mask is 2020's most iconic and important visual motif"  
 — [Freyja Sewell](http://www.freyjasewell.co.uk/), London based designer
 
-![Freyja Sewell designed mask](https://framerusercontent.com/images/uRJGz58F0JUhwQzhUjFWHQJ65nc.jpg)
+![Freyja Sewell designed mask](/images/articles/uRJGz58F0JUhwQzhUjFW.webp)
 
 ‍
 
-![Summer Wave](https://framerusercontent.com/images/8QCwWhNhKpNQEHhjtX6UWxKHX4.jpg)
+![Summer Wave](/images/articles/8QCwWhNhKpNQEHhjtX6U.webp)
 
 SA headpiece topped with microphones makes up the mask created in honour of key public service workers like journalists
 

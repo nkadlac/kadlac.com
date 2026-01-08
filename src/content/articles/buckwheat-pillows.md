@@ -3,10 +3,10 @@ title: "Why a Japanese buckwheat pillow is the secret tool for a better night’
 date: 2022-10-24
 category: personal
 description: "Why a Japanese buckwheat pillow is the secret tool for a better night’s sleep."
-image: "https://framerusercontent.com/images/7BKPS7PxC82Id1ZC9Zmx0ACgqI.jpg"
+image: "/images/articles/7BKPS7PxC82Id1ZC9Zmx.webp"
 ---
 
-![A Japanese buckwheat pillow](https://framerusercontent.com/images/7BKPS7PxC82Id1ZC9Zmx0ACgqI.jpg)
+![A Japanese buckwheat pillow](/images/articles/7BKPS7PxC82Id1ZC9Zmx.webp)
 
 Getting a good night's sleep is like winning an epic battle.
 
@@ -26,7 +26,7 @@ A buckwheat pillow is a type of pillow filled with hulls from the buckwheat plan
 
 ## The seed that helps you fall asleep better
 
-![A handful of buckwheat seeds](https://framerusercontent.com/images/V90GnBjikGNaqUTQdlppn1bvI.jpg)
+![A handful of buckwheat seeds](/images/articles/V90GnBjikGNaqUTQdlpp.webp)
 
 A pillow is rather straightforward. If you can stuff something in a pillowcase, you can call it a pillow. Technically, you could make a pillow out of shredded sneakers, but most are stuffed with down, feather, polyester fiberfill, shredded memory foam, shredded latex, wool, kapok, or any other synthetic material you can imagine.
 
@@ -52,7 +52,7 @@ Leg kicks!
 
 Many of the kicks occurred before and after the body changes position, leading them to hypothesize that it was due to small torsions of the spine and back. Simply, your body needs to relieve the stress from your spine and the only way it knows how is to kick, forcing a change of position.‍
 
-![A study on sleeping positions](https://framerusercontent.com/images/kpNEbBMylnA5bTChbfXNPaYc.gif)
+![A study on sleeping positions](/images/articles/kpNEbBMylnA5bTChbfXN.webp)
 
 What’s different about the organic buckwheat pillow? It’s designed to hold your head and spine in a supportive position for as long as possible. The husks nestle in around your head and neck area—like a bean bag—giving you much more support than feathers are capable of.
 
@@ -116,7 +116,7 @@ Overall, buckwheat pillows offer a unique combination of support, breathability,
 
 The reason why so many people have headaches, soreness, or tightness from their sleep, is because they have never taken the time to customize their pillow. It takes less than five minutes.‍
 
-![Customize your buckwheat pillow](https://framerusercontent.com/images/GPEjUOpo3sq3b3hSjAdJBxcfk.jpg)
+![Customize your buckwheat pillow](/images/articles/GPEjUOpo3sq3b3hSjAdJ.webp)
 
 ‍
 

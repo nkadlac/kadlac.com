@@ -48,7 +48,7 @@ Mark Twain said, “The man who doesn’t read good books has no advantage over 
 
 ### **Start by reading backward**
 
-![Read backwards starting at the index](https://framerusercontent.com/images/mfALAViJawYFhS8Q8em590Y6ZI.jpg)
+![Read backwards starting at the index](/images/articles/mfALAViJawYFhS8Q8em5.webp)
 
   
 Slow reading doesn’t start with reading. Before we begin, we’ll layer another constraint to prevent you from running blind down the wrong path. 
@@ -67,7 +67,7 @@ The main takeaway here is to act as a literary detective for your own interests,
 
 ### **Draw conclusions in your own words**
 
-![Handwritten book notes ](https://framerusercontent.com/images/ssl2GMsvF4DCz6HHzLfXwAPhg.jpg)
+![Handwritten book notes ](/images/articles/ssl2GMsvF4DCz6HHzLfX.webp)
 
   
 Contour line drawing is a simple technique that consists of drawing using one line, without looking at the paper. You focus your eyes on the figure in front of you, never allowing your pen to leave the paper. You draw the figure as an extension of your mind, connecting the two intimately. If instead, you studied the figure and then tried to draw from memory weeks later, you wouldn’t even come close.

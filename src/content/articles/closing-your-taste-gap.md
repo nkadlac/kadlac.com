@@ -3,10 +3,10 @@ title: "Closing your taste gap"
 date: 2022-10-18
 category: design
 description: "Closing the gap between what you love and what you create takes time and curiosity, but it's worth it."
-image: "https://framerusercontent.com/images/m2xEpzZyNAAsMU29a7KIAQe5Whw.jpg"
+image: "/images/articles/m2xEpzZyNAAsMU29a7KI.webp"
 ---
 
-![](https://framerusercontent.com/images/m2xEpzZyNAAsMU29a7KIAQe5Whw.jpg)
+![](/images/articles/m2xEpzZyNAAsMU29a7KI.webp)
 
 I’ve been trying to close my own taste gap in design ever since I first started trying to design my first website.
 

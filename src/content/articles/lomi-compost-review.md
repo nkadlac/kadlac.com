@@ -3,10 +3,10 @@ title: "I spent $350 on the hi-tech Lomi compost bucket to prove I’m a good pe
 date: 2022-12-30
 category: personal
 description: "This Lomi compost machine breaks down organic matter while I break down my own complex."
-image: "https://framerusercontent.com/images/yoeRqidJ3DKwEzQes8gaJlGcrPE.jpg"
+image: "/images/articles/yoeRqidJ3DKwEzQes8ga.webp"
 ---
 
-![](https://framerusercontent.com/images/yoeRqidJ3DKwEzQes8gaJlGcrPE.jpg)
+![](/images/articles/yoeRqidJ3DKwEzQes8ga.webp)
 
 I can be a wasteful person. But I want to be better. Rather than improve on this shortcoming, I bought a $350 kitchen composting machine to tell myself that at least I’m doing something.
 
@@ -46,7 +46,7 @@ But what really drew me into it was that you could compost your scraps down into
 
 Being a mediocre plant dad, I suddenly thought I could make up for lost time. I could compost my scraps, and feed my leafy green friends at the same time.
 
-![Plant life at casa de Kadlac. Don’t look too closely.](https://framerusercontent.com/images/5r1DBBIFJ6ZjI0zfwuVHCZC0nc.jpg)
+![Plant life at casa de Kadlac. Don’t look too closely.](/images/articles/5r1DBBIFJ6ZjI0zfwuVH.webp)
 
 ### **The apartment-sized Lomi compost bucket**
 
@@ -70,7 +70,7 @@ While I may regret this decision later, it’s been fun to use in the same way t
 
 Aesthetically, it’s as if Apple designed the product, with its stark white exterior and shiny white power cable. The size is about twice the size of our old tin can, but it nestles nicely into the corner without being an eyesore. 
 
-![The large Lomi compost bucket suited for small spaces](https://framerusercontent.com/images/bBIHZpHwYnhDR6a27BxelDULUc.jpg)![This machine breaks down organic matter. It breaking down my sense of well-being was just a bonus.](https://framerusercontent.com/images/3h4ZGfgGHI3w3ZmjeC7ZEfqY.jpg)
+![The large Lomi compost bucket suited for small spaces](/images/articles/bBIHZpHwYnhDR6a27Bxe.webp)![This machine breaks down organic matter. It breaking down my sense of well-being was just a bonus.](/images/articles/3h4ZGfgGHI3w3ZmjeC7Z.webp)
 
 But take my review with a grain of salt…
 

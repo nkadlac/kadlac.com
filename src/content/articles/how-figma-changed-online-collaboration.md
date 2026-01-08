@@ -3,10 +3,10 @@ title: "How Figma changed online collaboration for design"
 date: 2022-10-18
 category: design
 description: "Designing a beautiful app, writing a great book, or recording a song in a studio takes a collaborative effort. Why digital products should follow Figma's lead by baking in collaborative features from the start."
-image: "https://framerusercontent.com/images/6x0YkdzwnByp4CtzT1QOcMHQbY.jpg"
+image: "/images/articles/6x0YkdzwnByp4CtzT1QO.webp"
 ---
 
-![Figma design collaboration](https://framerusercontent.com/images/6x0YkdzwnByp4CtzT1QOcMHQbY.jpg)
+![Figma design collaboration](/images/articles/6x0YkdzwnByp4CtzT1QO.webp)
 
 Designing a beautiful app, writing a great book, or recording a song in a studio takes a collaborative effort. Pick a single point in the process and it may appear like a solo endeavor. But, viewing the entire lifeline of a creative project from a birds eye view, it requires feedback, collaboration, revisions, and endless conversations.
 
@@ -20,7 +20,7 @@ Four years ago, I became introduced to a tool that changed the way collaboration
 
 ## How Figma's real time collaboration changed the rules
 
-![Team collaboration in Figma](https://framerusercontent.com/images/yJcfqb9l75GglMrTlwwFU0qfoE.gif)
+![Team collaboration in Figma](/images/articles/yJcfqb9l75GglMrTlwwF.webp)
 
 ‍While living in San Francisco, I was introduced to a new design program called Figma. The name alone was strange, filled with features that might describe online gaming more than it did a serious design tool. 
 
@@ -48,7 +48,7 @@ Figma was founded on the idea that WebGL (Web Graphics Library) could enable you
 
 If design files weren’t owned in the traditional sense, then multiple people could edit the same document at any given time. 
 
-![Figma reveals the CSS output for developers](https://framerusercontent.com/images/5z1dsusm3DHRJY2ghJiYMEnTHQ.jpg)
+![Figma reveals the CSS output for developers](/images/articles/5z1dsusm3DHRJY2ghJiY.webp)
 
 ‍
 
@@ -56,7 +56,7 @@ You see, there are many parts to this design box. You might have a designer or t
 
 You will also need engineers to view the file to make sure they understand the inner-workings, such as font size, spacing, padding, and margins.
 
-![Lifecycle of a Figma file: Source Figma](https://framerusercontent.com/images/HeAxnqHhuhkuc5DegpdGui4uDIQ.png)
+![Lifecycle of a Figma file: Source Figma](/images/articles/HeAxnqHhuhkuc5DegpdG.webp)
 
   
 In 2019, Figma [found](https://www.figma.com/blog/made-in-figma-2019/) that a design file naturally starts with 1 person. Within 19 days, a second collaborator is added to the project to help design or review. On day 52, when the average project comes to an end (the last edit), the average number of participants on that same file is six. Designers, managers, and engineers. All on the same page.

@@ -36,7 +36,7 @@ The spacing between the letters, words, and lines is a type’s texture. It’s 
 
 Try squinting your eyes at an article online, letting the type blur out of focus, and note how the texture makes you feel. Does it make you feel anxious? If so, and you had to adjust the text, you might want to increase the leading, the vertical spacing between the lines. 
 
-![How much leading should you use?](https://framerusercontent.com/images/jFjyAQlIsuGiWPfX68oVgRzkow.png)
+![How much leading should you use?](/images/articles/jFjyAQlIsuGiWPfX68oV.webp)
 
 Yes, printers back in the day used thin strips of lead to increase the spacing between lines of text. Now we can swiftly adjust that ourselves.
 
@@ -74,13 +74,13 @@ Serifs are generally easier to read, and here’s why:
 
 The serifs give us a bit more information to distinguish between the characters, and so as we absorb the words on a page at a glance, it’s easier for our brains to immediately decipher what we’re reading. 
 
-![Serif or sans-serif](https://framerusercontent.com/images/CwPVjO2w5GpLpX8xW4P612zPf0.png)
+![Serif or sans-serif](/images/articles/CwPVjO2w5GpLpX8xW4P6.webp)
 
 Don’t let this hold you back, though. Find a proven font that evokes the feeling you want your reader to have.
 
 ### **Select a flexible type family**
 
-![Family weights and styles](https://framerusercontent.com/images/HfTORJ9kVTZ60AziZ55lcfYFY.jpg)
+![Family weights and styles](/images/articles/HfTORJ9kVTZ60AziZ55l.webp)
 
 Now, if you want to make it easy on yourself, you’ll look for a typeface with a built-in variety of styles and weights. It’s like buying a DSLR camera versus using a small point-and-shoot. Because you know good design, having a typeface ready to work gives you peace of mind. 
 
@@ -102,11 +102,11 @@ You might want a separate display typeface for the headers and one for the body 
 
 In this case, I might decide to use Bodoni for the display font, a gorgeous Italian typeface originally designed in 1790. It also includes nine styles. But, you probably knew that already. 
 
-![Bodoni typeface family](https://framerusercontent.com/images/ciJSzes5wl9zYwFWh8CYubk30s.png)
+![Bodoni typeface family](/images/articles/ciJSzes5wl9zYwFWh8CY.webp)
 
 For the body text, we’ll choose something familiar to contrast the intense beauty of Bodoni. Gill Sans, designed by a British designer, Eric Gill, in 1926. 
 
-![Gill Sans typeface](https://framerusercontent.com/images/4KBj17jNrGF7Cn5KR9CGSRdmfUY.png)
+![Gill Sans typeface](/images/articles/4KBj17jNrGF7Cn5KR9CG.webp)
 
 While two serif faces can work in tandem, sometimes using compositional contrast lets each shine more thoroughly. 
 
