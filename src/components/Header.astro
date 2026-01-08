@@ -203,93 +203,99 @@ const currentPath = Astro.url.pathname;
 </header>
 
 <script>
-  // Mobile menu toggle
-  const toggle = document.getElementById('mobile-menu-toggle');
-  const menu = document.getElementById('mobile-menu');
-  const header = document.getElementById('main-header');
-  const hamburger = toggle?.querySelector('.hamburger-icon');
-  const closeIcon = toggle?.querySelector('.close-icon');
+  function initHeader() {
+    // Mobile menu toggle
+    const toggle = document.getElementById('mobile-menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    const header = document.getElementById('main-header');
+    const hamburger = toggle?.querySelector('.hamburger-icon');
+    const closeIcon = toggle?.querySelector('.close-icon');
 
-  toggle?.addEventListener('click', () => {
-    const isOpen = menu?.classList.contains('hidden');
-    menu?.classList.toggle('hidden');
-    hamburger?.classList.toggle('hidden');
-    closeIcon?.classList.toggle('hidden');
-    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    toggle?.addEventListener('click', () => {
+      const isOpen = menu?.classList.contains('hidden');
+      menu?.classList.toggle('hidden');
+      hamburger?.classList.toggle('hidden');
+      closeIcon?.classList.toggle('hidden');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
 
-    // Toggle header background when menu opens/closes
-    if (isOpen) {
-      header?.style.setProperty('background-color', '#FDFDF9');
-    } else {
-      header?.style.removeProperty('background-color');
+      // Toggle header background when menu opens/closes
+      if (isOpen) {
+        header?.style.setProperty('background-color', '#FDFDF9');
+      } else {
+        header?.style.removeProperty('background-color');
+      }
+    });
+
+    // Learn dropdown toggle
+    const dropdownToggle = document.getElementById('learn-dropdown-toggle');
+    const dropdownPanel = document.getElementById('learn-dropdown-panel');
+    const dropdown = document.getElementById('learn-dropdown');
+
+    let isOpen = false;
+    let closeTimeout: ReturnType<typeof setTimeout> | null = null;
+
+    function openDropdown() {
+      if (closeTimeout) {
+        clearTimeout(closeTimeout);
+        closeTimeout = null;
+      }
+      if (!isOpen) {
+        dropdownPanel?.classList.remove('hidden');
+        setTimeout(() => {
+          dropdownPanel?.classList.remove('opacity-0');
+        }, 10);
+        dropdownToggle?.setAttribute('aria-expanded', 'true');
+        isOpen = true;
+      }
     }
-  });
 
-  // Learn dropdown toggle
-  const dropdownToggle = document.getElementById('learn-dropdown-toggle');
-  const dropdownPanel = document.getElementById('learn-dropdown-panel');
-  const dropdown = document.getElementById('learn-dropdown');
-
-  let isOpen = false;
-  let closeTimeout: ReturnType<typeof setTimeout> | null = null;
-
-  function openDropdown() {
-    if (closeTimeout) {
-      clearTimeout(closeTimeout);
-      closeTimeout = null;
+    function closeDropdown() {
+      if (isOpen) {
+        dropdownPanel?.classList.add('opacity-0');
+        setTimeout(() => {
+          dropdownPanel?.classList.add('hidden');
+        }, 200);
+        dropdownToggle?.setAttribute('aria-expanded', 'false');
+        isOpen = false;
+      }
     }
-    if (!isOpen) {
-      dropdownPanel?.classList.remove('hidden');
-      setTimeout(() => {
-        dropdownPanel?.classList.remove('opacity-0');
-      }, 10);
-      dropdownToggle?.setAttribute('aria-expanded', 'true');
-      isOpen = true;
+
+    function scheduleClose() {
+      closeTimeout = setTimeout(() => {
+        closeDropdown();
+      }, 150);
     }
+
+    // Open on hover
+    dropdown?.addEventListener('mouseenter', openDropdown);
+    dropdown?.addEventListener('mouseleave', scheduleClose);
+
+    // Toggle on click (for accessibility)
+    dropdownToggle?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (isOpen) {
+        closeDropdown();
+      } else {
+        openDropdown();
+      }
+    });
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (!dropdown?.contains(e.target as Node)) {
+        closeDropdown();
+      }
+    });
+
+    // Close on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeDropdown();
+      }
+    });
   }
 
-  function closeDropdown() {
-    if (isOpen) {
-      dropdownPanel?.classList.add('opacity-0');
-      setTimeout(() => {
-        dropdownPanel?.classList.add('hidden');
-      }, 200);
-      dropdownToggle?.setAttribute('aria-expanded', 'false');
-      isOpen = false;
-    }
-  }
-
-  function scheduleClose() {
-    closeTimeout = setTimeout(() => {
-      closeDropdown();
-    }, 150);
-  }
-
-  // Open on hover
-  dropdown?.addEventListener('mouseenter', openDropdown);
-  dropdown?.addEventListener('mouseleave', scheduleClose);
-
-  // Toggle on click (for accessibility)
-  dropdownToggle?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (isOpen) {
-      closeDropdown();
-    } else {
-      openDropdown();
-    }
-  });
-
-  // Close on click outside
-  document.addEventListener('click', (e) => {
-    if (!dropdown?.contains(e.target as Node)) {
-      closeDropdown();
-    }
-  });
-
-  // Close on escape
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      closeDropdown();
-    }
-  });
+  // Run on initial load and after View Transitions
+  initHeader();
+  document.addEventListener('astro:after-swap', initHeader);
 </script>
