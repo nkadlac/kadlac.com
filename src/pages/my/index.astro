@@ -16,7 +16,7 @@ const testimonials = [
 
 <Layout title="My Creative Toolkit | Nate Kadlac" description="Get my free toolkit of 59+ resources that will help you learn, create, and sell online.">
   <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-12 lg:gap-8 items-center">
       <!-- Left Column -->
       <div>
         <!-- Badge -->
@@ -25,8 +25,8 @@ const testimonials = [
         </span>
 
         <!-- Headline -->
-        <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-tight uppercase">
-          Learn, Create, and Sell Online
+        <h1 class="font-heading font-medium leading-[1.05]" style="font-size: clamp(2.5rem, 11vw, 4rem);">
+          <span class="whitespace-nowrap">LEARN, CREATE,</span><br /><span class="whitespace-nowrap">AND SELL ONLINE</span>
         </h1>
 
         <!-- Body -->
@@ -34,35 +34,60 @@ const testimonials = [
           Get my free toolkit of 59+ resources that will help you learn, create, and sell online.
         </p>
 
-        <!-- Email Signup Form -->
-        <div class="mt-8 max-w-md">
-          <div class="bg-white rounded-2xl p-6 shadow-sm">
-            <form
-              action="https://app.kit.com/forms/3725037/subscriptions"
-              method="post"
-              data-sv-form="3725037"
-              data-uid="3725037"
-              data-format="inline"
-              data-version="5"
-              data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/my/in"}}}'
-              class="newsletter-form flex flex-col gap-4"
+        <!-- Email Signup Form - Stacked on Mobile, Inline on Desktop -->
+        <div class="mt-8">
+          <!-- Mobile: Stacked -->
+          <form
+            action="https://app.kit.com/forms/7493879/subscriptions"
+            method="post"
+            data-sv-form="7493879"
+            data-uid="7493879"
+            data-format="inline"
+            data-version="5"
+            data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/my/in"}}}'
+            class="newsletter-form md:hidden bg-white rounded-2xl p-6 flex flex-col gap-3 max-w-lg"
+          >
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Drop your best email address"
+              required
+              aria-label="Email address"
+              class="w-full px-5 py-4 bg-[#f5f5f5] rounded-xl text-brand-brown placeholder:text-brand-brown/40 focus:outline-none text-base"
+            />
+            <button
+              type="submit"
+              class="w-full px-6 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-base hover:opacity-90 transition-opacity"
             >
-              <input
-                type="email"
-                name="email_address"
-                placeholder="Your best email"
-                required
-                aria-label="Email address"
-                class="w-full px-5 py-4 rounded-xl bg-[#f5f5f5] text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 text-lg"
-              />
-              <button
-                type="submit"
-                class="w-full px-5 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-lg hover:opacity-90 transition-opacity"
-              >
-                Get My Free Toolkit
-              </button>
-            </form>
-          </div>
+              Get My Free Toolkit
+            </button>
+          </form>
+          <!-- Desktop: Inline Pill -->
+          <form
+            action="https://app.kit.com/forms/7493879/subscriptions"
+            method="post"
+            data-sv-form="7493879"
+            data-uid="7493879"
+            data-format="inline"
+            data-version="5"
+            data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/my/in"}}}'
+            class="newsletter-form hidden md:flex bg-white rounded-full p-2 items-center gap-2 max-w-lg"
+          >
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Drop your best email address"
+              required
+              aria-label="Email address"
+              class="flex-1 px-5 py-3 bg-transparent text-brand-brown placeholder:text-brand-brown/40 focus:outline-none text-base"
+            />
+            <button
+              type="submit"
+              class="px-6 py-3 rounded-full bg-brand-brown text-white font-heading font-semibold text-base hover:opacity-90 transition-opacity whitespace-nowrap"
+            >
+              Get My Free Toolkit
+            </button>
+          </form>
         </div>
 
         <!-- Testimonials -->
@@ -84,24 +109,15 @@ const testimonials = [
         </div>
       </div>
 
-      <!-- Right Column - Phone Mockup -->
-      <div class="hidden lg:flex justify-center">
+      <!-- Phone Mockup - Below content on mobile, right column on desktop -->
+      <div class="flex justify-center items-center lg:order-none order-last mt-8 lg:mt-0">
         <img
           src="/images/toolkit-mockup.avif"
           alt="Nate's Toolkit on phone"
-          class="max-h-[700px] w-auto"
+          class="max-h-[300px] lg:max-h-[600px] w-auto"
         />
       </div>
     </div>
 
-    <!-- About -->
-    <div class="mt-20 max-w-2xl">
-      <h2 class="font-heading text-2xl md:text-3xl font-bold mb-6">
-        I'm Nate Kadlac: independent designer, instructor, and entrepreneur.
-      </h2>
-      <p class="text-lg text-brand-brown/70">
-        I believe the ability to communicate visually, tell stories with copy, or connect with branding should be approachable to everyone. The world is a better place when we can confidently reflect our inner taste with the world around us.
-      </p>
-    </div>
-  </section>
+      </section>
 </Layout>

@@ -1,34 +1,85 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
+import LogoMarquee from '../components/LogoMarquee.astro';
 import { getCollection } from 'astro:content';
 
 // Get latest articles
 const articles = await getCollection('articles');
 const latestArticles = articles
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
-
-// Get featured projects
-const projects = await getCollection('projects');
-const featuredProjects = projects.slice(0, 3);
+  .slice(0, 5);
 ---
 
-<Layout title="Nate Kadlac: Designer, Writer, Instructor" description="I help solopreneurs and non-designers make better design decisions through writing, teaching, and design partnerships. Join my weekly newsletter.">
+<Layout title="Nate Kadlac: Designer, Writer, Instructor" description="I help solopreneurs and non-designers make better design decisions through writing, teaching, and design partnerships. Join my weekly newsletter." bgSaturated={true}>
   <!-- Hero Section -->
-  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
-    <div class="max-w-3xl">
-      <h1 class="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-        Design smarter,<br />Not harder.
-      </h1>
-      <p class="mt-6 text-xl md:text-2xl text-brand-brown/80 max-w-2xl">
-        I help solopreneurs and non-designers make better design decisions through writing, teaching, and design partnerships.
-      </p>
+  <section class="max-w-[1200px] mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24 overflow-hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-8 items-start">
+      <!-- Left: Content -->
+      <div>
+        <h1 class="font-heading text-4xl md:text-6xl lg:text-7xl font-medium leading-[1.1]">
+          DESIGN SMARTER,<br />NOT HARDER.
+        </h1>
+        <p class="mt-6 text-[1.375rem] text-brand-brown/80">
+          Join 3,800+ solopreneurs & professionals who are upgrading their design eye by:
+        </p>
+        <ul class="mt-4 space-y-2 text-[1.375rem] text-brand-brown/80">
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Building trust with personalized branding</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Increasing sales with premium packaging</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Creating clear offers that convert</span>
+          </li>
+        </ul>
+        <p class="mt-6 text-[1.375rem] text-brand-brown/80">
+          Get dollar-driven design tips <em class="font-gambetta">(without hiring a designer)</em>.
+        </p>
 
-      <!-- Newsletter CTA -->
-      <div class="mt-10">
-        <NewsletterForm variant="card" />
+        <!-- Newsletter CTA -->
+        <div class="mt-10">
+          <NewsletterForm variant="card" />
+        </div>
       </div>
+
+      <!-- Right: Hero Image -->
+      <div class="hidden lg:block relative">
+        <!-- White circle behind image -->
+        <svg class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[40%] w-[480px] h-[480px]" viewBox="0 0 480 480">
+          <circle cx="240" cy="240" r="240" fill="white" />
+        </svg>
+        <img
+          src="/images/nate-hero-base.png"
+          alt="Nate Kadlac"
+          class="relative z-10 w-full max-w-[500px] mx-auto mix-blend-multiply"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Logo Marquee -->
+  <LogoMarquee />
+
+  <!-- Testimonial Section -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-[1200px] mx-auto px-6">
+      <blockquote class="max-w-4xl mx-auto text-center">
+        <!-- Quote Mark -->
+        <div class="text-[150px] md:text-[180px] leading-none font-serif -mb-16 md:-mb-20" style="font-family: Georgia, serif;">&#8220;</div>
+        <p class="font-gambetta text-3xl md:text-5xl lg:text-6xl leading-[1.2]">
+          Nate's newsletter is up there with Seth Godin's blog in the Rushmore of ones I never want to miss.
+        </p>
+        <footer class="mt-10">
+          <p class="font-heading text-sm md:text-base font-semibold uppercase tracking-widest text-brand-brown/70">
+            Clay Hebert—Speaker, The Perfect Brand
+          </p>
+        </footer>
+      </blockquote>
     </div>
   </section>
 
@@ -38,66 +89,107 @@ const featuredProjects = projects.slice(0, 3);
       What I'm building
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {featuredProjects.map((project) => (
-        <a href={`/projects/${project.slug}`} class="card group hover:scale-[1.02] transition-transform">
-          <div class="aspect-video bg-brand-brown/5 rounded-lg mb-4 overflow-hidden">
-            {project.data.coverImage ? (
-              <img
-                src={project.data.coverImage}
-                alt={project.data.title}
-                class="w-full h-full object-cover"
-              />
-            ) : (
-              <div class="w-full h-full flex items-center justify-center text-brand-brown/30">
-                [Image]
-              </div>
-            )}
-          </div>
-          <h3 class="font-heading text-lg font-semibold group-hover:opacity-70 transition-opacity">
-            {project.data.title}
-          </h3>
-          <p class="mt-2 text-brand-brown/70 text-sm">
-            {project.data.description}
-          </p>
+      <!-- Hey, Good Game -->
+      <div class="card">
+        <img src="/images/logos/logo-hgg.svg" alt="Hey, Good Game" class="w-12 h-12 mb-4" />
+        <h3 class="font-heading text-2xl font-bold mb-4">
+          Hey, Good Game
+        </h3>
+        <div class="space-y-4 text-brand-brown/80">
+          <p>Inspired by casual games, I cofounded a tiny game studio that builds and buys brainy games, for good.</p>
+          <p>We currently have nine games in our portfolio, and are looking to grow and acquire more in this space, advocating for indie game creators who have found success with their games.</p>
+          <p>I also co-host a podcast by the same name, interviewing game creators.</p>
+        </div>
+        <a href="https://hey.gg/" target="_blank" rel="noopener noreferrer" class="inline-block mt-6 px-5 py-3 bg-brand-brown text-white font-heading font-medium rounded-lg border-2 border-brand-brown hover:bg-white hover:text-brand-brown transition-colors">
+          View Games
         </a>
-      ))}
+      </div>
+
+      <!-- Approachable Design -->
+      <div class="card">
+        <img src="/images/logos/logo-ad.svg" alt="Approachable Design" class="w-12 h-12 mb-4" />
+        <h3 class="font-heading text-2xl font-bold mb-4">
+          Approachable Design
+        </h3>
+        <div class="space-y-4 text-brand-brown/80">
+          <p>Design is eating the world.</p>
+          <p>With the amount of areas design touches, creators no longer can rely on a designer to make smart design decisions for them.</p>
+          <p>Approachable Design educates solopreneurs, marketers, and PMs with design resources to better understand design, and create visually stunning brands that stand out <em class="font-gambetta">(without always relying on a designer like me).</em></p>
+        </div>
+        <a href="https://approachabledesign.co" target="_blank" rel="noopener noreferrer" class="inline-block mt-6 px-5 py-3 bg-brand-brown text-white font-heading font-medium rounded-lg border-2 border-brand-brown hover:bg-white hover:text-brand-brown transition-colors">
+          View Site
+        </a>
+      </div>
+
+      <!-- Your Design Partner -->
+      <div class="card md:col-span-2 lg:col-span-1">
+        <img src="/images/logos/logo-kadlac.svg" alt="Kadlac" class="w-12 h-12 mb-4" />
+        <h3 class="font-heading text-2xl font-bold mb-4">
+          Your Design Partner
+        </h3>
+        <div class="space-y-4 text-brand-brown/80">
+          <p>Since leading design for Best Buy's first native mobile checkout, to helping grow a startup into a mid-eight figure acquisition, I focus on helping businesses 10x their design investment.</p>
+          <p>From bar napkin sketches to million dollar brands, I'll help bring your idea to life.</p>
+        </div>
+        <a href="/hire" class="inline-block mt-6 px-5 py-3 bg-brand-brown text-white font-heading font-medium rounded-lg border-2 border-brand-brown hover:bg-white hover:text-brand-brown transition-colors">
+          View Services
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- Latest Writing Section -->
-  <section class="max-w-[1200px] mx-auto px-6 py-16">
-    <div class="flex items-center justify-between mb-8">
-      <h2 class="font-heading text-2xl md:text-3xl font-semibold">
-        Latest writing
-      </h2>
-      <a href="/articles" class="font-heading text-sm font-medium hover:opacity-70 transition-opacity">
-        View all →
-      </a>
-    </div>
-    <div class="space-y-6">
-      {latestArticles.map((article) => (
-        <a href={`/articles/${article.slug}`} class="block group">
-          <article class="flex flex-col md:flex-row gap-4 md:gap-8 py-6 border-b border-brand-brown/10">
-            <div class="flex-1">
-              <h3 class="font-heading text-xl font-semibold group-hover:opacity-70 transition-opacity">
+  <!-- Helpful Articles Section -->
+  <section class="max-w-[1200px] mx-auto px-6 pt-16 pb-4">
+    <div class="card p-8 md:p-12" style="background-color: #FDFDF9;">
+      <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 md:gap-16">
+        <!-- Left: Title -->
+        <div>
+          <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight">
+            Favorite<br />articles
+          </h2>
+        </div>
+
+        <!-- Right: Article List -->
+        <div>
+          {latestArticles.map((article) => (
+            <a href={`/articles/${article.slug}`} class="block group py-4 border-b border-brand-brown/10 first:pt-0">
+              <h3 class="font-heading text-lg md:text-xl font-medium group-hover:opacity-70 transition-opacity">
                 {article.data.title}
               </h3>
-              {article.data.description && (
-                <p class="mt-2 text-brand-brown/70">
-                  {article.data.description}
-                </p>
-              )}
-            </div>
-            <time class="text-sm text-brand-brown/50 md:text-right whitespace-nowrap">
-              {article.data.date.toLocaleDateString('en-US', {
-                month: 'short',
-                day: 'numeric',
-                year: 'numeric'
-              })}
-            </time>
-          </article>
-        </a>
-      ))}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it started / How it's going Section -->
+  <section class="max-w-[1200px] mx-auto px-6 pt-4 pb-16">
+    <div class="bg-brand-brown rounded-2xl p-8 md:p-12" style="color: #FDFDF9;">
+      <!-- How it started -->
+      <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6 md:gap-16 pb-10 border-b border-brand-cream/20">
+        <h3 class="font-heading text-2xl md:text-3xl font-bold">
+          How it started
+        </h3>
+        <div class="space-y-4 opacity-90">
+          <p>20 years ago, I taught myself graphic design and built a website in exchange for a BMW.</p>
+          <p>The transmission failed in six short months, but my career drove for 20 years.</p>
+        </div>
+      </div>
+
+      <!-- How it's going -->
+      <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6 md:gap-16 pt-10">
+        <h3 class="font-heading text-2xl md:text-3xl font-bold">
+          How it's going
+        </h3>
+        <div class="space-y-4 opacity-90">
+          <p>After spending seven years focused on helping build a real estate tech startup into an eight figure acquisition, I'm now focused on making design approachable for non-designers.</p>
+          <p>I'm a designer, instructor, and writer helping teach design to the creatively curious. I have a mission to help thousands of creators and entrepreneurs stand out using their unique visual style.</p>
+          <a href="/about" class="inline-block mt-4 px-5 py-3 border-2 font-heading font-medium rounded-lg hover:bg-[#FDFDF9] hover:text-brand-brown transition-colors" style="border-color: #FDFDF9;">
+            More About Nate
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </Layout>

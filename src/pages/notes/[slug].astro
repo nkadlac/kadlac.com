@@ -15,63 +15,67 @@ const { Content } = await render(note);
 ---
 
 <Layout title={`${note.data.title} - Book Notes | Nate Kadlac`} description={note.data.description || `Book notes and summary for ${note.data.title} by ${note.data.author}. Key insights, quotes, and takeaways.`} ogImage={note.data.coverImage}>
-  <article class="max-w-[900px] mx-auto px-6 py-16 md:py-24">
-    <!-- Book Header -->
-    <header class="mb-12">
-      <div class="flex flex-col md:flex-row gap-8 md:gap-12">
-        <!-- Book Cover -->
-        {note.data.coverImage && (
-          <div class="flex-shrink-0">
-            <img
-              src={note.data.coverImage}
-              alt={note.data.title}
-              class="w-48 md:w-56 rounded-lg shadow-lg"
-            />
+  <article class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <!-- Hero Section with Book Cover and Title -->
+    <div class="relative">
+      <div class="grid grid-cols-1 lg:grid-cols-[400px_1fr] gap-8 lg:gap-16">
+        <!-- Left - Book Cover (extends into margin) -->
+        <div class="flex justify-center lg:justify-start lg:-ml-12 xl:-ml-16">
+          <div class="lg:sticky lg:top-32">
+            {note.data.coverImage && (
+              <img
+                src={note.data.coverImage}
+                alt={note.data.title}
+                class="w-[280px] sm:w-[320px] md:w-[380px] lg:w-full lg:max-w-[450px]"
+              />
+            )}
           </div>
-        )}
+        </div>
 
-        <!-- Book Info -->
-        <div class="flex-1">
-          <h1 class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-            {note.data.title}
-          </h1>
-          <p class="text-xl text-brand-brown/70 mt-2">
-            by {note.data.author}
-          </p>
+        <!-- Right - Content -->
+        <div>
+          <!-- Header -->
+          <header class="mb-10">
+            <h1 class="font-heading font-medium leading-[1.05] uppercase" style="font-size: clamp(2.5rem, 7vw, 5rem);">
+              {note.data.title} by {note.data.author} Book Summary and Notes
+            </h1>
+            {note.data.description && (
+              <p class="mt-6 text-xl text-brand-brown/80">
+                {note.data.description}
+              </p>
+            )}
 
-          <!-- Rating -->
-          <div class="mt-6 flex items-center gap-2">
-            <span class="font-heading font-semibold text-2xl">
-              {note.data.rating}/10
-            </span>
-            <span class="text-brand-brown/50">rating</span>
+            <!-- Rating -->
+            <p class="mt-6 text-lg">
+              <span class="font-bold">Rating:</span> {note.data.rating}/10
+            </p>
+
+            <!-- Amazon Link -->
+            {note.data.amazonUrl && (
+              <a
+                href={note.data.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary mt-6 inline-block"
+              >
+                Read More on Amazon
+              </a>
+            )}
+          </header>
+
+          <!-- Book Notes Content -->
+          <div class="prose">
+            <Content />
           </div>
 
-          <!-- Amazon Link -->
-          {note.data.amazonUrl && (
-            <a
-              href={note.data.amazonUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-primary mt-6"
-            >
-              Read more on Amazon ↗
+          <!-- Back Link -->
+          <div class="mt-16 pt-8 border-t border-brand-brown/10">
+            <a href="/notes" class="font-heading font-medium hover:opacity-70 transition-opacity">
+              ← Back to all book notes
             </a>
-          )}
+          </div>
         </div>
       </div>
-    </header>
-
-    <!-- Book Notes Content -->
-    <div class="prose">
-      <Content />
-    </div>
-
-    <!-- Back Link -->
-    <div class="mt-16 pt-8 border-t border-brand-brown/10">
-      <a href="/articles" class="font-heading font-medium hover:opacity-70 transition-opacity">
-        ← Back to all articles
-      </a>
     </div>
   </article>
 </Layout>

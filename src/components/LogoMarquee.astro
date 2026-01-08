@@ -1,0 +1,89 @@
+---
+const logos = [
+  { src: '/images/logos/rad.png', alt: 'RAD' },
+  { src: '/images/logos/bestbuy.png', alt: 'Best Buy' },
+  { src: '/images/logos/argett.png', alt: 'Argett' },
+  { src: '/images/logos/whcc.png', alt: 'WHCC' },
+  { src: '/images/logos/homespotteer.png', alt: 'HomeSpotter' },
+  { src: '/images/logos/conrad.png', alt: 'Conrad' },
+  { src: '/images/logos/lennys.png', alt: "Lenny's Podcast" },
+  { src: '/images/logos/mpr.png', alt: 'MPR' },
+  { src: '/images/logos/gardyn.png', alt: 'Gardyn' },
+];
+---
+
+<section class="py-16 md:py-20 overflow-hidden">
+  <div class="max-w-[1200px] mx-auto px-6 mb-10">
+    <p class="font-heading text-sm md:text-base font-semibold uppercase tracking-widest text-center text-brand-brown/70">
+      I've helped creators, startups, and Fortune 500 companies
+    </p>
+  </div>
+
+  <!-- Marquee Container -->
+  <div class="marquee-container relative">
+    <!-- Fade edges -->
+    <div class="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-brand-yellow to-transparent z-10"></div>
+    <div class="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-brand-yellow to-transparent z-10"></div>
+
+    <!-- Scrolling track -->
+    <div class="marquee-track">
+      <!-- First set of logos -->
+      <div class="marquee-content">
+        {logos.map((logo) => (
+          <img
+            src={logo.src}
+            alt={logo.alt}
+            class="h-10 md:h-14 w-auto object-contain grayscale opacity-80"
+          />
+        ))}
+      </div>
+      <!-- Duplicate for seamless loop -->
+      <div class="marquee-content" aria-hidden="true">
+        {logos.map((logo) => (
+          <img
+            src={logo.src}
+            alt={logo.alt}
+            class="h-10 md:h-14 w-auto object-contain grayscale opacity-80"
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 25s linear infinite;
+  }
+
+  .marquee-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding-right: 4rem;
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 768px) {
+    .marquee-content {
+      gap: 6rem;
+      padding-right: 6rem;
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Pause on hover */
+  .marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+  }
+</style>

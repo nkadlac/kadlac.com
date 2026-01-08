@@ -1,7 +1,7 @@
 ---
 title: "Six unconventional Procreate drawing ideas for beginners"
 date: 2023-05-12
-category: design
+category: visual
 description: "Are you stuck in front of a blank canvas? Here are six unconventional ideas to copy, trace, and draw in Procreate."
 image: "https://framerusercontent.com/images/uH2ZWHMtoywb9nFkSWtVRnUYEc.jpg"
 ---

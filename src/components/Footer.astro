@@ -5,12 +5,12 @@ const quickLinks = [
   { href: '/hire', label: 'Hire me' },
   { href: '/newsletter', label: 'Sunday Newsletter' },
   { href: 'https://twitter.com/kadlac', label: 'DM me on X', external: true },
-  { href: 'https://cal.com/kadlac/discovery-call', label: 'Coaching', external: true },
+  { href: '/hire/coaching', label: 'Coaching' },
   { href: '/now', label: 'Now' },
 ];
 
 const products = [
-  { href: '/my', label: 'My Free Creative Toolkit', underline: true },
+  { href: '/my', label: 'My Free Creative Toolkit' },
   { href: 'https://approachabledesign.co/courses/8020-design-challenge', label: 'The Creator Design Kit', external: true },
   { href: 'https://approachabledesign.co/products/design-vault', label: 'The Design Vault', external: true },
   { href: 'https://approachabledesign.co/products/youtube-masterclass', label: 'YouTube Thumbnail Design', external: true },
@@ -38,7 +38,7 @@ const currentYear = new Date().getFullYear();
 
       <!-- Quick Links -->
       <div class="md:col-span-3 md:col-start-7">
-        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6 text-brand-yellow">
+        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6" style="color: #6b6347;">
           Quick Links
         </h4>
         <ul class="space-y-4">
@@ -46,11 +46,18 @@ const currentYear = new Date().getFullYear();
             <li>
               <a
                 href={link.href}
-                class="text-white/80 hover:text-white transition-colors"
+                class="hover:opacity-70 transition-opacity text-lg inline-flex items-center gap-1.5"
+                style="color: #f5edc8;"
                 target={link.external ? '_blank' : undefined}
                 rel={link.external ? 'noopener noreferrer' : undefined}
               >
                 {link.label}
+                {link.external && (
+                  <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17L17 7" />
+                    <path d="M7 7h10v10" />
+                  </svg>
+                )}
               </a>
             </li>
           ))}
@@ -59,7 +66,7 @@ const currentYear = new Date().getFullYear();
 
       <!-- Products & Services -->
       <div class="md:col-span-3">
-        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6 text-brand-yellow">
+        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6" style="color: #6b6347;">
           Products & Services
         </h4>
         <ul class="space-y-4">
@@ -67,14 +74,18 @@ const currentYear = new Date().getFullYear();
             <li>
               <a
                 href={link.href}
-                class:list={[
-                  "text-white/80 hover:text-white transition-colors",
-                  link.underline && "underline"
-                ]}
+                class="hover:opacity-70 transition-opacity text-lg inline-flex items-center gap-1.5"
+                style="color: #f5edc8;"
                 target={link.external ? '_blank' : undefined}
                 rel={link.external ? 'noopener noreferrer' : undefined}
               >
                 {link.label}
+                {link.external && (
+                  <svg class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17L17 7" />
+                    <path d="M7 7h10v10" />
+                  </svg>
+                )}
               </a>
             </li>
           ))}

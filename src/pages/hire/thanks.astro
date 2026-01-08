@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+---
+
+<Layout title="Thanks! | Nate Kadlac" description="Thank you for reaching out. I'll be in touch soon.">
+  <section class="max-w-[768px] mx-auto px-6 py-16 md:py-24 text-center">
+    <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.1]">
+      Thanks!
+    </h1>
+
+    <p class="mt-8 text-xl md:text-2xl text-brand-brown/80">
+      I'll be in touch on the next (week)day.
+    </p>
+
+    <div class="mt-12 space-y-6 text-lg text-brand-brown/70">
+      <p>
+        Here's <a href="/now" class="underline hover:no-underline">what I'm up to now</a>.
+      </p>
+      <p>
+        Or join my weekly newsletter:
+      </p>
+    </div>
+
+    <div class="mt-8 max-w-md mx-auto">
+      <NewsletterForm centered={true} />
+    </div>
+  </section>
+</Layout>

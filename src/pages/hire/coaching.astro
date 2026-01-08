@@ -1,0 +1,198 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LogoMarquee from '../../components/LogoMarquee.astro';
+
+const pricingTiers = [
+  { people: '1 person', price: '$5,000/mo' },
+  { people: '2 people', price: '$8,750/mo', note: '25% discount' },
+  { people: '3 people', price: '$12,500/mo', note: '25% discount' },
+  { people: '4-6 people', price: '$16,000/mo', note: '25% discount' },
+];
+
+const included = [
+  'Open-ended 1:1 coaching calls (2 per month)',
+  'Unlimited async Loom/voice feedback with 3-day turnaround',
+  'Design file access and direct commenting',
+  'Bite-sized instructional videos',
+  'Notion dashboard with actionable steps',
+  'Access to self-paced courses ($599-$999 value)',
+  'Session recaps and personalized resources',
+];
+---
+
+<Layout title="Creative Coaching | Nate Kadlac" description="Unlock your team's creative ceiling with collaborative coaching. Personalized 1:1 coaching combining design feedback, skill instruction, and business strategy guidance.">
+  <!-- Hero Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <header class="max-w-[900px] mx-auto">
+      <p class="text-sm text-brand-brown/60 uppercase tracking-wider font-medium mb-6 text-center">
+        Creative Coaching
+      </p>
+      <h1 class="font-heading font-medium leading-[1.05] mb-12 text-center" style="font-size: clamp(2.5rem, 8vw, 5rem);">
+        UNLOCK YOUR TEAM'S CREATIVE CEILING WITH COLLABORATIVE COACHING
+      </h1>
+      <div class="space-y-6 text-brand-brown/80">
+        <p>Are you a design advocate who works alongside creative teams but struggles with:</p>
+        <ul class="space-y-3 pl-6">
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Limited resources for executing design ideas</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Time-consuming revision cycles</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Difficulty articulating design needs</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Designer isolation on small teams</span>
+          </li>
+          <li class="flex gap-3">
+            <span>•</span>
+            <span>Need for skilled mentorship without hiring full-time staff</span>
+          </li>
+        </ul>
+        <p>I offer personalized 1:1 coaching combining design feedback, skill instruction, and business strategy guidance.</p>
+        <p>With 18+ years of experience from startups to Fortune 500 companies (Best Buy, Target, HomeSpotter), I help non-designers and design teams level up their creative skills.</p>
+      </div>
+      <a
+        href="#apply"
+        class="btn btn-primary mt-10 inline-block"
+      >
+        Apply to get started
+      </a>
+    </header>
+  </section>
+
+  <!-- Logo Marquee -->
+  <LogoMarquee />
+
+  <!-- Pricing Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16">
+    <h2 class="font-heading text-2xl md:text-3xl font-medium leading-[1.1] mb-8">
+      PRICING
+    </h2>
+    <p class="text-brand-brown/70 mb-8">3-month minimum commitment</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+      {pricingTiers.map((tier, index) => (
+        <div class:list={["card flex flex-col", index === 0 && "border-2 border-brand-brown"]}>
+          <p class="font-heading text-lg font-semibold mb-2">{tier.people}</p>
+          <p class="font-heading text-3xl font-bold text-brand-brown">{tier.price}</p>
+          {tier.note && (
+            <p class="text-sm text-brand-brown/50 mt-2">{tier.note}</p>
+          )}
+        </div>
+      ))}
+    </div>
+
+    <!-- What's Included -->
+    <div class="bg-brand-cream rounded-3xl p-8 md:p-12 mb-16">
+      <h2 class="font-heading text-2xl md:text-3xl font-medium leading-[1.1] mb-8">
+        WHAT'S INCLUDED
+      </h2>
+      <ul class="space-y-4">
+        {included.map(item => (
+          <li class="flex gap-3 text-brand-brown/80">
+            <svg class="w-6 h-6 text-brand-brown flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- Quote -->
+    <blockquote class="max-w-3xl mx-auto text-center mb-16">
+      <p class="font-gambetta text-2xl md:text-3xl leading-relaxed mb-6">
+        "Design is not just what it looks like and feels like. Design is how it works."
+      </p>
+      <footer class="text-brand-brown/60 font-heading text-sm uppercase tracking-wider">
+        — Steve Jobs
+      </footer>
+    </blockquote>
+
+  </section>
+
+  <!-- Apply Section -->
+  <section id="apply" class="py-16 md:py-24" style="background-color: #FDFDF9;">
+    <div class="max-w-[1200px] mx-auto px-6">
+      <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] mb-6 text-center">
+        APPLY TO GET STARTED
+      </h2>
+      <p class="text-center text-lg md:text-xl text-brand-brown/80 max-w-xl mx-auto mb-10">
+        Send me an email with a brief description of your team's challenges, and we'll hop on a quick call to see if we're the right fit.
+      </p>
+      <div class="bg-brand-cream rounded-3xl p-8 md:p-12 border-2 border-brand-brown max-w-3xl mx-auto">
+      <div class="max-w-2xl">
+        <h2 class="font-heading text-2xl md:text-3xl font-bold leading-[1.1] mb-8">
+          Thanks for your interest
+        </h2>
+        <form
+          action="https://formspree.io/f/mlgdzgag"
+          method="POST"
+          class="space-y-6"
+        >
+          <input type="hidden" name="_next" value="https://www.kadlac.com/hire/thanks" />
+          <input type="hidden" name="subject" value="Coaching Inquiry" />
+          <div>
+            <label for="name" class="block text-sm font-bold text-brand-brown mb-2">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Jane Smith"
+              required
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20"
+            />
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-bold text-brand-brown mb-2">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your best email"
+              required
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20"
+            />
+          </div>
+          <div>
+            <label for="company" class="block text-sm font-bold text-brand-brown mb-2">Company / Team</label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="Acme Inc."
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20"
+            />
+          </div>
+          <div>
+            <label for="challenges" class="block text-sm font-bold text-brand-brown mb-2">Describe your team's design challenges. Coaching starts at $5,000/mo</label>
+            <textarea
+              id="challenges"
+              name="challenges"
+              rows="4"
+              placeholder="Hey Nate, our team is struggling with... We're looking for guidance on..."
+              required
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 resize-none"
+            ></textarea>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+            <button
+              type="submit"
+              class="btn btn-primary"
+            >
+              Submit Application
+            </button>
+            <span class="text-brand-brown/60 text-sm">I'll respond in one weekday</span>
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+  </section>
+</Layout>

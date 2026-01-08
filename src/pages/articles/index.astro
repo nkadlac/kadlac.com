@@ -1,15 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
 import { getCollection } from 'astro:content';
 
 const articles = await getCollection('articles');
+const notes = await getCollection('notes');
+
+// Sort all articles by date
+const sortedArticles = [...articles].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+// Get the latest article for the featured section
+const latestArticle = sortedArticles[0];
 
 // Group articles by category
 const categories = {
-  design: { label: 'Design, Branding, & Creativity', articles: [] as typeof articles },
-  personal: { label: 'Personal Writing', articles: [] as typeof articles },
-  visual: { label: 'Visual Communication & Drawing', articles: [] as typeof articles },
-  books: { label: 'Book Notes', articles: [] as typeof articles },
+  design: { label: 'Design, Branding, & Creativity', articles: [] as typeof articles, basePath: '/articles' },
+  personal: { label: 'Personal Writing', articles: [] as typeof articles, basePath: '/articles' },
+  visual: { label: 'Visual Communication & Drawing', articles: [] as typeof articles, basePath: '/articles' },
+  books: { label: 'Book Notes', articles: [] as { slug: string; data: { title: string; date: Date } }[], basePath: '/notes' },
 };
 
 articles.forEach(article => {
@@ -19,56 +27,158 @@ articles.forEach(article => {
   }
 });
 
-// Sort each category by date
-Object.values(categories).forEach(cat => {
-  cat.articles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+// Add book notes to the books category (use a fixed date for sorting)
+notes.forEach(note => {
+  categories.books.articles.push({
+    slug: note.slug,
+    data: {
+      title: note.data.title,
+      date: new Date('2023-01-01'), // placeholder for type compatibility
+    }
+  });
 });
+
+// Sort article categories by date
+['design', 'personal', 'visual'].forEach(key => {
+  categories[key].articles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+});
+
+// Sort book notes alphabetically by title
+categories.books.articles.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+// Pair categories for 2-column layout
+const categoryPairs = [
+  ['design', 'personal'],
+  ['visual', 'books'],
+];
 ---
 
 <Layout title="Articles | Nate Kadlac" description="Essays on design, branding, creativity, visual communication, and book notes for non-designers and solopreneurs building their businesses.">
   <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
-    <h1 class="font-heading text-4xl md:text-5xl font-bold mb-4">
-      Writing
+    <!-- Centered Heading -->
+    <h1 class="font-heading font-medium leading-[1.05] text-center mb-16" style="font-size: clamp(2.5rem, 8vw, 6rem);">
+      ALL ARTICLES
     </h1>
-    <p class="text-xl text-brand-brown/70 max-w-2xl mb-16">
-      Exploring your relationship with design, creativity, and art.
-    </p>
 
-    {Object.entries(categories).map(([key, category]) => (
-      category.articles.length > 0 && (
-        <div class="mb-16">
-          <h2 class="font-heading text-xl font-semibold mb-6 pb-2 border-b border-brand-brown/10">
-            {category.label}
-          </h2>
-          <ul class="space-y-4">
-            {category.articles.map((article, index) => (
-              <li>
-                <a
-                  href={`/articles/${article.slug}`}
-                  class="group flex items-baseline gap-4 py-2 hover:opacity-70 transition-opacity"
-                >
-                  <span class="font-heading font-medium group-hover:underline">
-                    {article.data.title}
-                  </span>
-                  {index === 0 && article.data.date && (
-                    <time class="text-sm text-brand-brown/50 whitespace-nowrap">
-                      {article.data.date.toLocaleDateString('en-US', {
-                        month: 'short',
-                        day: 'numeric',
-                        year: 'numeric'
-                      })}
-                    </time>
-                  )}
-                </a>
-              </li>
-            ))}
-          </ul>
+    <!-- Two-column intro section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-16">
+      <!-- Left: Intro text -->
+      <div class="space-y-6">
+        <p class="text-xl md:text-2xl text-brand-brown leading-relaxed">
+          My best articles that explore your relationship with design, creativity, and art.
+        </p>
+        <p class="text-xl md:text-2xl text-brand-brown leading-relaxed">
+          Find my favorite <a href="/notes" class="underline hover:opacity-70 transition-opacity">book notes here</a>, or join my 3x a week newsletter for non-designers.
+        </p>
+      </div>
+
+      <!-- Right: Newsletter signup card -->
+      <div class="bg-[#FDFDF9] rounded-3xl p-8">
+        <h3 class="font-heading text-lg md:text-xl font-bold text-center mb-6 uppercase tracking-wide">
+          Visual design tips & resources to help you grow your business and brand.
+        </h3>
+        <form
+          action="https://app.kit.com/forms/3725037/subscriptions"
+          method="post"
+          data-sv-form="3725037"
+          data-uid="3725037"
+          data-format="inline"
+          data-version="5"
+          data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/welcome"}}}'
+          class="newsletter-form flex flex-col gap-4"
+        >
+          <input
+            type="email"
+            name="email_address"
+            placeholder="Your best email"
+            required
+            aria-label="Email address"
+            class="w-full px-5 py-4 rounded-xl bg-[#e8e8e8] text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 text-lg"
+          />
+          <button
+            type="submit"
+            class="w-full px-5 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-lg hover:opacity-90 transition-opacity"
+          >
+            Upgrade Your Design Eye
+          </button>
+        </form>
+        <p class="text-center text-sm text-brand-brown/60 uppercase tracking-wider mt-4">
+          Sent three times a week
+        </p>
+      </div>
+    </div>
+
+    <!-- Latest Article Feature -->
+    {latestArticle && (
+      <a
+        href={`/articles/${latestArticle.slug}`}
+        class="group grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-16 items-center"
+      >
+        <!-- Image -->
+        <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-brand-brown/5">
+          {latestArticle.data.image ? (
+            <img
+              src={latestArticle.data.image}
+              alt={latestArticle.data.title}
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+          ) : (
+            <div class="w-full h-full flex items-center justify-center text-brand-brown/30">
+              [Image]
+            </div>
+          )}
         </div>
-      )
+
+        <!-- Text Content -->
+        <div>
+          <p class="text-sm font-semibold text-brand-brown uppercase tracking-wider mb-1">LATEST</p>
+          <time class="block text-base text-brand-brown/60 mb-4">
+            {latestArticle.data.date.toLocaleDateString('en-US', {
+              month: 'short',
+              day: 'numeric',
+              year: 'numeric'
+            })}
+          </time>
+          <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] group-hover:opacity-70 transition-opacity">
+            {latestArticle.data.title}
+          </h2>
+        </div>
+      </a>
+    )}
+
+    <!-- Two-column category grid -->
+    {categoryPairs.map((pair) => (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
+        {pair.map((key) => {
+          const category = categories[key];
+          const displayArticles = category.articles.slice(0, 5);
+          return category.articles.length > 0 && (
+            <div id={key}>
+              <h2 class="font-heading text-[18px] font-semibold mb-4 pb-2 border-b border-brand-brown/10 uppercase">
+                {category.label}
+              </h2>
+              <ul class="space-y-3">
+                {displayArticles.map((article) => (
+                  <li>
+                    <a
+                      href={`${category.basePath}/${article.slug}`}
+                      class="group block py-1 hover:opacity-70 transition-opacity"
+                    >
+                      <span class="font-heading text-[20px] font-normal group-hover:underline">
+                        {article.data.title}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
+      </div>
     ))}
 
     {articles.length === 0 && (
-      <p class="text-brand-brown/60 italic">
+      <p class="text-brand-brown/60 italic text-center">
         Articles coming soon...
       </p>
     )}

@@ -13,32 +13,66 @@ const isCard = variant === 'card';
 
 {isCard ? (
   <!-- Card variant (homepage style) -->
-  <div class="bg-white rounded-2xl p-6 max-w-lg shadow-sm">
-    <form
-      action={`https://app.kit.com/forms/${formId}/subscriptions`}
-      method="post"
-      data-sv-form={formId}
-      data-uid={formId}
-      data-format="inline"
-      data-version="5"
-      data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/welcome"}}}'
-      class="newsletter-form flex flex-col gap-4"
-    >
-      <input
-        type="email"
-        name="email_address"
-        placeholder="Your best email"
-        required
-        aria-label="Email address"
-        class="w-full px-5 py-4 rounded-xl bg-[#f5f5f5] text-brand-brown placeholder:text-brand-brown/50 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 font-body text-lg"
-      />
-      <button
-        type="submit"
-        class="w-full px-5 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-lg hover:opacity-90 transition-opacity"
+  <div>
+    <!-- Desktop: inline pill layout -->
+    <div class="hidden md:block bg-white rounded-full p-2 max-w-xl shadow-sm">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/welcome"}}}'
+        class="newsletter-form flex items-center gap-2"
       >
-        Upgrade Your Design Eye
-      </button>
-    </form>
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="flex-1 px-5 py-4 bg-transparent text-brand-brown placeholder:text-brand-brown/50 focus:outline-none font-body text-lg"
+        />
+        <button
+          type="submit"
+          class="px-6 py-4 rounded-full bg-brand-brown text-white font-heading font-semibold text-base hover:opacity-90 transition-opacity whitespace-nowrap"
+        >
+          Upgrade Your Design Eye
+        </button>
+      </form>
+    </div>
+    <!-- Mobile: stacked layout -->
+    <div class="md:hidden bg-white rounded-2xl p-6 max-w-xl shadow-sm">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kadlac.com/welcome"}}}'
+        class="newsletter-form flex flex-col gap-4"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="w-full px-5 py-4 bg-[#f5f5f5] rounded-xl text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 text-lg"
+        />
+        <button
+          type="submit"
+          class="w-full px-5 py-4 rounded-xl bg-brand-brown text-white font-heading font-semibold text-lg hover:opacity-90 transition-opacity"
+        >
+          Upgrade Your Design Eye
+        </button>
+      </form>
+    </div>
+    <p class="mt-4 text-xs text-brand-brown/60 uppercase tracking-wider font-medium">
+      Make It Yours is sent 2-3x every week. No spam. I write every email.
+    </p>
   </div>
 ) : (
   <!-- Default inline variant -->
@@ -120,10 +154,7 @@ const isCard = variant === 'card';
         if (response.ok) {
           button.textContent = 'Subscribed!';
           emailInput.value = '';
-          setTimeout(() => {
-            button.textContent = originalText;
-            button.removeAttribute('disabled');
-          }, 3000);
+          window.location.href = '/welcome';
         } else {
           throw new Error('Subscription failed');
         }

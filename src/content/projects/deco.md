@@ -3,6 +3,10 @@ title: "A digital marketplace for artists"
 client: "Deco"
 description: "Deco gives artists autonomy over how their work should be produced and marketed, without having to deal with the post sales logistics."
 coverImage: "https://framerusercontent.com/images/yCildNzndzNf4w1LHE8a2lyks.jpg"
+heroImages:
+  - "https://framerusercontent.com/images/yCildNzndzNf4w1LHE8a2lyks.jpg"
+  - "https://framerusercontent.com/images/I0UfUSZsa0pCCpn6JHvlfU3E6tM.jpg"
+  - "https://framerusercontent.com/images/YDnCEH27qwq7miSp73gyXwTnW4.jpg"
 tags: ["UI Design • UX Design • Brand Identity"]
 
 order: 5

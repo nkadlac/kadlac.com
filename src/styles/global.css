@@ -1,9 +1,20 @@
 @import "tailwindcss";
 
+/* Gambetta Font */
+@font-face {
+  font-family: 'Gambetta';
+  src: url('/fonts/Gambetta-Italic.woff2') format('woff2'),
+       url('/fonts/Gambetta-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* Design System - kadlac.com */
 @theme {
   /* Colors */
   --color-brand-yellow: #ffe180;
+  --color-brand-yellow-light: #f4e972;
   --color-brand-cream: #ffeeba;
   --color-brand-brown: #1c1706;
   --color-brand-brown-light: #3d3520;
@@ -16,7 +27,7 @@
 
   /* Spacing */
   --radius-card: 16px;
-  --radius-button: 24px;
+  --radius-button: 8px;
 
   /* Breakpoints (matching Framer) */
   --breakpoint-tablet: 810px;
@@ -26,13 +37,19 @@
 /* Base styles */
 html {
   font-family: var(--font-body);
-  background-color: var(--color-brand-yellow);
+  background-color: var(--color-brand-cream);
   color: var(--color-brand-brown);
+  scroll-behavior: smooth;
+}
+
+html.bg-saturated {
+  background-color: var(--color-brand-yellow);
 }
 
 body {
   min-height: 100vh;
   line-height: 1.5;
+  font-size: 20px;
 }
 
 /* Typography utilities */
@@ -48,9 +65,14 @@ body {
   font-family: var(--font-serif);
 }
 
+.font-gambetta {
+  font-family: 'Gambetta', Georgia, serif;
+  font-style: italic;
+}
+
 /* Prose styles for article content */
 .prose {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   line-height: 1.6;
 }
 
@@ -105,7 +127,7 @@ body {
 }
 
 .prose a:hover {
-  opacity: 0.7;
+  text-decoration: none;
 }
 
 .prose ul, .prose ol {
@@ -129,13 +151,16 @@ body {
   transition: opacity 0.2s ease;
 }
 
-.btn:hover {
-  opacity: 0.85;
-}
-
 .btn-primary {
   background-color: var(--color-brand-brown);
-  color: var(--color-brand-yellow);
+  color: white;
+  border: 2px solid var(--color-brand-brown);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: var(--color-brand-brown);
 }
 
 .btn-secondary {

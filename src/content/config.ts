@@ -30,6 +30,7 @@ const projects = defineCollection({
     client: z.string().optional(),
     description: z.string(),
     coverImage: z.string(),
+    heroImages: z.array(z.string()).optional(), // 3 images for top grid: [left tall, top right, bottom right]
     tags: z.array(z.string()).optional(),
     order: z.number().optional(),
   }),

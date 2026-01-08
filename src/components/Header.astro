@@ -1,4 +1,10 @@
 ---
+interface Props {
+  bgSaturated?: boolean;
+}
+
+const { bgSaturated = false } = Astro.props;
+
 const navLinks = [
   { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Writing' },
@@ -9,7 +15,7 @@ const learnProducts = [
     title: 'The Perfect Personal Website',
     description: 'Build a website that creates serendipity',
     badge: 'COMING SOON',
-    href: '#',
+    href: '/courses/personal-website',
     image: '/images/product-website.jpg',
     comingSoon: true,
   },
@@ -42,25 +48,32 @@ const learnProducts = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="sticky top-0 z-50 bg-brand-yellow/95 backdrop-blur-sm border-b border-[#222222]">
+<header id="main-header" class:list={["sticky top-0 z-50 backdrop-blur-sm border-b border-brand-brown", bgSaturated ? "bg-brand-yellow/95" : "bg-brand-cream/95"]}>
   <div class="max-w-[1200px] mx-auto px-6 py-4">
     <nav class="flex items-center justify-between">
       <!-- Logo -->
-      <a href="/" class="hover:opacity-70 transition-opacity">
-        <img src="/logo.svg" alt="Nate Kadlac" class="h-5 md:h-6" />
-        <span class="block text-[10px] md:text-xs tracking-widest uppercase text-brand-brown/70 mt-1">
-          Designer, Writer, & Instructor
-        </span>
+      <a href="/" class="flex items-center gap-3 hover:opacity-70 transition-opacity">
+        <img
+          src="/images/nate-profile.avif"
+          alt="Nate Kadlac"
+          class="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover border-2 border-brand-brown"
+        />
+        <div>
+          <img src="/logo.svg" alt="Nate Kadlac" class="h-5 md:h-6" />
+          <span class="block text-[10px] md:text-xs tracking-widest uppercase text-brand-brown/70 mt-1">
+            Designer, Writer, & Instructor
+          </span>
+        </div>
       </a>
 
       <!-- Desktop Navigation -->
-      <div class="hidden md:flex items-center gap-8">
+      <div class="hidden lg:flex items-center gap-2">
         {navLinks.map((link) => (
           <a
             href={link.href}
             class:list={[
-              "font-heading text-sm font-medium transition-opacity hover:opacity-70",
-              currentPath.startsWith(link.href) ? "opacity-100" : "opacity-80"
+              "font-heading text-[15px] font-medium px-4 py-2 rounded-full hover:bg-white/40 transition-colors text-center whitespace-nowrap",
+              currentPath.startsWith(link.href) ? "bg-white" : ""
             ]}
           >
             {link.label}
@@ -70,7 +83,7 @@ const currentPath = Astro.url.pathname;
         <!-- Learn to Create Dropdown -->
         <div class="relative" id="learn-dropdown">
           <button
-            class="font-heading text-sm font-medium opacity-80 hover:opacity-70 transition-opacity flex items-center gap-1"
+            class="font-heading text-[15px] font-medium px-4 py-2 rounded-full hover:bg-white/40 transition-colors flex items-center gap-1 whitespace-nowrap"
             id="learn-dropdown-toggle"
             aria-expanded="false"
           >
@@ -88,13 +101,10 @@ const currentPath = Astro.url.pathname;
             <div class="grid grid-cols-2 gap-6">
               {learnProducts.map((product) => (
                 <a
-                  href={product.comingSoon ? '#' : product.href}
+                  href={product.href}
                   target={product.external ? '_blank' : undefined}
                   rel={product.external ? 'noopener noreferrer' : undefined}
-                  class:list={[
-                    "group block",
-                    product.comingSoon && "cursor-default"
-                  ]}
+                  class="group block"
                 >
                   <!-- Product Image -->
                   <div class="aspect-[4/3] bg-brand-cream rounded-xl overflow-hidden mb-3 relative">
@@ -106,20 +116,15 @@ const currentPath = Astro.url.pathname;
                   </div>
 
                   <!-- Product Info -->
-                  <h3 class:list={[
-                    "font-heading font-bold text-brand-brown",
-                    !product.comingSoon && "group-hover:opacity-70 transition-opacity"
-                  ]}>
+                  <h3 class="font-heading font-bold text-brand-brown group-hover:opacity-70 transition-opacity">
                     {product.title}
                   </h3>
                   <p class="text-sm text-brand-brown/70 mt-1">
                     {product.description}
                   </p>
-                  {!product.comingSoon && (
-                    <p class="text-xs text-brand-brown/50 uppercase tracking-wider mt-2">
-                      {product.badge}
-                    </p>
-                  )}
+                  <p class="text-xs text-brand-brown/50 uppercase tracking-wider mt-2">
+                    {product.badge}
+                  </p>
                 </a>
               ))}
             </div>
@@ -129,14 +134,14 @@ const currentPath = Astro.url.pathname;
         <a
           href="/hire"
           class:list={[
-            "font-heading text-sm font-medium transition-opacity hover:opacity-70",
-            currentPath.startsWith('/hire') ? "opacity-100" : "opacity-80"
+            "font-heading text-[15px] font-medium px-4 py-2 rounded-full hover:bg-white/40 transition-colors whitespace-nowrap",
+            currentPath.startsWith('/hire') ? "bg-white" : ""
           ]}
         >
           Work With Me
         </a>
 
-        <a href="/my" class="btn btn-primary text-sm">
+        <a href="/my" class="font-heading text-[15px] font-medium px-4 py-2 rounded-full bg-brand-brown text-white hover:bg-brand-brown/90 transition-colors whitespace-nowrap">
           My Free Toolkit
         </a>
       </div>
@@ -144,7 +149,7 @@ const currentPath = Astro.url.pathname;
       <!-- Mobile Menu Button -->
       <button
         id="mobile-menu-toggle"
-        class="md:hidden p-2 -mr-2"
+        class="lg:hidden p-2 -mr-2"
         aria-label="Toggle menu"
         aria-expanded="false"
       >
@@ -158,27 +163,26 @@ const currentPath = Astro.url.pathname;
     </nav>
 
     <!-- Mobile Navigation -->
-    <div id="mobile-menu" class="hidden md:hidden pt-4 pb-2">
-      <div class="flex flex-col gap-4">
-        {navLinks.map((link) => (
-          <a
-            href={link.href}
-            class="font-heading text-base font-medium py-2"
-          >
-            {link.label}
-          </a>
-        ))}
+    <div id="mobile-menu" class="hidden lg:hidden pt-6 pb-4" style="background-color: #FDFDF9;">
+      <div class="flex flex-col gap-6">
+        <a href="/about" class="font-heading text-2xl font-bold">
+          Start Here
+        </a>
 
-        <!-- Mobile Learn to Create -->
-        <div class="py-2">
-          <p class="font-heading text-base font-medium mb-3">Learn to Create</p>
-          <div class="pl-4 space-y-3">
+        <a href="/articles" class="font-heading text-2xl font-bold">
+          Writing
+        </a>
+
+        <!-- Courses section with sub-items -->
+        <div>
+          <p class="font-heading text-2xl font-bold mb-4">Courses</p>
+          <div class="pl-4 flex flex-col gap-4">
             {learnProducts.filter(p => !p.comingSoon).map((product) => (
               <a
                 href={product.href}
                 target={product.external ? '_blank' : undefined}
                 rel={product.external ? 'noopener noreferrer' : undefined}
-                class="block text-sm text-brand-brown/80"
+                class="font-heading text-xl font-bold text-brand-brown"
               >
                 {product.title}
               </a>
@@ -186,15 +190,12 @@ const currentPath = Astro.url.pathname;
           </div>
         </div>
 
-        <a
-          href="/hire"
-          class="font-heading text-base font-medium py-2"
-        >
+        <a href="/hire" class="font-heading text-2xl font-bold">
           Work With Me
         </a>
 
-        <a href="/my" class="btn btn-primary text-sm w-fit mt-2">
-          My Free Toolkit
+        <a href="/newsletter" class="font-heading text-2xl font-bold">
+          Newsletter
         </a>
       </div>
     </div>
@@ -205,6 +206,7 @@ const currentPath = Astro.url.pathname;
   // Mobile menu toggle
   const toggle = document.getElementById('mobile-menu-toggle');
   const menu = document.getElementById('mobile-menu');
+  const header = document.getElementById('main-header');
   const hamburger = toggle?.querySelector('.hamburger-icon');
   const closeIcon = toggle?.querySelector('.close-icon');
 
@@ -214,6 +216,13 @@ const currentPath = Astro.url.pathname;
     hamburger?.classList.toggle('hidden');
     closeIcon?.classList.toggle('hidden');
     toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+
+    // Toggle header background when menu opens/closes
+    if (isOpen) {
+      header?.style.setProperty('background-color', '#FDFDF9');
+    } else {
+      header?.style.removeProperty('background-color');
+    }
   });
 
   // Learn dropdown toggle

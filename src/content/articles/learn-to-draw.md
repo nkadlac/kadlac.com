@@ -1,7 +1,7 @@
 ---
 title: "Learn How To Draw In Procreate So You Can Stop Using The Same Unsplash Photos As Everyone Else"
 date: 2023-05-12
-category: design
+category: visual
 description: "Create inspiring illustrations in Procreate by following these 10 steps"
 image: "https://framerusercontent.com/images/AP0fpbBo52kfG3QiubzSXDxs.jpg"
 ---

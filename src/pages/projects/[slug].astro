@@ -16,23 +16,40 @@ const { Content } = await render(project);
 
 <Layout title={`${project.data.title} | Nate Kadlac`} description={project.data.description} ogImage={project.data.coverImage}>
   <article class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
-    <!-- Project Header -->
-    <header class="max-w-3xl mb-12">
-      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-        {project.data.title}
-      </h1>
-      {project.data.tags && (
-        <p class="text-lg text-brand-brown/60 mt-4">
-          {project.data.tags.join(' • ')}
-        </p>
-      )}
-      <p class="text-xl text-brand-brown/70 mt-6">
-        {project.data.description}
-      </p>
-    </header>
+    <!-- Project Title -->
+    <h1 class="font-heading font-medium leading-[1.05] text-center mb-12" style="font-size: clamp(2.5rem, 8vw, 6rem); text-transform: uppercase;">
+      {project.data.title}
+    </h1>
 
-    <!-- Cover Image -->
-    {project.data.coverImage && (
+    <!-- Hero Images Grid -->
+    {project.data.heroImages && project.data.heroImages.length >= 3 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-6 mb-12 md:h-[418px]">
+        <!-- Left: Large image spanning 2 rows -->
+        <div class="md:row-span-2 h-[350px] md:h-full">
+          <img
+            src={project.data.heroImages[0]}
+            alt={project.data.title}
+            class="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+        <!-- Top right -->
+        <div class="h-[204px] md:h-auto">
+          <img
+            src={project.data.heroImages[1]}
+            alt={project.data.title}
+            class="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+        <!-- Bottom right -->
+        <div class="h-[204px] md:h-auto">
+          <img
+            src={project.data.heroImages[2]}
+            alt={project.data.title}
+            class="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+      </div>
+    ) : project.data.coverImage && (
       <img
         src={project.data.coverImage}
         alt={project.data.title}
@@ -40,13 +57,31 @@ const { Content } = await render(project);
       />
     )}
 
-    <!-- Project Content -->
-    <div class="prose max-w-3xl">
-      <Content />
+    <!-- Project Info (centered narrower column) -->
+    <div class="max-w-[900px] mx-auto">
+      <!-- Project Header -->
+      <header class="mb-8">
+        <h2 class="font-heading text-3xl md:text-4xl font-medium leading-[1.1]">
+          Project summary
+        </h2>
+        <p class="text-xl md:text-2xl text-brand-brown/80 mt-4 leading-relaxed">
+          {project.data.description}
+        </p>
+        {project.data.tags && (
+          <p class="text-sm text-brand-brown/50 mt-6 uppercase tracking-wider">
+            {project.data.tags.join(' • ')}
+          </p>
+        )}
+      </header>
+
+      <!-- Project Content -->
+      <div class="prose">
+        <Content />
+      </div>
     </div>
 
     <!-- Back Link -->
-    <div class="mt-16 pt-8 border-t border-brand-brown/10">
+    <div class="max-w-[900px] mx-auto mt-16 pt-8 border-t border-brand-brown/10">
       <a href="/projects" class="font-heading font-medium hover:opacity-70 transition-opacity">
         ← Back to all projects
       </a>

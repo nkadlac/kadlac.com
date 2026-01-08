@@ -1,7 +1,7 @@
 ---
 title: "The Best iPad for Procreate in 2024"
 date: 2024-01-20
-category: design
+category: visual
 description: "Looking to find the best iPad for Procreate? I reviewed 15 iPad models to determine the top six you should consider buying. Enjoy and keep drawing!"
 image: "https://framerusercontent.com/images/oOSZH99kvsdcqrZBq4AgI2GZG0.jpg"
 ---

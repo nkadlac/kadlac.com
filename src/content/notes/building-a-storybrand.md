@@ -3,7 +3,7 @@ title: "Building a StoryBrand"
 author: "Donald Miller"
 rating: 7
 amazonUrl: "https://geni.us/buildstorybrand"
-coverImage: "https://framerusercontent.com/images/19bbeFYT91gYAKjyMlmtmsO43yo.png"
+coverImage: "/images/storybrand-cover.png"
 description: "A simple seven step framework to clarify your message around the hero's journey, so your customers will listen. "
 ---
 

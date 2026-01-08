@@ -1,7 +1,7 @@
 ---
 title: "What are some unconventional and easy things to draw on Procreate?"
 date: 2023-05-14
-category: design
+category: visual
 description: "Drawing in Procreate can be intimidating. Learn the essentials of Procreate and discover four unconventional ideas to get drawing immediately"
 image: "https://framerusercontent.com/images/Qh1hXZuJ99gbnfwv5xe6RwDixaI.jpg"
 ---

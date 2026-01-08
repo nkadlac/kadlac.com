@@ -1,0 +1,161 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LogoMarquee from '../../components/LogoMarquee.astro';
+
+const services = [
+  {
+    name: 'Cover Art',
+    price: '$3,000',
+    delivery: '2 weeks',
+    description: "You're looking for a unique and premium cover for your podcast or channel that stands out from the sea of template-based designs.",
+  },
+  {
+    name: 'Landing Page + Cover Art',
+    price: 'Starting at $6,500',
+    delivery: '4 weeks',
+    description: 'A dedicated show landing page combined with premium cover art to engage your audience and convert listeners into subscribers.',
+  },
+  {
+    name: 'Visual Brand Refresh',
+    price: '$15,000–$30,000',
+    delivery: '8-12 weeks',
+    description: 'Full brand consistency across all properties with comprehensive design pieces including cover art, thumbnails, social assets, and landing pages.',
+  },
+];
+---
+
+<Layout title="Podcast & YouTube Packaging Design | Nate Kadlac" description="Premium show design for creator podcasts and YouTube channels. Catch their eye before you catch their ear. 20+ years of design experience.">
+  <!-- Hero Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <header class="max-w-[900px] mx-auto">
+      <p class="text-sm text-brand-brown/60 uppercase tracking-wider font-medium mb-6 text-center">
+        Podcast & YouTube Packaging
+      </p>
+      <h1 class="font-heading font-medium leading-[1.05] mb-12 text-center" style="font-size: clamp(2.5rem, 8vw, 5rem);">
+        CATCH THEIR EYE BEFORE YOU CATCH THEIR EAR
+      </h1>
+      <div class="space-y-6 text-brand-brown/80 text-center max-w-2xl mx-auto">
+        <p>212,000 new podcasts launched in 2023. Millions of new YouTube channels are created every year.</p>
+        <p>Your show's design is the first impression you make. Before anyone hears your voice or watches your content, they see your cover art, your thumbnails, your brand.</p>
+        <p>Don't let template-based designs hold you back from standing out.</p>
+        <p>With 20+ years of design experience and partnerships with creators like Lenny Rachitsky, Vicky Zhao, and Josh Spector, I'll help you create a visual identity that matches the quality of your content.</p>
+      </div>
+      <div class="text-center mt-10">
+        <a
+          href="#apply"
+          class="btn btn-primary inline-block"
+        >
+          Tell me about your project
+        </a>
+      </div>
+    </header>
+  </section>
+
+  <!-- Logo Marquee -->
+  <LogoMarquee />
+
+  <!-- Services Section -->
+  <section class="max-w-[1200px] mx-auto px-6 py-16">
+    <h2 class="font-heading text-2xl md:text-3xl font-medium leading-[1.1] mb-8 text-center">
+      PACKAGING OPTIONS
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+      {services.map((service, index) => (
+        <div class:list={["card flex flex-col", index === 0 && "border-2 border-brand-brown"]}>
+          <h3 class="font-heading text-xl font-semibold">
+            {service.name}
+          </h3>
+          <p class="text-sm text-brand-brown/50 mt-1">
+            {service.delivery}
+          </p>
+          <p class="font-heading text-3xl font-bold mt-4 text-brand-brown">
+            {service.price}
+          </p>
+          <p class="mt-4 text-brand-brown/70 flex-1">
+            {service.description}
+          </p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Apply Section -->
+  <section id="apply" class="py-16 md:py-24" style="background-color: #FDFDF9;">
+    <div class="max-w-[1200px] mx-auto px-6">
+      <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] mb-6 text-center">
+        APPLY TO GET STARTED
+      </h2>
+      <p class="text-center text-lg md:text-xl text-brand-brown/80 max-w-xl mx-auto mb-10">
+        Send me an email with details about your show, and we'll hop on a quick call to see if we're the right partners.
+      </p>
+      <div class="bg-brand-cream rounded-3xl p-8 md:p-12 border-2 border-brand-brown max-w-3xl mx-auto">
+      <div class="max-w-2xl">
+        <h2 class="font-heading text-2xl md:text-3xl font-bold leading-[1.1] mb-8">
+          Thanks for your interest
+        </h2>
+        <form
+          action="https://formspree.io/f/mlgdzgag"
+          method="POST"
+          class="space-y-6"
+        >
+          <input type="hidden" name="_next" value="https://www.kadlac.com/hire/thanks" />
+          <input type="hidden" name="subject" value="Packaging Inquiry" />
+          <div>
+            <label for="name" class="block text-sm font-bold text-brand-brown mb-2">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Jane Smith"
+              required
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20"
+            />
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-bold text-brand-brown mb-2">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your best email"
+              required
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20"
+            />
+          </div>
+          <div>
+            <label for="show-url" class="block text-sm font-bold text-brand-brown mb-2">Show URL</label>
+            <input
+              type="url"
+              id="show-url"
+              name="show-url"
+              placeholder="https://yourshow.com or YouTube/Podcast link"
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20"
+            />
+          </div>
+          <div>
+            <label for="project" class="block text-sm font-bold text-brand-brown mb-2">Tell me about your show. Engagements from $2,500</label>
+            <textarea
+              id="project"
+              name="project"
+              rows="4"
+              placeholder="Hey Nate, I have a podcast/YouTube channel about... I'm looking for help with..."
+              required
+              class="w-full px-5 py-4 rounded-xl bg-white text-brand-brown placeholder:text-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-brown/20 resize-none"
+            ></textarea>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+            <button
+              type="submit"
+              class="btn btn-primary"
+            >
+              Submit Project Details
+            </button>
+            <span class="text-brand-brown/60 text-sm">I'll respond in one weekday</span>
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+  </section>
+</Layout>

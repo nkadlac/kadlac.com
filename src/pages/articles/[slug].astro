@@ -29,33 +29,25 @@ const recommendedArticles = allArticles
 
 <Layout title={`${article.data.title} | Nate Kadlac`} description={article.data.description || `${article.data.title} - an article by Nate Kadlac on design, creativity, and building your business.`} ogImage={article.data.image}>
   <div class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
+    <!-- Article Header (Full Width, Centered) -->
+    <header class="mb-12 text-center max-w-[900px] mx-auto">
+      <h1 class="font-heading font-medium leading-[1.05]" style="font-size: clamp(2rem, 6vw, 4.5rem); text-transform: uppercase;">
+        {article.data.title}
+      </h1>
+      {article.data.description && (
+        <p class="text-xl text-brand-brown/70 mt-6">
+          {article.data.description}
+        </p>
+      )}
+      <time class="block text-sm text-brand-brown/60 font-medium uppercase tracking-wider mt-6">
+        {formattedDate}
+      </time>
+    </header>
+
+    <!-- Two Column Layout: Article + Sticky Sidebar -->
     <div class="flex gap-12">
       <!-- Main Article Content -->
-      <article class="flex-1 max-w-[720px]">
-        <!-- Article Header -->
-        <header class="mb-12">
-          <time class="text-sm text-brand-brown/60 font-medium uppercase tracking-wider">
-            {formattedDate}
-          </time>
-          <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mt-4 leading-tight tracking-tight">
-            {article.data.title}
-          </h1>
-          {article.data.description && (
-            <p class="text-xl text-brand-brown/70 mt-6">
-              {article.data.description}
-            </p>
-          )}
-        </header>
-
-        <!-- Hero Image -->
-        {article.data.image && (
-          <img
-            src={article.data.image}
-            alt={article.data.title}
-            class="w-full rounded-2xl mb-12"
-          />
-        )}
-
+      <article class="flex-1 max-w-[768px]">
         <!-- Article Content -->
         <div class="prose">
           <Content />
@@ -76,7 +68,7 @@ const recommendedArticles = allArticles
     <!-- Recommended Reading -->
     {recommendedArticles.length > 0 && (
       <section class="mt-20 pt-16 border-t border-brand-brown/10">
-        <h2 class="font-serif text-xl md:text-2xl italic text-brand-brown/80 uppercase tracking-wide mb-10">
+        <h2 class="font-heading text-3xl md:text-5xl font-medium uppercase leading-[1.1] mb-10">
           The next three articles you should read
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
