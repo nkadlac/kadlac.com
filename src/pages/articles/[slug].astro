@@ -27,7 +27,12 @@ const recommendedArticles = allArticles
   .slice(0, 3);
 ---
 
-<Layout title={`${article.data.title} | Nate Kadlac`} description={article.data.description || `${article.data.title} - an article by Nate Kadlac on design, creativity, and building your business.`} ogImage={article.data.image}>
+<Layout
+  title={`${article.data.title} | Nate Kadlac`}
+  description={article.data.description || `${article.data.title} - an article by Nate Kadlac on design, creativity, and building your business.`}
+  ogImage={article.data.image}
+  article={{ publishedDate: article.data.date }}
+>
   <div class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
     <!-- Article Header (Full Width, Centered) -->
     <header class="mb-12 text-center max-w-[900px] mx-auto">
