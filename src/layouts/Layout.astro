@@ -120,6 +120,13 @@ const articleSchema = article ? {
       <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}
 
+    <!-- Plausible Analytics -->
+    <script async src="https://plausible.io/js/pa-1OPy4ORLTH4RoaAr1EAAh.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
+
     <ViewTransitions />
   </head>
   <body class="flex flex-col min-h-screen">
