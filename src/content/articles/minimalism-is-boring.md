@@ -38,7 +38,7 @@ You’re exhausted, and you haven’t made any progress. So you end up with a de
 
 **But your personality and vibe are nowhere to be found.** 
 
-You started with good intentions, but you made a crucial mistake. You didn’t start from the inside-out. 
+You started with good intentions, but you made a crucial mistake. You didn't start from the [inside-out](/articles/unlock-creative-taste-inside-out). 
 
 ### **Inside-out design thinking**
 
@@ -52,7 +52,7 @@ Minimalism is about subtraction. The graphic designer, Jack Butcher, says, _“I
 
 Designing from the inside-out starts with exploring what makes us unique. It means extracting the most important slices of our personalities. Former Braun Designer Dieter Rams lives by this principle, “Less, but better.”
 
-People mistake Marie Kondo as a minimalist. But in her own words, she says, _“Many people have equated my tidying method with minimalism, but it's quite different. ... Minimalism advocates living with less; the KonMari Method™ encourages living among items you truly cherish. The first step in my tidying method is to imagine your ideal lifestyle.”_
+People mistake Marie Kondo as a minimalist. But in her own words, she says, _"Many people have equated my tidying method with minimalism, but it's quite different. ... Minimalism advocates living with less; the KonMari Method™ encourages living among items you truly cherish. The first step in my tidying method is to imagine your ideal lifestyle."_ (I wrote about applying this to your [creative life](/articles/konmari-creative-life).)
 
 She doesn’t tell us to first find inspiration in what our home should look like. We should use inside-out design thinking to hold onto the objects that are personal to us, not what’s trending at the moment.  
 

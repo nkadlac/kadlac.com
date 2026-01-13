@@ -62,4 +62,8 @@ But if you decide to close it, you will move with unimaginable speed. What you c
 
 If you embrace the challenge, six months from now you might not recognize yourself.
 
-Closing the taste gap feels like work because it is work. And to you, your work might always look like garbage. But along the way, you’ll realize this isn’t true at all.
+Closing the taste gap feels like work because it is work. And to you, your work might always look like garbage. But along the way, you'll realize this isn't true at all.
+
+---
+
+If you feel [starved for beauty](/articles/starving-for-taste) in the world around you, know that cultivating taste is a skill you can develop. The next step is learning how to [unlock your creative taste from the inside out](/articles/unlock-creative-taste-inside-out)—by examining what you truly love and why.

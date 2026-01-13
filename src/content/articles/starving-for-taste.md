@@ -64,4 +64,8 @@ By being thoughtful, you begin to see the touchpoints of detail, and what is aes
 
 It’s why I think fondly of my time in London, and how I arrived home and immediately dropped my bags to edit [my very first travel video](https://www.youtube.com/watch?v=q56JRFMnFEE). Even with a crusty and pixelated lens, you can see the character of the city emanate against the curious choice of Elliot Smith’s, _Needle In the Hay._
 
-Don’t judge me. It’s beautiful.
+Don't judge me. It's beautiful.
+
+---
+
+Being starved for beauty isn't permanent. Like many skills, you can develop your aesthetic eye. There's often a [gap between what you appreciate and what you can create](/articles/closing-your-taste-gap)—recognizing that gap is the first step. Once you do, you can begin to [unlock your creative taste from the inside out](/articles/unlock-creative-taste-inside-out).

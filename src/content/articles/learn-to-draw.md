@@ -28,25 +28,25 @@ I learned an important lesson early on. Copying is a shortcut to increasing your
 
 ### **Here are the 10 steps I’ll cover to help you learn how to draw (without drawing paper).** 
 
-1.  [**Use an existing piece of content**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-1)
+1.  [**Use an existing piece of content**](#step-1-use-an-existing-piece-of-content)
     
-2.  [**Brainstorm a collection of visual ideas**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-2)
+2.  [**Brainstorm a collection of visual ideas**](#step-2-brainstorm-a-collection-of-visual-ideas)
     
-3.  [**Remix your ideas**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-3)
+3.  [**Remix your ideas**](#step-3-remix-your-ideas)
     
-4.  [**Get your iPad and set up Procreate**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-4)
+4.  [**Get your iPad and set up Procreate**](#step-4-get-your-ipad-and-set-up-procreate)
     
-5.  [**Select a pencil and a brush**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-5)
+5.  [**Select a pencil and a brush**](#step-5-select-a-pencil-and-a-brush)
     
-6.  [**Trace your composition**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-6)
+6.  [**Trace your composition**](#step-6-trace-your-composition)
     
-7.  [**Fill with color**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-7)
+7.  [**Fill with color**](#step-7-fill-with-color)
     
-8.  [**Add depth by choosing a light source (Optional)**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-8)
+8.  [**Add depth by choosing a light source (Optional)**](#step-8-add-depth-by-choosing-a-light-source-optional)
     
-9.  [**Export your image**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-9)
+9.  [**Export your image**](#step-9-export-your-image)
     
-10.  [**Stay consistent and take it easy on yourself**](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#step-10)
+10.  [**Stay consistent and take it easy on yourself**](#step-10-learn-to-draw-with-consistency-and-take-it-easy-on-yourself)
      
 
 ## Rethink everything you know

@@ -129,3 +129,7 @@ There are many ways to get web fonts. If you have an Adobe Cloud subscription, [
 Books include [The Elements of Typographic Style](https://www.amazon.com/s?k=the+elements+of+typographic+style&crid=3O7VN10CDBLH1&sprefix=the+elemtns+of+typographic+style%2Caps%2C201&ref=nb_sb_ss_sc_1_32), and [Typographie: A Manual of Design](https://www.amazon.com/Typographie-Manual-Design-Emil-Ruder/dp/3721200438/ref=sr_1_1?crid=7DM54D7YMNYB&dchild=1&keywords=typographie&qid=1594187579&sprefix=typographie%2Caps%2C199&sr=8-1)
 
 Lastly, Typewolf has a great [newsletter.](https://www.typewolf.com/newsletter)
+
+---
+
+Typography is just one piece of the puzzle. For more practical guidance, check out my [20 unconventional design tips for non-designers](/articles/20-unconventional-design-tips-for-non-designers).

@@ -36,3 +36,7 @@ Top notes are like our website home pages, product landing pages, newsletters, e
 All notes work together, but if one’s missing, the entire pyramid crumbles.
 
 People judge books by their cover, so make sure to pay attention to every single note.
+
+---
+
+Ready to apply these principles? Start with my [20 unconventional design tips](/articles/20-unconventional-design-tips-for-non-designers), or learn why [minimalism is boring](/articles/minimalism-is-boring) and how to unlock your own creative taste instead.

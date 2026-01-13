@@ -178,9 +178,9 @@ Your websites should be designed similarly. Take creative control over your home
 
 ![Treat your website like a book](/images/articles/tr0eo8CwrUR3hfrx4oVE.webp)
 
-### **Design tip #20: Minimalism is boring**
+### **Design tip #20: [Minimalism is boring](/articles/minimalism-is-boring)**
 
-When selling a home, it’s not a secret that they sell better when someone can envision their own personality in the space. The interiors are dumbed down so you don’t offend a potential buyer.
+When selling a home, it's not a secret that they sell better when someone can envision their own personality in the space. The interiors are dumbed down so you don't offend a potential buyer.
 
 The same is with pre-designed templates. Most templates are dumbed down so you’re not offended. The easiest templates to sell are the ones based on a minimalist feel, using black and white. 
 
@@ -189,3 +189,7 @@ But people are not minimalists. We’re complex with a love of story, places, an
 The best place to start is to listen to your gut, understand why you like what you like, and to go from there. 
 
 Or you can learn how to make long-lasting design decisions for yourself in just 2 days, during my [next workshop](https://approachabledesign.co/).
+
+---
+
+Want to go deeper? Learn [the most important thing about design](/articles/the-most-important-thing-you-need-to-know-about-design) (hint: it's typography), or discover how [design and perfumery have more in common](/articles/what-design-and-perfumery-have-in-common) than you might think.

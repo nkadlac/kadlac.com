@@ -8,7 +8,9 @@ image: "/images/articles/jWHPfTeufLubffh0jdEw.webp"
 
 ![](/images/articles/03TjyQxvgx8qqMLXrOmI.webp)
 
-## How do you design your life, whether it’s the personal brand aesthetic you unleash unto the world, or the dreams you decide to chase?
+## How do you design your life, whether it's the personal brand aesthetic you unleash unto the world, or the dreams you decide to chase?
+
+You might feel [starved for beauty](/articles/starving-for-taste) in the modern world, or struggle with a [gap between your taste and your skills](/articles/closing-your-taste-gap). The path forward starts with understanding yourself.
 
 If you were to tear open the very first Apple Macintosh computer, you would find the signatures of 45 engineers, designers, and managers molded into the back panel. 
 

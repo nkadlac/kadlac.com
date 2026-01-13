@@ -43,3 +43,7 @@ Seth Godin recently stated the obvious. (Again)
 ​But have high standards by creating specific offers if people ask for them.
 
 ​Design smarter, not harder.
+
+---
+
+For practical ways to raise your design standards, explore my [20 unconventional design tips for non-designers](/articles/20-unconventional-design-tips-for-non-designers).

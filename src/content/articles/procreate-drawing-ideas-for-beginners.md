@@ -168,3 +168,5 @@ Look around you, and you'll notice what is demanding our attention. Save these i
 ## **Get started drawing ideas in Procreate!**
 
 Being able to create original artwork can set your writing or posts apart from everyone else. But most importantly, being excited about what you can create on a daily basis is how you stick to it for the long haul. Hopefully this tutorial will help you in your Procreate journey.
+
+If you're ready to dive deeper, check out my complete [10-step guide to learning how to draw in Procreate](/articles/learn-to-draw), or learn [what makes things easy to draw on Procreate](/articles/easy-to-draw-on-procreate).

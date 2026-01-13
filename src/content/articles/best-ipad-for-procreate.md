@@ -12,17 +12,17 @@ Drawing on an iPad can fundamentally change your life. You might think it's only
 
 ## **What is the best iPad for Procreate?**
 
-1.  [iPad Pro 12.9" (2021)](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-1) — best hands-down winner (Nate's choice)
+1.  [iPad Pro 12.9" (2021)](#1-apple-ipad-pro-129-inch-5th-generation-2021) — best hands-down winner (Nate's choice)
     
-2.  [New iPad Pro 12.9" (2022)](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-2) — best for creative professionals (and money is no object)
+2.  [New iPad Pro 12.9" (2022)](#2-apple-ipad-pro-129-inch-6th-generation-2022) — best for creative professionals (and money is no object)
     
-3.  [New iPad Mini (6th gen 2021)](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-3) — best for walkers or coffee shop drawing
+3.  [New iPad Mini (6th gen 2021)](#3-ipad-mini-6th-gen-2021) — best for walkers or coffee shop drawing
     
-4.  [iPad (9th generation)](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-4) — best for drawing during a recession
+4.  [iPad (9th generation)](#4-ipad-9th-generation-2021) — best for drawing during a recession
     
-5.  [New iPad Air 5 (2022)](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-5) — best for traveling the world
+5.  [New iPad Air 5 (2022)](#5-ipad-air-5th-generation-2022) — best for traveling the world
     
-6.  [iPad Pro 12.9" (2018)](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-6) — best for drawing on a couch
+6.  [iPad Pro 12.9" (2018)](#6-ipad-pro-129-3rd-generation-2018) — best for drawing on a couch
     
 
   
@@ -37,7 +37,7 @@ Drawing on an iPad can fundamentally change your life. You might think it's only
 
 While the 2022 iPad Pro has some pretty great features (e.g. Apple Pencil hover), I believe the best combination of power and price sits in the (2021) model. The 2021 iPad Pro offers the best experience for drawing at a slightly more affordable price than the newest model.
 
-My controversial take is that you shouldn't buy the iPad Pro 11". If you're going to purchase a pro model, save your pennies for the larger version—and one with larger storage capacity—because screen real estate is your friend. If you do opt for a smaller screen, stick with the regular [iPad](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-4), [iPad Air](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-5), or [iPad Mini](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-3) and save some cash at the same time.
+My controversial take is that you shouldn't buy the iPad Pro 11". If you're going to purchase a pro model, save your pennies for the larger version—and one with larger storage capacity—because screen real estate is your friend. If you do opt for a smaller screen, stick with the regular [iPad](#4-ipad-9th-generation-2021), [iPad Air](#5-ipad-air-5th-generation-2022), or [iPad Mini](#3-ipad-mini-6th-gen-2021) and save some cash at the same time.
 
 You won't see the 11-inch iPad Pro shown in this article for this reason.
 
@@ -48,7 +48,7 @@ You won't see the 11-inch iPad Pro shown in this article for this reason.
 
 ### **The Worst Part:**
 
-*   It's missing the newest feature of the 2022 iPad Pro 12.9-inch—Apple Pencil Hover. If this is a deal breaker, I'd recommend spending a bit more for the [big daddy](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#ipad-2) of the group.
+*   It's missing the newest feature of the 2022 iPad Pro 12.9-inch—Apple Pencil Hover. If this is a deal breaker, I'd recommend spending a bit more for the [big daddy](#2-apple-ipad-pro-129-inch-6th-generation-2022) of the group.
     
 
 Get this if you want the best iPad that combines price and power—without the buyer's remorse of having the latest tech that's not entirely worth it, imho.
@@ -529,3 +529,5 @@ The 2021 iPad Pro inch is fully capable with Apple's M1 chip, and has many of th
 But, if money is no object, my recommendation would be to splurge and buy the 2022 iPad Pro 12.9" model.
 
 Just don't forget to pick up an Apple Pencil.
+
+Once you have your iPad, check out my guide on [how to learn to draw in Procreate](/articles/learn-to-draw) or explore [six unconventional Procreate drawing ideas](/articles/procreate-drawing-ideas-for-beginners) to get started.

@@ -18,26 +18,26 @@ So here's a quick drawing tutorial on how to draw a few unconventional and cool 
 
 ### Drawing Guide
 
-*   [What is Procreate?](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#what-is-procreate)
+*   [What is Procreate?](#first-what-is-procreate)
     
-*   [Go from zero to one with Procreate](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#zero-one)
+*   [Go from zero to one with Procreate](#go-from-zero-to-one-with-the-procreate-app)
     
-*   [Interface Tools](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#interface-tools)
+*   [Interface Tools](#interface-tools)
     
-*   [Procreate Brushes](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#brushes)
+*   [Procreate Brushes](#procreate-brushes)
     
-*   [Why you should trace and remix](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#trace-remix)
+*   [Why you should trace and remix](#why-you-should-trace-and-remix)
     
-*   [Where to find fun, unconventional creative ideas](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#creative-ideas)
+*   [Where to find fun, unconventional creative ideas](#where-to-find-fun-unconventional-creative-procreate-ideas)
     
-*   [Four creative ideas to start drawing](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#drawing-ideas)
+*   [Four creative ideas to start drawing](#here-are-four-easy-things-to-draw-for-beginners)
     
-*   [Bonus: Watch a Procreate breakdown of my process](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#video-breakdown)
+*   [Bonus: Watch a Procreate breakdown of my process](#bonus-watch-salman-and-i-break-down-procreate-in-this-video)
     
 
 ## **First, what is Procreate?**
 
-If you're new to drawing ideas using [Procreate](https://apps.apple.com/us/app/procreate/id425073498), you're in the right place. And if that's not news to you, you can skip to the [Procreate Drawing Ideas](https://framer.com/projects/Kadlac-com--rOCL3s44isjwGyasGyQV#drawing-ideas) section. (I just saved you 20 seconds, you're welcome).
+If you're new to drawing ideas using [Procreate](https://apps.apple.com/us/app/procreate/id425073498), you're in the right place. And if that's not news to you, you can skip to the [Procreate Drawing Ideas](#here-are-four-easy-things-to-draw-for-beginners) section. (I just saved you 20 seconds, you're welcome).
 
 I use Procreate to draw digital illustrations for my [blog](https://www.kadlac.com/articles) and [newsletter](https://www.kadlac.com/newsletter) articles, giving them a sense of personality. Some people call this digital painting but I find that a bit dated like talking about how we used to surf the web.
 
@@ -299,5 +299,9 @@ This is the magic in remixing illustrations this way. Finding your creative voic
 ## **AI and stock photos will never be the same as drawing for yourself**
 
 I hope you're feeling inspired to create art for yourself. By the time you read this, you'll be able to use Artificial Intelligence (AI) to generate an image from a few words, based on existing art. Technology is moving quickly and it's great to embrace it, but there's nothing like [drawing for yourself](https://www.kadlac.com/articles/learn-to-draw).
+
+---
+
+Still looking for inspiration? Check out [six unconventional Procreate drawing ideas](/articles/procreate-drawing-ideas-for-beginners) to spark your creativity.
 
 ## Bonus: Watch [Salman](https://salman.io/) and I break down Procreate in this video
