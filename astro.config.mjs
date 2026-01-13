@@ -7,6 +7,10 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://www.kadlac.com',
   integrations: [sitemap()],
+  redirects: {
+    '/crit': '/hire',
+    '/inside-out': '/articles/unlock-creative-taste-inside-out'
+  },
   vite: {
     plugins: [tailwindcss()]
   }
