@@ -38,7 +38,7 @@ Today I'm excited to launch a new version of [​**kadlac.com**​](/?utm_source
 
 Inspiration for creating your visual style can come from anywhere, and if you're struggling, look for the things around you that you love.
 
-(Or [take my course](https://approachabledesign.co/courses/8020-design-challenge) on designing smarter.)
+(Or [take my course](https://www.approachabledesign.co/products/creator-design-kit/) on designing smarter.)
 
 ![Site inspiration](/images/articles/JbkKQZXda6aHrikBLjWc.webp)
 
