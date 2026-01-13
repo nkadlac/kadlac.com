@@ -34,7 +34,7 @@ After our company was acquired in 2021, I left my job and have relied on sharing
 
 I'm most proud of it, and I think it's an investment everyone should make.
 
-Today I'm excited to launch a new version of [​**kadlac.com**​](https://kadlac.com/?utm_source=approachabledesign&utm_medium=email). It was inspired by a 1983 Schwinn Voyageur that I also painted and rebuilt.
+Today I'm excited to launch a new version of [​**kadlac.com**​](/?utm_source=approachabledesign&utm_medium=email). It was inspired by a 1983 Schwinn Voyageur that I also painted and rebuilt.
 
 Inspiration for creating your visual style can come from anywhere, and if you're struggling, look for the things around you that you love.
 

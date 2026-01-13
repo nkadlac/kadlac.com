@@ -17,7 +17,7 @@ Throughout five nights, a young man with questions looks to get clarity from a p
 
 In the book, Adler's philosophy is that all problems are interpersonal relationship problems. To live a happy life, we must be able to accept ourselves as we are, and accept others as they are.
 
-The most impactful section of the book to me was the third night—the Separation of Tasks—and you might enjoy [this separate essay](https://kadlac.com/articles/the-courage-to-not-give-unsolicited-advice) I wrote about it. I highly recommend this book, even if you don't agree with parts of Adlerian psychology.
+The most impactful section of the book to me was the third night—the Separation of Tasks—and you might enjoy [this separate essay](/articles/the-courage-to-not-give-unsolicited-advice) I wrote about it. I highly recommend this book, even if you don't agree with parts of Adlerian psychology.
 
 ### Night One: Deny Trauma
 

@@ -431,7 +431,7 @@ The second-generation apple pencil improves upon the first by including wireless
 
 Drawing is great on its own for artistic purposes, but where drawing can really shine is when it's paired with great writing.
 
-I use illustrations to pair with my own newsletter, blog articles, and design work. I do most of this in Procreate, and I'm a fan of [remixing existing images](https://www.kadlac.com/articles/easy-to-draw-on-procreate) to create original compositions.
+I use illustrations to pair with my own newsletter, blog articles, and design work. I do most of this in Procreate, and I'm a fan of [remixing existing images](/articles/easy-to-draw-on-procreate) to create original compositions.
 
 I've also participated in 100-day creative projects inspired by Julia Cameron or Austin Kleon, where I spend 30 minutes a day drawing objects.
 
@@ -473,7 +473,7 @@ I use and recommend [Paperlike](https://paperlike.com/). (not an affiliate!)
 
 While Steve Jobs famously said, _“If you see a stylus, they blew it,”_ I can't imagine using Procreate on an iPad without an Apple Pencil.
 
-The pressure sensitivity and being able to see the line that [I'm drawing](https://www.kadlac.com/articles/learn-to-draw) is too important not to use an Apple Pencil.
+The pressure sensitivity and being able to see the line that [I'm drawing](/articles/learn-to-draw) is too important not to use an Apple Pencil.
 
 I've tried many styluses over the years, but when Apple finally made their own, I haven't looked back. I'd recommend buying the Apple Pencil version that works with your iPad.
 
@@ -493,7 +493,7 @@ These iPads are just tools, and it comes down to building a consistent drawing h
 
 Drawing on an iPad with Procreate can be overwhelming at first. But what people love is the ability to get started quickly, and being able to create professional pieces of art.
 
-But starting out if you don't know how to draw can be intimidating. There are many Procreate courses out there, but I believe too many try to cover every single feature. I've written a [few articles](https://www.kadlac.com/articles/procreate-drawing-ideas-for-beginners) that I think will help you if you're just starting out.
+But starting out if you don't know how to draw can be intimidating. There are many Procreate courses out there, but I believe too many try to cover every single feature. I've written a [few articles](/articles/procreate-drawing-ideas-for-beginners) that I think will help you if you're just starting out.
 
 ### **How can we go from zero to one quickly and easily?**
 

@@ -162,7 +162,7 @@ Try softening the ends of the spectrum by using an _almost_ black like #111111 o
 
 Most templates come with a stark white background. Most people don’t change this default setting. 
 
-But, the easiest way to inject life into a page is by adding a [light](https://www.kadlac.com/about) or [dark](https://www.charliebleecker.com/about) tint to it, immediately creating a vibe to draw us in.
+But, the easiest way to inject life into a page is by adding a [light](/about) or [dark](https://www.charliebleecker.com/about) tint to it, immediately creating a vibe to draw us in.
 
 ### **Design tip #19: Treat your design projects like a book**
 

@@ -39,9 +39,9 @@ So here's a quick drawing tutorial on how to draw a few unconventional and cool 
 
 If you're new to drawing ideas using [Procreate](https://apps.apple.com/us/app/procreate/id425073498), you're in the right place. And if that's not news to you, you can skip to the [Procreate Drawing Ideas](#here-are-four-easy-things-to-draw-for-beginners) section. (I just saved you 20 seconds, you're welcome).
 
-I use Procreate to draw digital illustrations for my [blog](https://www.kadlac.com/articles) and [newsletter](https://www.kadlac.com/newsletter) articles, giving them a sense of personality. Some people call this digital painting but I find that a bit dated like talking about how we used to surf the web.
+I use Procreate to draw digital illustrations for my [blog](/articles) and [newsletter](/newsletter) articles, giving them a sense of personality. Some people call this digital painting but I find that a bit dated like talking about how we used to surf the web.
 
-The Procreate app is a digital drawing app built for [Apple's iPad](https://www.kadlac.com/articles/best-ipad-for-procreate). It's helpful to use a stylus, and I prefer the [Apple Pencil](https://amzn.to/3dQMtLm). I currently use the [2018 12.9" iPad model](https://amzn.to/3USzb1f) (3rd Gen) which has a bit of extra space. You can still use Procreate on older models, even the smaller sizes.
+The Procreate app is a digital drawing app built for [Apple's iPad](/articles/best-ipad-for-procreate). It's helpful to use a stylus, and I prefer the [Apple Pencil](https://amzn.to/3dQMtLm). I currently use the [2018 12.9" iPad model](https://amzn.to/3USzb1f) (3rd Gen) which has a bit of extra space. You can still use Procreate on older models, even the smaller sizes.
 
 Procreate allows you to use pencils, pens, ink pen, brushes, acrylic, oil, and watercolor brushes. Anything you can imagine, you can draw. You can even export full videos of your entire image at any point.
 
@@ -298,7 +298,7 @@ This is the magic in remixing illustrations this way. Finding your creative voic
 
 ## **AI and stock photos will never be the same as drawing for yourself**
 
-I hope you're feeling inspired to create art for yourself. By the time you read this, you'll be able to use Artificial Intelligence (AI) to generate an image from a few words, based on existing art. Technology is moving quickly and it's great to embrace it, but there's nothing like [drawing for yourself](https://www.kadlac.com/articles/learn-to-draw).
+I hope you're feeling inspired to create art for yourself. By the time you read this, you'll be able to use Artificial Intelligence (AI) to generate an image from a few words, based on existing art. Technology is moving quickly and it's great to embrace it, but there's nothing like [drawing for yourself](/articles/learn-to-draw).
 
 ---
 

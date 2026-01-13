@@ -16,7 +16,7 @@ While I love drawing with a pencil and paper, being able to draw on Procreate is
 
 ## **What do you need to start in the Procreate app?**
 
-*   [Apple iPad](https://amzn.to/3SPc5XE) (Here's [my guide](https://www.kadlac.com/articles/best-ipad-for-procreate) to the best iPad)
+*   [Apple iPad](https://amzn.to/3SPc5XE) (Here's [my guide](/articles/best-ipad-for-procreate) to the best iPad)
     
 *   [Apple Pencil](https://amzn.to/3C71QHx) (I use the second generation)
     
@@ -24,7 +24,7 @@ While I love drawing with a pencil and paper, being able to draw on Procreate is
     
 *   Some of your favorite images nearby
     
-*   [The basics of Procreate](https://www.kadlac.com/articles/easy-to-draw-on-procreate)
+*   [The basics of Procreate](/articles/easy-to-draw-on-procreate)
     
 
 ## **Create original art by remixing your ideas**
@@ -157,7 +157,7 @@ Once you create your signature, export it as its own image and use it on all you
 
 ![Pop culture reference based illustration](/images/articles/5M1mdGr1Fu1sOO70KudH.webp)
 
-You know the saying, "If you're getting something for free, you're the product." In other words, we're being bombarded by cultural ads every single day, demanding our attention. If you're not careful, you'll drown in information. But, instead of drowning, you can draw your way out of it by creating. Like I did with this [compost bucket](https://www.kadlac.com/articles/lomi-compost-review).
+You know the saying, "If you're getting something for free, you're the product." In other words, we're being bombarded by cultural ads every single day, demanding our attention. If you're not careful, you'll drown in information. But, instead of drowning, you can draw your way out of it by creating. Like I did with this [compost bucket](/articles/lomi-compost-review).
 
 Use the cultural moments as an opportunity to take images and icons to transform your ideas into art. Iconic pieces are waiting to be remixed for the cultural zeitgeist that seems to change on a daily basis.
 

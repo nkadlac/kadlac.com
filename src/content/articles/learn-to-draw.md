@@ -67,7 +67,7 @@ I spend most of my time drawing for digital purposes. So I like to stay in the d
 
 **Here are the tools I use:**
 
-*   [2018 12.9” iPad Pro](https://amzn.to/3USzb1f) — [Need an iPad recommendation?](https://www.kadlac.com/articles/best-ipad-for-procreate)
+*   [2018 12.9” iPad Pro](https://amzn.to/3USzb1f) — [Need an iPad recommendation?](/articles/best-ipad-for-procreate)
     
 *   [Apple Pencil 2nd gen](https://amzn.to/3dQMtLm)
     
@@ -92,7 +92,7 @@ Visuals typically support another piece of content. If it’s an article, a vide
 
 It’s helpful to have written the article, shot the video, or built the product so you have something to draw for. When I illustrate this newsletter, drawing is the last thing I do. That way, I already have some context for what I should be doing so I don’t waste time coming up with ideas.
 
-I have a process of [searching Google images](https://www.kadlac.com/articles/easy-to-draw-on-procreate), looking at my own library, or even taking my own pictures.
+I have a process of [searching Google images](/articles/easy-to-draw-on-procreate), looking at my own library, or even taking my own pictures.
 
 _But if you’re just drawing for fun, you can skip this step._
 
@@ -122,7 +122,7 @@ The reason is that you could easily just trace an image in your style and be don
 
 The way this happens is by creating something unique and visually grabbing. 
 
-Some of my most popular illustrations came from combining and remixing photos together. One of my favorite examples of this is from my article, [_Konmari your creative life_](https://www.kadlac.com/articles/konmari-creative-life). I wanted to create a visual that felt calming and welcoming. This was also a play on Marie Kondo and her book, _The Life-Changing Magic of Tidying Up_. Instead of decluttering your home, I wanted to present control of your digital clutter. 
+Some of my most popular illustrations came from combining and remixing photos together. One of my favorite examples of this is from my article, [_Konmari your creative life_](/articles/konmari-creative-life). I wanted to create a visual that felt calming and welcoming. This was also a play on Marie Kondo and her book, _The Life-Changing Magic of Tidying Up_. Instead of decluttering your home, I wanted to present control of your digital clutter. 
 
 For this piece, I thought a pair of hands opening up, with some small branded artifacts would catch people’s attention. 
 
@@ -138,7 +138,7 @@ Take 10 minutes and think about how to combine 2-3 images, and I’ll show you h
 
 ### Step 4: Get your iPad and set up Procreate
 
-Now that you have an idea of what to draw, we need to get into our drawing software and add our images. ([Learn more about the Procreate interface here](https://www.kadlac.com/articles/easy-to-draw-on-procreate).)
+Now that you have an idea of what to draw, we need to get into our drawing software and add our images. ([Learn more about the Procreate interface here](/articles/easy-to-draw-on-procreate).)
 
 Procreate is a powerful piece of drawing software that might feel intimidating, but we'’ll just use a few of the basic tools. Drawing guides are particularly useful for creating structured designs and enhancing symmetry in your artwork.
 

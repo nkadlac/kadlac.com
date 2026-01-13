@@ -10,7 +10,7 @@ image: "/images/articles/slWnYmoFGECJv76diRSu.webp"
 
 Last week, I caught myself in the middle of the Netflix series, [Halston](https://en.wikipedia.org/wiki/Halston). It’s based on the life of Roy Halston, the American designer who rose to international fame in the ‘70s.
 
-The incredible thing about Halston is his constant evolution and curiosity to use different fabrics and materials across the span of his career. During the mid 70’s, he worked on his first perfume, and the process reminded me of how I teach design from the [inside out](https://www.kadlac.com/articles/unlock-creative-taste-inside-out).
+The incredible thing about Halston is his constant evolution and curiosity to use different fabrics and materials across the span of his career. During the mid 70’s, he worked on his first perfume, and the process reminded me of how I teach design from the [inside out](/articles/unlock-creative-taste-inside-out).
 
 **All fragrances consist of three notes: The base note, the heart note, and the top note.**
 

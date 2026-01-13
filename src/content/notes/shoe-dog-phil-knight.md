@@ -41,7 +41,7 @@ And then it happened. As my young heart began to thump, as my pink lungs expande
 
 Which led, as always, to my Crazy Idea. Maybe, I thought, just maybe, I need to take one more look at my Crazy Idea. Maybe my Crazy Idea just might . . . work? Maybe.
 
-I was suddenly smiling. Almost laughing. Drenched in sweat, moving as gracefully and effortlessly as I ever had, I saw my Crazy Idea shining up ahead, and it didn’t look all that crazy. It didn’t even look like an idea. It looked like a place. It looked like a person, or some life force that existed long before I did, separate from me, but also part of me. Waiting for me, but also hiding from me. That might sound a little [high](https://www.kadlac.com/)\-flown, a little crazy. But that’s how I felt back then.
+I was suddenly smiling. Almost laughing. Drenched in sweat, moving as gracefully and effortlessly as I ever had, I saw my Crazy Idea shining up ahead, and it didn’t look all that crazy. It didn’t even look like an idea. It looked like a place. It looked like a person, or some life force that existed long before I did, separate from me, but also part of me. Waiting for me, but also hiding from me. That might sound a little [high](/)\-flown, a little crazy. But that’s how I felt back then.
 
 So that morning in 1962 I told myself: Let everyone else call your idea crazy . . . just keep going. Don’t stop. Don’t even think about stopping until you get there, and don’t give much thought to where “there” is. Whatever comes, just don’t stop.
 
@@ -51,7 +51,7 @@ but what I really craved was connection with a capital C. I wanted to experience
 
 I’d read somewhere that the geese in the rear of the formation, cruising in the backdraft, only have to work 80 percent as hard as the leaders. Every runner understands this. Front runners always work the hardest, and risk the most.
 
-I looked out the window at the blazing red circle on the wing. [Mom](https://www.kadlac.com/notes/the-mom-test-rob-fitzpatrick) Hatfield was right, I thought. We were just at war with these people. Corregidor, the Bataan Death March, the Rape of Nanking—and now I was going there on some sort of business venture? Crazy Idea? Maybe I was, in fact, crazy.
+I looked out the window at the blazing red circle on the wing. [Mom](/notes/the-mom-test-rob-fitzpatrick) Hatfield was right, I thought. We were just at war with these people. Corregidor, the Bataan Death March, the Rape of Nanking—and now I was going there on some sort of business venture? Crazy Idea? Maybe I was, in fact, crazy.
 
 I spent hours sitting on benches in walled gardens, reading about Japan’s dominant religions, Buddhism and Shinto. I marveled at the concept of kensho, or satori—enlightenment that comes in a flash, a blinding pop. Sort of like the bulb on my Minolta. I liked that. I wanted that.
 

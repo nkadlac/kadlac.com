@@ -30,7 +30,7 @@ Our desire to help can oftentimes be grounded in self-centeredness. In truth, it
 
 ### Seeking freedom from recognition
 
-In the book, [_The Courage to Be Disliked_](https://www.kadlac.com/notes/the-courage-to-be-disliked), a teacher and a student discuss the principles of psychologist, Alfred Adler. The teacher claims that all problems are interpersonal relationship problems. And one way to solve some of these problems is by understanding the separation of tasks. 
+In the book, [_The Courage to Be Disliked_](/notes/the-courage-to-be-disliked), a teacher and a student discuss the principles of psychologist, Alfred Adler. The teacher claims that all problems are interpersonal relationship problems. And one way to solve some of these problems is by understanding the separation of tasks. 
 
 In a relationship, there are two sides. Part of the reason there are problems between people is that it’s easy to confuse the tasks of each side. Most times, both people just want to be heard. If you’re about to dish out your impassioned perspective on how the world works, it’s helpful to gauge the task of the other person. 
 
