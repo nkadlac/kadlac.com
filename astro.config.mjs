@@ -9,7 +9,11 @@ export default defineConfig({
   integrations: [sitemap()],
   redirects: {
     '/crit': '/hire',
-    '/inside-out': '/articles/unlock-creative-taste-inside-out'
+    '/inside-out': '/articles/unlock-creative-taste-inside-out',
+    '/coaching': '/hire/coaching',
+    '/articles/rss.xml': '/rss.xml',
+    '/design-critique': '/hire',
+    '/blog/view/acme_and_comedy/': '/articles'
   },
   vite: {
     plugins: [tailwindcss()]
