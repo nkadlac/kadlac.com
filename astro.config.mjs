@@ -13,7 +13,8 @@ export default defineConfig({
     '/coaching': '/hire/coaching',
     '/articles/rss.xml': '/rss.xml',
     '/design-critique': '/hire',
-    '/blog/view/acme_and_comedy/': '/articles'
+    '/blog/view/acme_and_comedy/': '/articles',
+    '/courses/learn-to-draw': '/articles/learn-to-draw'
   },
   vite: {
     plugins: [tailwindcss()]
