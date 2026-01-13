@@ -182,7 +182,7 @@ I miss hosting events and brunches at our place. I’ve somehow let being a fami
 
 **Finances:** We used to be a family devoted to YNAB and keeping a good eye on our budget. It’s easy to do with fixed incomes. But as we have added two kids, and removed one job, it gets trickier.
 
-I downloaded [Copilot](https://copilot.money/) (Part of my [design vault](https://approachabledesign.co/products/design-vault)) and hooked up the account pipes with much less day-to-day maintenance. But I’ve been missing this glimpse into our finances over the past couple of years.
+I downloaded [Copilot](https://copilot.money/) (Part of my [design vault](https://www.approachabledesign.co/products/design-vault/)) and hooked up the account pipes with much less day-to-day maintenance. But I’ve been missing this glimpse into our finances over the past couple of years.
 
 I also have been operating under a sole-proprietorship for the past five years, mixing my business and personal finances, making taxes a headache. I just created Approachable Design LLC using [Northwest Registered Agent](https://www.northwestregisteredagent.com/) (Thanks [Nick](https://nickgray.net/best-llc/)!), set up bank accounts at [Mercury](https://mercury.com/), and opened a business credit card at Chase. I’m also testing out [Kick](https://kick.co/)for my automated bookkeeping. I’m not screwing around.
 

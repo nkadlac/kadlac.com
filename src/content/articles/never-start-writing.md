@@ -10,7 +10,7 @@ image: "/images/articles/t0KpHFLMuOsZYhR9kd5k.webp"
 
 For as long as I can remember, I wanted to be known as someone who wrote online. But, I could never figure out how to build a consistent writing habit.
 
-I looked around at other designers who seemed more established than me. The reason some stood out had zero to do with their portfolio of work—which I later realized was [less important](https://planyournext.com/p/building-a-post-portfolio-career)—but because of the ideas they shared publicly.
+I looked around at other designers who seemed more established than me. The reason some stood out had zero to do with their portfolio of work—which I later realized was [less important](/newsletter)—but because of the ideas they shared publicly.
 
 Instead of sitting down to write, I would read books about writing, read blogs about writing, talk to _actual_ writers about writing, and listen to authors speak about writing.
 
