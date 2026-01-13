@@ -146,7 +146,7 @@ An easy way to help yourself stand out is by creating a logotype. A logotype is 
 
 By picking a unique font for your logo, it’s like starting a 100-meter race with 20 meters to go. 
 
-I wrote an entire article on how to choose a font and to modify it [here](/newsletter). 
+I wrote an entire article on how to choose a font and to modify it [here](https://planyournext.com/p/logo-design?s=w). 
 
 ### **Design tip #17: Avoid using 100% black or white** 
 

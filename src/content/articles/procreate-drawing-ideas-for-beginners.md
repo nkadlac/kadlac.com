@@ -10,7 +10,7 @@ image: "/images/articles/uH2ZWHMtoywb9nFkSWtV.webp"
 
 ‍
 
-Whether you want to draw more with your kids, communicate ideas more clearly in your presentations, or simply [enjoy your vacations](/newsletter) in a more exciting way, drawing on Procreate gives you a new perspective to view the world.
+Whether you want to draw more with your kids, communicate ideas more clearly in your presentations, or simply [enjoy your vacations](https://planyournext.com/p/travel-sketching) in a more exciting way, drawing on Procreate gives you a new perspective to view the world.
 
 While I love drawing with a pencil and paper, being able to draw on Procreate is much easier to do if you want to publish at the end. It's so simple, from drawing to publishing. You might think, "what's easier than using paper and pencils?" Well, it's a bit more difficult to trace and copy photographs without buying fancy drafting paper. Using the Procreate app for your digital illustrations allows you to import photos, giving you the ability to trace them in your unique style.
 
@@ -91,7 +91,7 @@ Sometimes the best Procreate ideas come from the things you love the most. I lov
 
 I start by taking copious notes. Sometimes a theme stems from a concept or a story in a book, just based on the notes I took.
 
-I recently read the book, [_Hello my name is Awesome_](https://amzn.to/3EFtmyK), and I had to [write about it](/newsletter). It’s a book on naming, and so I decided to take a literal approach and use the keyword “Name.” But instead of just drawing out the word in Procreate, I thought about the refrigerator magnets you might find and how you can create any word or sentence with those magnets. So this idea was based on a scrambled version of those. 
+I recently read the book, [_Hello my name is Awesome_](https://amzn.to/3EFtmyK), and I had to [write about it](https://planyournext.com/p/name-your-next-thing#details). It’s a book on naming, and so I decided to take a literal approach and use the keyword “Name.” But instead of just drawing out the word in Procreate, I thought about the refrigerator magnets you might find and how you can create any word or sentence with those magnets. So this idea was based on a scrambled version of those. 
 
 Look for images based on your idea, and then import those into Procreate first. 
 

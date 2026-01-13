@@ -208,7 +208,7 @@ Hopefully you'll have no problem creating original Procreate drawing ideas.
 
 Much of the time, I need a reference photo and look to Google to find objects that I can combine to tell a visual story.
 
-I finished reading the [E-Myth](https://amzn.to/3rks58i) and wanted to draw an illustration for the [article I wrote immediately](/newsletter). The book centers around three roles: The entrepreneur, the manager, and the technician. This was a great starting point for thinking about things to draw.
+I finished reading the [E-Myth](https://amzn.to/3rks58i) and wanted to draw an illustration for the [article I wrote immediately](https://planyournext.com/p/the-e-myth#details). The book centers around three roles: The entrepreneur, the manager, and the technician. This was a great starting point for thinking about things to draw.
 
 I searched Google for Procreate ideas to draw, and created a composite that made sense to me. Then I traced them within Procreate. I imported the photos from my iPad, from within the Actions palette dropdown, then resized everything to fit on the art board in the order I wanted.
 
@@ -234,7 +234,7 @@ Finding Procreate ideas for your illustrations start with writing down several w
 
 I have traveled to Toronto half a dozen times to attend the Toronto International Film Festival (TIFF). I love movies, and I also love to draw some of my favorite scenes.
 
-Like many, I love Wes Anderson. For this piece, I was writing about finding our [creative nooks](/newsletter), and I wanted to remix a part of a scene with something that felt cozy. The tennis ball came to me quickly, and what if it was sliced open, revealing a creative image.
+Like many, I love Wes Anderson. For this piece, I was writing about finding our [creative nooks](https://planyournext.com/p/build-your-creative-nook#details), and I wanted to remix a part of a scene with something that felt cozy. The tennis ball came to me quickly, and what if it was sliced open, revealing a creative image.
 
 The next thing I knew, I was searching for Wes Anderson films, looking for a scene that had a nook-like feel. The scene from The Life Aquatic image appeared when they were in an underwater submarine type of machine, and I thought I could use that for this image. With some cutting and cropping, I composed a layout that placed them inside the tennis ball.
 
@@ -288,7 +288,7 @@ Sometimes, you'll have an idea from your own photo selection that could make a g
 
 I love to bike, so I grabbed this bike wheel photo from my own bike, and gave it a sense of life. Like every image before, I illustrated the pencil drawing using a 6B pencil, then filled in some basic coloring in the spokes and the wheels around it.
 
-The article it was for was about [finding your creative alignment](/newsletter), and I thought a bike navigating the nooks of a street could be a great illustration for it.
+The article it was for was about [finding your creative alignment](https://planyournext.com/p/creative-alignment#details), and I thought a bike navigating the nooks of a street could be a great illustration for it.
 
 The finishing touch was to write some phrases in a straight continuous line drawing as the spokes. I think the illustration benefitted from this unique concept, versus just being a simple wheel.
 
