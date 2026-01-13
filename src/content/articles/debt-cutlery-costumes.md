@@ -60,7 +60,7 @@ I look ridiculous and exasperated having run out of options.
 
 ![](/images/articles/PTGtOlLqF602t3qieNRb.webp)
 
-My first summer out of high school, I sold [Cutco knives door to door](https://framer.com/articles/how-selling-knives-gave-me-confidence-to-become-a-self-taught-designer). 
+My first summer out of high school, I sold [Cutco knives door to door](/articles/how-selling-knives-gave-me-confidence-to-become-a-self-taught-designer). 
 
 Armed with only knives and charm, I spent the summer selling the idea to homeowners that these knives could transform your cooking life. Many refused, but I began to learn a new life skill; how to connect to people just through the act of listening to their stories.
 
