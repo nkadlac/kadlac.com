@@ -6,15 +6,16 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.kadlac.com',
+  trailingSlash: 'always',
   integrations: [sitemap()],
   redirects: {
-    '/crit': '/hire',
-    '/inside-out': '/articles/unlock-creative-taste-inside-out',
-    '/coaching': '/hire/coaching',
+    '/crit': '/hire/',
+    '/inside-out': '/articles/unlock-creative-taste-inside-out/',
+    '/coaching': '/hire/coaching/',
     '/articles/rss.xml': '/rss.xml',
-    '/design-critique': '/hire',
-    '/blog/view/acme_and_comedy/': '/articles',
-    '/courses/learn-to-draw': '/articles/learn-to-draw'
+    '/design-critique': '/hire/',
+    '/blog/view/acme_and_comedy/': '/articles/',
+    '/courses/learn-to-draw': '/articles/learn-to-draw/'
   },
   vite: {
     plugins: [tailwindcss()]
